@@ -1,16 +1,23 @@
-## Hi there 👋
+# 15min-read
 
-<!--
-**15min-read/15min-read** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Static site that renders a book catalog from `books/catalog.json` and individual markdown files in `books/`.
 
-Here are some ideas to get you started:
+## Run locally
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```bash
+cd /home/kaiorampz/15min-read
+npm install
+npm run serve
+```
+
+Then open:
+
+```text
+http://127.0.0.1:4173
+```
+
+## Notes
+
+- The app must be served over HTTP. Opening `index.html` directly with `file://` will fail because browser fetch requests are blocked by CORS.
+- The markdown content for book details is loaded from `books/<file>.md`.
+- `books/catalog.js` is a fallback manifest only if `books/catalog.json` cannot be fetched.

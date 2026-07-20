@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+import { debounce, rafThrottle } from './lib/utils.js';
+import { fetchCatalog, loadBookMarkdown } from './lib/data.js';
+import { renderFilters, renderBooks, renderDetail } from './lib/render.js';
+
+>>>>>>> a4d841b (v2.1: catalog restructure — remove stale book shells (7 removed), add 3 new books (flow, ética, em busca de sentido), consolidate book content, shrink app.js, update tests)
 let books = [];
 
 async function loadBooks() {
@@ -29,6 +36,7 @@ const categoryColors = {
   Tecnologia: 'oklch(0.35 0.05 260)'
 };
 
+<<<<<<< HEAD
 function renderMarkdown(markdown) {
   const lines = markdown.replace(/\r/g, '').split('\n');
   const blocks = [];
@@ -123,8 +131,12 @@ async function loadBookMarkdown(book) {
     return `<p>${book.summary}</p>`;
   }
 }
+=======
+// `debounce` and `rafThrottle` are imported from `lib/utils.js`.
 
-const categories = ['Todos'];
+// `loadBookMarkdown` is provided by `lib/data.js`.
+>>>>>>> a4d841b (v2.1: catalog restructure — remove stale book shells (7 removed), add 3 new books (flow, ética, em busca de sentido), consolidate book content, shrink app.js, update tests)
+
 const state = { query: '', category: 'Todos' };
 
 const booksGrid = document.getElementById('booksGrid');
@@ -134,6 +146,7 @@ const detailView = document.getElementById('detailView');
 const mainContent = document.querySelector('.main-content');
 const bookCount = document.getElementById('book-count');
 
+<<<<<<< HEAD
 function renderFilters() {
   const availableCategories = ['Todos', ...new Set(books.map((book) => book.category))];
   filters.innerHTML = availableCategories
@@ -241,13 +254,15 @@ async function renderDetail(book) {
     </article>
   `;
 }
+=======
+>>>>>>> a4d841b (v2.1: catalog restructure — remove stale book shells (7 removed), add 3 new books (flow, ética, em busca de sentido), consolidate book content, shrink app.js, update tests)
 
 function showHome() {
   mainContent.hidden = false;
   detailView.hidden = true;
   detailView.innerHTML = '';
-  renderFilters();
-  renderBooks();
+  renderFilters(books, state, filters, updateLayoutOffsets);
+  renderBooks(books, state, booksGrid, categoryColors, bookCount, categoryCount);
 }
 
 function resetScroll() {
@@ -266,7 +281,7 @@ async function showDetail(slug) {
 
   mainContent.hidden = true;
   detailView.hidden = false;
-  await renderDetail(book);
+  await renderDetail(book, detailView, loadBookMarkdown);
   await new Promise((resolve) => requestAnimationFrame(resolve));
   resetScroll();
 }
@@ -281,10 +296,18 @@ async function routeFromHash() {
   }
 }
 
+<<<<<<< HEAD
 searchInput.addEventListener('input', (event) => {
   state.query = event.target.value;
   renderBooks();
 });
+=======
+if (searchInput) {
+  const handleSearchInput = debounce((value) => {
+    state.query = String(value || '').trim();
+    renderBooks(books, state, booksGrid, categoryColors, bookCount, categoryCount);
+  }, 180);
+>>>>>>> a4d841b (v2.1: catalog restructure — remove stale book shells (7 removed), add 3 new books (flow, ética, em busca de sentido), consolidate book content, shrink app.js, update tests)
 
 filters.addEventListener('click', (event) => {
   const button = event.target.closest('[data-category]');
@@ -294,6 +317,7 @@ filters.addEventListener('click', (event) => {
   renderBooks();
 });
 
+<<<<<<< HEAD
 booksGrid.addEventListener('click', (event) => {
   const card = event.target.closest('.book-card');
   if (!card) return;
@@ -317,6 +341,66 @@ detailView.addEventListener('click', (event) => {
   }
 });
 
+=======
+if (filters) {
+  filters.addEventListener('click', (event) => {
+    const button = event.target.closest('[data-category]');
+    if (!button) return;
+    state.category = button.getAttribute('data-category');
+    renderFilters(books, state, filters, updateLayoutOffsets);
+    renderBooks(books, state, booksGrid, categoryColors, bookCount, categoryCount);
+  });
+}
+
+if (booksGrid) {
+  booksGrid.addEventListener('click', (event) => {
+    const card = event.target.closest('.book-card');
+    if (!card) return;
+    const slug = card.getAttribute('data-slug');
+    window.location.hash = `#/livros/${slug}`;
+  });
+}
+
+if (booksGrid) {
+  booksGrid.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      const card = event.target.closest('.book-card');
+      if (!card) return;
+      event.preventDefault();
+      card.click();
+    }
+  });
+}
+
+if (detailView) {
+  detailView.addEventListener('click', (event) => {
+    const homeLink = event.target.closest('[data-home-link]');
+    if (homeLink) {
+      event.preventDefault();
+      window.location.hash = '';
+      return;
+    }
+
+    const anchor = event.target.closest('[data-anchor]');
+    if (anchor) {
+      event.preventDefault();
+      const targetId = anchor.getAttribute('data-anchor');
+      const target = document.getElementById(targetId);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      return;
+    }
+
+    const link = event.target.closest('.related-card');
+    if (link) {
+      event.preventDefault();
+      window.location.hash = link.getAttribute('href');
+    }
+  });
+}
+
+>>>>>>> a4d841b (v2.1: catalog restructure — remove stale book shells (7 removed), add 3 new books (flow, ética, em busca de sentido), consolidate book content, shrink app.js, update tests)
 window.addEventListener('hashchange', () => {
   routeFromHash();
 });

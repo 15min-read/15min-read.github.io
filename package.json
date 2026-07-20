@@ -1,0 +1,17 @@
+{
+  "name": "15min-read",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "npx http-server . -p 4173",
+    "test": "npx playwright test --reporter=list",
+    "test:headed": "npx playwright test --headed",
+    "format": "npx prettier --write .",
+    "clean": "rm -rf node_modules package-lock.json playwright-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "http-server": "^14.1.1",
+    "prettier": "^3.7.3"
+  }
+}

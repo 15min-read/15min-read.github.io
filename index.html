@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="15 min read reúne resumos editoriais de não-ficção em leitura rápida e prática."
+    />
+    <title>15 min read</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <main class="main-content">
+        <section class="hero-section">
+          <div class="hero-copy">
+            <p class="eyebrow">Biblioteca · Edição contínua</p>
+            <h1>
+              Grandes livros,
+              <em>lidos em quinze minutos.</em>
+            </h1>
+            <p class="hero-copy__text">
+              Uma coleção curada de resumos editoriais de não-ficção. Cada resumo destila o argumento central, os mecanismos por trás dele e como aplicá-lo — sem slogans e sem enrolação.
+            </p>
+            <div class="hero-stats">
+              <span class="stat"><strong id="book-count">0</strong><span>livros</span></span>
+              <span class="stat"><strong>15</strong><span>min por leitura</span></span>
+              <span class="stat"><strong>5</strong><span>categorias</span></span>
+            </div>
+          </div>
+
+          <aside class="quote-card">
+            <p class="quote-card__eyebrow">Do editor</p>
+            <blockquote>
+              “Durante uma vida humana média, é possível ler apenas alguns milhares de livros — cerca de 0,1% das maiores bibliotecas do mundo. O segredo é saber quais ler.”
+            </blockquote>
+            <footer>— Carl Sagan</footer>
+          </aside>
+        </section>
+
+        <section class="filter-bar" aria-label="Ferramentas de navegação">
+          <label class="search-box" for="searchInput">
+            <span aria-hidden="true">⌕</span>
+            <input id="searchInput" type="search" placeholder="Buscar por título, autor ou ideia…" />
+          </label>
+          <div class="filters" id="filters"></div>
+        </section>
+
+        <section class="books-grid" id="booksGrid" aria-live="polite"></section>
+      </main>
+
+      <section class="detail-view" id="detailView" hidden></section>
+
+      <footer class="site-footer">
+        <p><span>15 min read</span> — resumos interpretativos para estudo e referência.</p>
+        <p>Não substituem a leitura das obras originais. Todos os direitos das obras pertencem aos respectivos autores e editoras.</p>
+      </footer>
+    </div>
+
+    <script src="books/catalog.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -706,32 +706,73 @@ img {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  /* Make the main content start lower on mobile but not so far down */
+  .main-content {
+    padding: 80px 0 0;
+  }
+
+  /* Make the filter bar behave like a normal block on small screens so it doesn't cover content */
+  .filter-bar {
+    position: static;
+    inset: auto;
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 0;
+    padding: 12px 0 6px;
+  }
+
+  .search-box {
+    padding: 8px 12px;
+  }
+
+  .search-box input {
+    font-size: 0.95rem;
+  }
+
+  .site-shell {
+    padding: 0 12px 40px;
+  }
+  .site-header__inner {
+    padding: 12px 0;
+  }
+
+  .site-nav {
+    gap: 10px;
+    font-size: 0.95rem;
+  }
+
+  .hero-copy h1 {
+    font-size: 2.4rem;
+  }
+
+  /* Use a single-column grid for books on mobile for predictable stacking */
+  .books-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-top: 18px;
+  }
+
+  /* Make book cards shorter and more book-like on phones */
+  .book-card {
+    min-height: 280px;
+    aspect-ratio: auto;
+    border-radius: 8px;
+  }
+
+  .book-card__cover {
+    padding: 18px 18px 16px;
+  }
+
+  .book-card__content {
+    margin-top: 12px;
+    padding: 14px 14px 12px;
+  }
 }
 
 @media (max-width: 860px) {
   .hero-section {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 680px) {
-  .site-shell {
-    padding: 0 16px 40px;
-  }
-  .site-header__inner {
-    padding: 16px 0;
-  }
-  .filter-bar {
-    top: 0;
-  }
-  .site-nav {
-    gap: 12px;
-    font-size: 0.95rem;
-  }
-  .hero-copy h1 {
-    font-size: 2.6rem;
-  }
-  .books-grid {
     grid-template-columns: 1fr;
   }
 }

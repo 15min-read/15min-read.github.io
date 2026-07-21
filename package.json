@@ -10,6 +10,7 @@
     "clean": "rm -rf node_modules package-lock.json playwright-report"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.12.1",
     "@playwright/test": "^1.44.0",
     "http-server": "^14.1.1",
     "prettier": "^3.7.3"

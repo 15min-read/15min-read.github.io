@@ -104,6 +104,7 @@ const mainContent = document.querySelector(".main-content");
 const bookCount = document.getElementById("book-count");
 const categoryCount = document.getElementById("category-count");
 const languageSwitcher = document.getElementById("languageSwitcher");
+const siteShell = document.querySelector('.site-shell');
 const skipLink = document.getElementById("skipLink");
 const metaDescription = document.querySelector('meta[name="description"]');
 
@@ -163,6 +164,35 @@ function renderLanguageSwitcher() {
     return `<button type="button" class="language-button${active}" data-language="${lang}" aria-pressed="${pressed}">${getLanguageLabel(lang)}</button>`;
   }).join("");
 }
+
+// Compact filter behavior: add/remove class when scrolling past hero
+(function setupCompactFilterBehavior() {
+  const compactThreshold = 240; // px scrolled before compact filter appears
+  let lastState = false;
+
+  function setCompact(enabled) {
+    if (!siteShell) return;
+    lastState = enabled;
+    if (enabled) {
+      siteShell.classList.add('compact-filter-visible');
+      const fb = document.querySelector('.filter-bar');
+      if (fb) fb.classList.add('filter-bar--compact');
+    } else {
+      siteShell.classList.remove('compact-filter-visible');
+      const fb = document.querySelector('.filter-bar');
+      if (fb) fb.classList.remove('filter-bar--compact');
+    }
+  }
+
+  function onScroll() {
+    const scrolled = window.scrollY || window.pageYOffset || 0;
+    if (scrolled > compactThreshold && !lastState) setCompact(true);
+    if (scrolled <= compactThreshold && lastState) setCompact(false);
+  }
+
+  window.addEventListener('scroll', debounce(onScroll, 80));
+})();
+
 
 function applyLanguage(language) {
   const normalizedLanguage = normalizeLanguage(language, DEFAULT_LANGUAGE);

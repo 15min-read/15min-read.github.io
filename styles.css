@@ -192,6 +192,60 @@ img {
   box-shadow: 0 8px 20px rgba(31, 25, 20, 0.06);
 }
 
+/* Compact sticky variant applied via JS when user scrolls past hero */
+.filter-bar.filter-bar--compact {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 60;
+  padding: 8px 14px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(246,239,231,0.98));
+  box-shadow: 0 6px 18px rgba(31,25,20,0.08);
+  border-bottom: 1px solid rgba(31, 25, 20, 0.06);
+}
+
+/* When compact is active reduce hero spacing for visual stability */
+.site-shell.compact-filter-visible .hero-section {
+  padding-top: 10px;
+}
+
+/* Small visual adjustments for compact mode */
+.filter-bar.filter-bar--compact .search-box {
+  padding: 6px 10px;
+}
+
+.filter-bar.filter-bar--compact .filters {
+  gap: 6px;
+}
+
+/* Ensure language switcher in header is visible and styled */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 70;
+  background: transparent;
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 24px;
+}
+
+.site-logo span {
+  font-weight: 700;
+  color: var(--ink);
+}
+
+@media (max-width: 680px) {
+  .site-header__inner { padding-left: 12px; padding-right: 12px; }
+  .site-header { background: linear-gradient(180deg, rgba(246,239,231,0.8), rgba(246,239,231,0.6)); }
+}
+
+
 .search-box {
   flex: 1 1 280px;
   display: flex;

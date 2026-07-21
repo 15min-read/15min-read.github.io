@@ -23,6 +23,13 @@
   <body>
     <div class="site-shell">
       <a class="skip-link" id="skipLink" href="#main-content">Pular para o conteúdo</a>
+      <header class="site-header" aria-label="Site header">
+        <div class="site-header__inner">
+          <div class="site-logo" aria-hidden="true"><span>15 min</span></div>
+          <div id="languageSwitcher" class="language-switcher" aria-label="Language switcher"></div>
+        </div>
+      </header>
+
       <main class="main-content" id="main-content" tabindex="-1">
         <section class="hero-section">
           <div class="hero-copy">
@@ -70,14 +77,13 @@
               placeholder="Buscar por título, autor ou ideia…"
             />
           </label>
-          <div class="language-switcher" id="languageSwitcher" aria-label="Language switcher"></div>
           <div class="filters" id="filters"></div>
         </section>
 
         <section class="books-grid" id="booksGrid" aria-live="polite"></section>
-      </main>
 
-      <section class="detail-view" id="detailView" hidden tabindex="-1"></section>
+        <section class="detail-view" id="detailView" hidden tabindex="-1"></section>
+      </main>
 
       <footer class="site-footer">
         <p id="footerLineOne">

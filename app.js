@@ -11,6 +11,7 @@ const localeTexts = {
     pageTitle: "15 min read",
     metaDescription:
       "15 min read reúne resumos editoriais de não-ficção em leitura rápida e prática.",
+    skipLinkText: "Pular para o conteúdo",
     heroEyebrow: "Biblioteca · Edição contínua",
     heroTitle: "Grandes livros, <em>lidos em quinze minutos.</em>",
     heroDescription:
@@ -29,6 +30,7 @@ const localeTexts = {
     pageTitle: "15 min read",
     metaDescription:
       "15 min read gathers editorial nonfiction summaries for quick, practical reading.",
+    skipLinkText: "Skip to content",
     heroEyebrow: "Library · Ongoing edition",
     heroTitle: "Great books, <em>read in fifteen minutes.</em>",
     heroDescription:
@@ -102,6 +104,7 @@ const mainContent = document.querySelector(".main-content");
 const bookCount = document.getElementById("book-count");
 const categoryCount = document.getElementById("category-count");
 const languageSwitcher = document.getElementById("languageSwitcher");
+const skipLink = document.getElementById("skipLink");
 const metaDescription = document.querySelector('meta[name="description"]');
 
 function applyDocumentMetadata(title = "") {
@@ -113,10 +116,31 @@ function applyDocumentMetadata(title = "") {
   }
 }
 
+function focusMainContent() {
+  if (!mainContent) return;
+  mainContent.setAttribute("tabindex", "-1");
+  mainContent.focus();
+}
+
+function focusDetailHeading() {
+  if (!detailView) return;
+  detailView.setAttribute("tabindex", "-1");
+  const heading = detailView.querySelector(".detail-page__header h1");
+  if (heading) {
+    heading.setAttribute("tabindex", "-1");
+    heading.focus();
+  } else {
+    detailView.focus();
+  }
+}
+
 function translateStaticText() {
   const language = normalizeLanguage(state.language, DEFAULT_LANGUAGE);
   const locale = localeTexts[language];
   document.documentElement.lang = locale.htmlLang;
+  if (skipLink) {
+    skipLink.textContent = locale.skipLinkText;
+  }
   document.getElementById("heroEyebrow").textContent = locale.heroEyebrow;
   document.getElementById("heroTitle").innerHTML = locale.heroTitle;
   document.getElementById("heroDescription").textContent = locale.heroDescription;
@@ -201,6 +225,7 @@ function showHome() {
   detailView.innerHTML = "";
   renderCatalogView();
   applyDocumentMetadata();
+  focusMainContent();
 }
 
 function resetScroll() {
@@ -224,6 +249,7 @@ async function showDetail(slug) {
   applyDocumentMetadata(getBookTitle(book, state.language));
   await new Promise((resolve) => requestAnimationFrame(resolve));
   resetScroll();
+  focusDetailHeading();
 }
 
 async function routeFromHash() {

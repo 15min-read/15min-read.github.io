@@ -40,7 +40,8 @@ input {
 button:focus-visible,
 input:focus-visible,
 .book-card:focus-visible,
-.related-card:focus-visible {
+.related-card:focus-visible,
+.skip-link:focus-visible {
   outline: 3px solid var(--accent);
   outline-offset: 3px;
 }
@@ -55,6 +56,23 @@ img {
   margin: 0 auto;
   padding: 0 24px 56px;
   position: relative;
+}
+
+.skip-link {
+  position: absolute;
+  left: 24px;
+  top: 16px;
+  z-index: 40;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: var(--ink);
+  color: #fff;
+  transform: translateY(-140%);
+  transition: transform 180ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
 }
 
 .main-content {

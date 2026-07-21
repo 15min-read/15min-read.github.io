@@ -69,6 +69,15 @@ test("empty searches show a friendly empty state", async ({ page }) => {
   await expect(page.locator(".empty-state")).toContainText(/Nada encontrado|Nothing found/i);
 });
 
+test("skip link moves keyboard focus to the main content", async ({ page }) => {
+  await page.goto("/");
+  const skipLink = page.locator(".skip-link");
+  await expect(skipLink).toBeVisible();
+  await skipLink.focus();
+  await page.keyboard.press("Enter");
+  await expect(page.locator(".main-content")).toBeFocused();
+});
+
 test("detail page renders content from a markdown file", async ({ page }) => {
   await page.goto("/#/livros/habitos-atomicos");
   await expect(page.locator(".markdown-body")).toContainText("Ficha Técnica");

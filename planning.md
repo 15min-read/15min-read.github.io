@@ -10,6 +10,7 @@
 2. Keep markdown rendering robust for headings, lists, quotes, and separators.
 3. Add a concise local development guide and keep the repo structure easy to navigate.
 4. Apply small accessibility and interaction polish for keyboard users and focus states.
+5. Keep regression coverage around localized metadata and routing behavior up to date.
 
 ## NEXT IMPROVEMENTS
 - Add more complete English content beyond metadata and structural summaries.

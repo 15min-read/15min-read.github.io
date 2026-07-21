@@ -37,6 +37,10 @@ test("language switch toggles the UI and loads English detail routes", async ({ 
   );
   await expect(page.locator('#bookCountLabel')).toHaveText('books');
   await expect(page.locator('.language-button.active')).toHaveText('EN');
+  await expect(page.locator('meta[name="description"]')).toHaveAttribute(
+    'content',
+    /quick, practical reading/i,
+  );
 
   await page.locator('.book-card').first().click();
   await expect(page).toHaveURL(/#\/books\//);

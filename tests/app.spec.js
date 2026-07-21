@@ -63,6 +63,12 @@ test("catalog includes books from the markdown manifest", async ({ page }) => {
   await expect(page.locator("#book-count")).toHaveText("15");
 });
 
+test("empty searches show a friendly empty state", async ({ page }) => {
+  await page.fill(".search-box input", "this-query-will-not-match-anything");
+  await page.waitForTimeout(220);
+  await expect(page.locator(".empty-state")).toContainText(/Nada encontrado|Nothing found/i);
+});
+
 test("detail page renders content from a markdown file", async ({ page }) => {
   await page.goto("/#/livros/habitos-atomicos");
   await expect(page.locator(".markdown-body")).toContainText("Ficha Técnica");

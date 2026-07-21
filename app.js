@@ -166,7 +166,31 @@ function setLanguage(language) {
   routeFromHash();
 }
 
+function getCatalogLoadingMessage() {
+  return state.language === "en" ? "Loading books…" : "Carregando livros…";
+}
+
+function getCatalogEmptyMessage() {
+  return state.language === "en"
+    ? "No books are available right now. Please try again later."
+    : "Nenhum livro disponível no momento. Tente novamente mais tarde.";
+}
+
+function getDetailLoadingMessage() {
+  return state.language === "en" ? "Loading summary…" : "Carregando resumo…";
+}
+
+function renderCatalogMessage(message, isError = false) {
+  booksGrid.classList.remove("single-book");
+  booksGrid.innerHTML = `<div class="empty-state${isError ? " empty-state--error" : ""}" role="status">${message}</div>`;
+}
+
 function renderCatalogView() {
+  if (!books.length) {
+    renderCatalogMessage(getCatalogEmptyMessage(), true);
+    return;
+  }
+
   renderFilters(books, state, filters);
   renderBooks(books, state, booksGrid, categoryColors, bookCount, categoryCount);
 }
@@ -195,6 +219,7 @@ async function showDetail(slug) {
 
   mainContent.hidden = true;
   detailView.hidden = false;
+  detailView.innerHTML = `<article class="detail-page"><div class="detail-page__loading" role="status">${getDetailLoadingMessage()}</div></article>`;
   await renderDetail(book, books, detailView, loadBookMarkdown, state.language);
   applyDocumentMetadata(getBookTitle(book, state.language));
   await new Promise((resolve) => requestAnimationFrame(resolve));
@@ -215,6 +240,7 @@ async function routeFromHash() {
 }
 
 async function loadBooks() {
+  renderCatalogMessage(getCatalogLoadingMessage());
   books = await fetchCatalog();
   translateStaticText();
   renderLanguageSwitcher();

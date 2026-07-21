@@ -460,6 +460,21 @@ img {
   color: var(--ink-soft);
 }
 
+.empty-state--error {
+  border-color: rgba(177, 91, 31, 0.6);
+  color: var(--accent);
+  background: rgba(255, 250, 243, 0.98);
+}
+
+.detail-page__loading {
+  padding: 28px 24px;
+  border: 1px dashed var(--rule);
+  border-radius: 18px;
+  background: var(--paper);
+  color: var(--ink-soft);
+  text-align: center;
+}
+
 .site-footer {
   margin-top: 36px;
   padding-top: 24px;

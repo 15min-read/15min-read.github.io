@@ -10,10 +10,10 @@
 2. Keep markdown rendering robust for headings, lists, quotes, and separators.
 3. Add a concise local development guide and keep the repo structure easy to navigate.
 4. Apply small accessibility and interaction polish for keyboard users and focus states.
-5. Keep regression coverage around localized metadata and routing behavior up to date.
+5. Keep regression coverage around localized metadata, empty states, and routing behavior up to date.
 
 ## NEXT IMPROVEMENTS
 - Add more complete English content beyond metadata and structural summaries.
 - Refine card and detail-page spacing/typography polish.
-- Reduce duplication in the shared render helpers and remove legacy template artifacts that are no longer used.
-- Add defensive loading states for missing catalog or markdown assets.
+- Continue reducing duplication in the shared render helpers where it becomes obvious.
+- Add richer error handling and retry guidance for missing catalog or markdown assets.

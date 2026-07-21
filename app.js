@@ -1,5 +1,9 @@
 import { debounce, normalizeLanguage } from "./lib/utils.js";
-import { fetchCatalog, loadBookMarkdown } from "./lib/data.js";
+import {
+  fetchCatalog,
+  loadBookMarkdown,
+  invalidateBookMarkdown,
+} from "./lib/data.js";
 import { renderFilters, renderBooks, renderDetail } from "./lib/render.js";
 
 const SUPPORTED_LANGUAGES = ["pt", "en"];
@@ -44,6 +48,15 @@ const localeTexts = {
       "Serve como referência rápida para estudo e revisão.",
     ],
     summaryUnavailable: "Resumo indisponível.",
+    retryAction: "Tentar novamente",
+    catalogErrorTitle: "Nao foi possivel carregar o catalogo agora.",
+    catalogErrorHelp: "Verifique a conexao ou recarregue os arquivos e tente novamente.",
+    detailFallbackTitle: "Arquivo completo indisponivel.",
+    detailFallbackHelp:
+      "Exibindo a versao curta disponivel enquanto o arquivo original nao carrega.",
+    detailMissingTitle: "Conteudo indisponivel.",
+    detailMissingHelp:
+      "Nao foi possivel localizar este resumo completo agora. Tente novamente em instantes.",
   },
   en: {
     htmlLang: "en",
@@ -83,6 +96,15 @@ const localeTexts = {
       "Use it as a quick reference for study and review.",
     ],
     summaryUnavailable: "Summary unavailable.",
+    retryAction: "Try again",
+    catalogErrorTitle: "Could not load the catalog right now.",
+    catalogErrorHelp: "Check the connection or reload the assets, then try again.",
+    detailFallbackTitle: "Full source unavailable.",
+    detailFallbackHelp:
+      "Showing the shorter available version while the original file cannot be loaded.",
+    detailMissingTitle: "Content unavailable.",
+    detailMissingHelp:
+      "This full summary could not be located right now. Please try again shortly.",
   },
 };
 
@@ -141,6 +163,7 @@ const state = {
   category: localeTexts[getPreferredLanguage()].allCategory,
   language: getPreferredLanguage(),
   isChangingLanguage: false,
+  catalogError: false,
 };
 
 const booksGrid = document.getElementById("booksGrid");
@@ -157,9 +180,13 @@ const siteShell = document.querySelector(".site-shell");
 const skipLink = document.getElementById("skipLink");
 const metaDescription = document.querySelector('meta[name="description"]');
 
+function getLocale(language = state.language) {
+  const normalizedLanguage = normalizeLanguage(language, DEFAULT_LANGUAGE);
+  return localeTexts[normalizedLanguage];
+}
+
 function applyDocumentMetadata(title = "") {
-  const language = normalizeLanguage(state.language, DEFAULT_LANGUAGE);
-  const locale = localeTexts[language];
+  const locale = getLocale();
   document.title = title ? `${title} · ${locale.pageTitle}` : locale.pageTitle;
   if (metaDescription) {
     metaDescription.content = title
@@ -187,8 +214,7 @@ function focusDetailHeading() {
 }
 
 function translateStaticText() {
-  const language = normalizeLanguage(state.language, DEFAULT_LANGUAGE);
-  const locale = localeTexts[language];
+  const locale = getLocale();
   document.documentElement.lang = locale.htmlLang;
   if (skipLink) {
     skipLink.textContent = locale.skipLinkText;
@@ -287,33 +313,49 @@ function setLanguage(language) {
 }
 
 function getCatalogLoadingMessage() {
-  const language = normalizeLanguage(state.language, DEFAULT_LANGUAGE);
-  return localeTexts[language].catalogLoading;
+  return getLocale().catalogLoading;
 }
 
 function getCatalogEmptyMessage() {
-  const language = normalizeLanguage(state.language, DEFAULT_LANGUAGE);
-  return localeTexts[language].catalogEmpty;
+  return getLocale().catalogEmpty;
 }
 
 function getDetailLoadingMessage() {
-  const language = normalizeLanguage(state.language, DEFAULT_LANGUAGE);
-  return localeTexts[language].detailLoading;
+  return getLocale().detailLoading;
 }
 
-function renderCatalogMessage(message, isError = false) {
+function renderCatalogMessage(message, options = {}) {
+  const { isError = false, detail = "", showRetry = false } = options;
   booksGrid.classList.remove("single-book");
-  booksGrid.innerHTML = `<div class="empty-state${isError ? " empty-state--error" : ""}" role="status">${message}</div>`;
+  booksGrid.innerHTML = `
+    <div class="empty-state${isError ? " empty-state--error" : ""}" role="status">
+      <p class="empty-state__title">${message}</p>
+      ${detail ? `<p class="empty-state__detail">${detail}</p>` : ""}
+      ${
+        showRetry
+          ? `<button type="button" class="inline-action-button" data-retry-catalog>${getLocale().retryAction}</button>`
+          : ""
+      }
+    </div>
+  `;
 }
 
 function renderCatalogView() {
-  if (!books.length) {
-    renderCatalogMessage(getCatalogEmptyMessage(), true);
+  const locale = getLocale();
+  if (state.catalogError) {
+    renderCatalogMessage(locale.catalogErrorTitle, {
+      isError: true,
+      detail: locale.catalogErrorHelp,
+      showRetry: true,
+    });
     return;
   }
 
-  const language = normalizeLanguage(state.language, DEFAULT_LANGUAGE);
-  const locale = localeTexts[language];
+  if (!books.length) {
+    renderCatalogMessage(getCatalogEmptyMessage(), { isError: true });
+    return;
+  }
+
   renderFilters(books, state, filters, locale);
   renderBooks(
     books,
@@ -388,8 +430,18 @@ async function routeFromHash(shouldScrollAndFocus = true) {
 }
 
 async function loadBooks() {
+  state.catalogError = false;
   renderCatalogMessage(getCatalogLoadingMessage());
-  books = await fetchCatalog();
+
+  try {
+    books = await fetchCatalog();
+    state.catalogError = false;
+  } catch (error) {
+    console.error(error);
+    books = [];
+    state.catalogError = true;
+  }
+
   translateStaticText();
   renderLanguageSwitcher();
   renderCatalogView();
@@ -413,6 +465,18 @@ if (filters) {
     if (!button) return;
     state.category = button.getAttribute("data-category");
     renderCatalogView();
+  });
+}
+
+if (booksGrid) {
+  booksGrid.addEventListener("click", (event) => {
+    const retryButton = event.target.closest("[data-retry-catalog]");
+    if (!retryButton) return;
+    loadBooks().catch((error) => {
+      console.error(error);
+      state.catalogError = true;
+      renderCatalogView();
+    });
   });
 }
 
@@ -446,6 +510,18 @@ if (detailView) {
       return;
     }
 
+    const retryDetailButton = event.target.closest("[data-retry-detail]");
+    if (retryDetailButton) {
+      event.preventDefault();
+      const route = parseRouteHash(window.location.hash);
+      if (!route.slug) return;
+      invalidateBookMarkdown(route.slug, state.language);
+      showDetail(route.slug, false).catch((error) => {
+        console.error(error);
+      });
+      return;
+    }
+
     const link = event.target.closest(".related-card");
     if (link) {
       event.preventDefault();
@@ -460,5 +536,6 @@ window.addEventListener("hashchange", () => {
 
 loadBooks().catch((error) => {
   console.error(error);
+  state.catalogError = true;
   showHome();
 });

@@ -1,12 +1,5 @@
 import { test, expect } from "@playwright/test";
 
-const bookTitles = [
-  "Hábitos Atômicos",
-  "Deep Work",
-  "Essencialismo",
-  "O Poder do Hábito",
-];
-
 test.beforeEach(async ({ page }) => {
   await page.goto("/");
 });
@@ -164,15 +157,55 @@ test("catalog fallback manifest renders when books/catalog.json fails", async ({
   await expect(page.locator(".book-card h2").first()).toBeVisible();
 });
 
+test("catalog shows retry guidance when remote and embedded sources fail", async ({
+  page,
+}) => {
+  await page.route("**/books/catalog.js", (route) => {
+    route.fulfill({
+      status: 200,
+      contentType: "application/javascript",
+      body: "window.BOOKS_MANIFEST = [];",
+    });
+  });
+  await page.route("**/books/catalog.json", (route) => {
+    route.fulfill({ status: 500, body: "Server error" });
+  });
+
+  await page.goto("/");
+  await expect(page.locator(".empty-state")).toContainText(
+    /Could not load the catalog|Nao foi possivel carregar o catalogo/i,
+  );
+  await expect(page.locator("[data-retry-catalog]")).toBeVisible();
+});
+
 test("markdown headings expose anchors and scroll smoothly", async ({
   page,
 }) => {
   await page.goto("/#/livros/habitos-atomicos");
-  const heading = page.locator(".markdown-body h2").first();
-  await expect(heading).toBeVisible();
-  const anchor = heading.locator(".markdown-anchor");
-  await expect(anchor).toBeVisible();
-  await anchor.click();
-  const scrollY = await page.evaluate(() => window.scrollY);
-  expect(scrollY).toBeGreaterThanOrEqual(0);
+  await page.evaluate(() => window.scrollTo(0, 0));
+  await page.waitForFunction(
+    () => document.querySelectorAll(".markdown-body .markdown-anchor").length > 2,
+  );
+  await page.evaluate(() => {
+    document.querySelectorAll(".markdown-body .markdown-anchor")[2].click();
+  });
+  await page.waitForFunction(() => window.scrollY > 200);
+  expect(await page.evaluate(() => window.scrollY)).toBeGreaterThan(200);
+});
+
+test("detail page shows fallback guidance when markdown asset is missing", async ({
+  page,
+}) => {
+  await page.route("**/books/habitos-atomicos.md", (route) => {
+    route.fulfill({ status: 404, body: "Not found" });
+  });
+  await page.route("**/books/habitos-atomicos-en.md", (route) => {
+    route.fulfill({ status: 404, body: "Not found" });
+  });
+
+  await page.goto("/#/livros/habitos-atomicos");
+  await expect(page.locator(".asset-notice")).toContainText(
+    /Arquivo completo indisponivel|Full source unavailable/i,
+  );
+  await expect(page.locator("[data-retry-detail]")).toBeVisible();
 });

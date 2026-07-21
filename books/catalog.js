@@ -16,30 +16,6 @@ window.BOOKS_MANIFEST = [
     ]
   },
   {
-<<<<<<< HEAD
-    slug: "habitos-atomicos-otimizado",
-    file: "habitos-atomicos-otimizado.md",
-    title: "Hábitos Atômicos (Otimizado)",
-    author: "James Clear",
-    year: 2018,
-    category: "Produtividade",
-    minutes: 15,
-    hook: "Pequenas mudanças repetidas geram progresso real ao longo do tempo.",
-    summary: "Uma versão enxuta do livro para reforçar o valor de sistemas simples e consistência.",
-    tags: ["hábitos", "consistência", "sistemas"]
-  },
-  {
-    slug: "deep-work",
-    file: "deep-work.md",
-    title: "Deep Work",
-    author: "Cal Newport",
-    year: 2016,
-    category: "Produtividade",
-    minutes: 15,
-    hook: "Atenção sem distração é a superhabilidade do século XXI.",
-    summary: "Cal Newport argumenta que o trabalho profundo se tornou raro e extremamente valioso.",
-    tags: ["foco", "atenção", "carreira"]
-=======
     "slug": "deep-work",
     "file": "deep-work.md",
     "title": "Deep Work",
@@ -54,7 +30,6 @@ window.BOOKS_MANIFEST = [
       "atenção",
       "carreira"
     ]
->>>>>>> a4d841b (v2.1: catalog restructure — remove stale book shells (7 removed), add 3 new books (flow, ética, em busca de sentido), consolidate book content, shrink app.js, update tests)
   },
   {
     "slug": "essencialismo",

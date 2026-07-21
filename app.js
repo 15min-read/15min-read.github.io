@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-=======
 import { debounce, rafThrottle } from './lib/utils.js';
 import { fetchCatalog, loadBookMarkdown } from './lib/data.js';
 import { renderFilters, renderBooks, renderDetail } from './lib/render.js';
 
->>>>>>> a4d841b (v2.1: catalog restructure — remove stale book shells (7 removed), add 3 new books (flow, ética, em busca de sentido), consolidate book content, shrink app.js, update tests)
 let books = [];
 
 async function loadBooks() {
@@ -36,7 +33,6 @@ const categoryColors = {
   Tecnologia: 'oklch(0.35 0.05 260)'
 };
 
-<<<<<<< HEAD
 function renderMarkdown(markdown) {
   const lines = markdown.replace(/\r/g, '').split('\n');
   const blocks = [];
@@ -131,11 +127,9 @@ async function loadBookMarkdown(book) {
     return `<p>${book.summary}</p>`;
   }
 }
-=======
 // `debounce` and `rafThrottle` are imported from `lib/utils.js`.
 
 // `loadBookMarkdown` is provided by `lib/data.js`.
->>>>>>> a4d841b (v2.1: catalog restructure — remove stale book shells (7 removed), add 3 new books (flow, ética, em busca de sentido), consolidate book content, shrink app.js, update tests)
 
 const state = { query: '', category: 'Todos' };
 
@@ -146,7 +140,6 @@ const detailView = document.getElementById('detailView');
 const mainContent = document.querySelector('.main-content');
 const bookCount = document.getElementById('book-count');
 
-<<<<<<< HEAD
 function renderFilters() {
   const availableCategories = ['Todos', ...new Set(books.map((book) => book.category))];
   filters.innerHTML = availableCategories
@@ -254,8 +247,6 @@ async function renderDetail(book) {
     </article>
   `;
 }
-=======
->>>>>>> a4d841b (v2.1: catalog restructure — remove stale book shells (7 removed), add 3 new books (flow, ética, em busca de sentido), consolidate book content, shrink app.js, update tests)
 
 function showHome() {
   mainContent.hidden = false;
@@ -296,18 +287,15 @@ async function routeFromHash() {
   }
 }
 
-<<<<<<< HEAD
 searchInput.addEventListener('input', (event) => {
   state.query = event.target.value;
   renderBooks();
 });
-=======
 if (searchInput) {
   const handleSearchInput = debounce((value) => {
     state.query = String(value || '').trim();
     renderBooks(books, state, booksGrid, categoryColors, bookCount, categoryCount);
   }, 180);
->>>>>>> a4d841b (v2.1: catalog restructure — remove stale book shells (7 removed), add 3 new books (flow, ética, em busca de sentido), consolidate book content, shrink app.js, update tests)
 
 filters.addEventListener('click', (event) => {
   const button = event.target.closest('[data-category]');
@@ -317,7 +305,6 @@ filters.addEventListener('click', (event) => {
   renderBooks();
 });
 
-<<<<<<< HEAD
 booksGrid.addEventListener('click', (event) => {
   const card = event.target.closest('.book-card');
   if (!card) return;
@@ -341,7 +328,6 @@ detailView.addEventListener('click', (event) => {
   }
 });
 
-=======
 if (filters) {
   filters.addEventListener('click', (event) => {
     const button = event.target.closest('[data-category]');
@@ -400,7 +386,6 @@ if (detailView) {
   });
 }
 
->>>>>>> a4d841b (v2.1: catalog restructure — remove stale book shells (7 removed), add 3 new books (flow, ética, em busca de sentido), consolidate book content, shrink app.js, update tests)
 window.addEventListener('hashchange', () => {
   routeFromHash();
 });

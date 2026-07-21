@@ -168,7 +168,7 @@ img {
   flex-wrap: wrap;
   gap: 12px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   background: rgba(246, 239, 231, 0.96);
   border-bottom: 1px solid rgba(31, 25, 20, 0.12);
   box-shadow: 0 8px 20px rgba(31, 25, 20, 0.06);
@@ -203,6 +203,8 @@ img {
   display: flex;
   gap: 8px;
   align-items: center;
+  order: -1;
+  margin-right: 8px;
 }
 
 .language-button {

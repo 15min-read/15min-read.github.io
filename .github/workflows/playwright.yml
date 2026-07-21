@@ -28,9 +28,16 @@ jobs:
 
       - name: Start static server
         run: |
-          npx http-server . -p 4173 &
-          # give the server a moment to start
-          sleep 2
+          npx http-server . -p 4173 > /tmp/http-server.log 2>&1 &
+          # wait for the server to respond before running tests (up to 30s)
+          for i in $(seq 1 30); do
+            if curl -sSf http://localhost:4173 >/dev/null 2>&1; then
+              echo "server ready"
+              break
+            fi
+            echo "waiting for server... ($i)"
+            sleep 1
+          done
 
       - name: Run tests
         run: npx playwright test --reporter=github

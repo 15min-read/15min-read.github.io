@@ -101,6 +101,8 @@ const filters = document.getElementById("filters");
 const searchInput = document.getElementById("searchInput");
 const detailView = document.getElementById("detailView");
 const mainContent = document.querySelector(".main-content");
+const heroSection = document.querySelector(".hero-section");
+const filterBar = document.querySelector(".filter-bar");
 const bookCount = document.getElementById("book-count");
 const categoryCount = document.getElementById("category-count");
 const languageSwitcher = document.getElementById("languageSwitcher");
@@ -250,7 +252,9 @@ function renderCatalogView() {
 }
 
 function showHome() {
-  mainContent.hidden = false;
+  heroSection.hidden = false;
+  filterBar.hidden = false;
+  booksGrid.hidden = false;
   detailView.hidden = true;
   detailView.innerHTML = "";
   renderCatalogView();
@@ -259,9 +263,13 @@ function showHome() {
 }
 
 function resetScroll() {
+  const root = document.documentElement;
+  const behavior = root.style.scrollBehavior;
+  root.style.scrollBehavior = 'auto';
   window.scrollTo(0, 0);
   document.documentElement.scrollTop = 0;
   document.body.scrollTop = 0;
+  root.style.scrollBehavior = behavior;
 }
 
 async function showDetail(slug) {
@@ -272,7 +280,9 @@ async function showDetail(slug) {
     return;
   }
 
-  mainContent.hidden = true;
+  heroSection.hidden = true;
+  filterBar.hidden = true;
+  booksGrid.hidden = true;
   detailView.hidden = false;
   detailView.innerHTML = `<article class="detail-page"><div class="detail-page__loading" role="status">${getDetailLoadingMessage()}</div></article>`;
   await renderDetail(book, books, detailView, loadBookMarkdown, state.language);

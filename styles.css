@@ -175,12 +175,7 @@ img {
 }
 
 .filter-bar {
-  position: fixed;
-  inset: 0 auto auto 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 20;
+  position: relative;
   padding: 18px 24px;
   display: flex;
   flex-wrap: wrap;
@@ -221,9 +216,7 @@ img {
 
 /* Ensure language switcher in header is visible and styled */
 .site-header {
-  position: sticky;
-  top: 0;
-  z-index: 70;
+  position: relative;
   background: transparent;
 }
 
@@ -352,7 +345,7 @@ img {
   overflow: hidden;
   min-height: 360px;
   aspect-ratio: 3 / 4;
-  border: 1px solid var(--rule);
+  border: none;
   border-radius: 6px 16px 16px 6px;
   background: transparent;
   box-shadow: var(--shadow);
@@ -360,6 +353,12 @@ img {
   transition:
     transform 160ms ease,
     box-shadow 160ms ease;
+}
+
+.book-card__link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }
 
 .book-card:hover {

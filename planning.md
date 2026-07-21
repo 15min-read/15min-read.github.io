@@ -1,4 +1,5 @@
 # Project Planning
+- Don't run tests, I will run it manually always.
 
 ## Active focus
 - Keep the PT-BR/EN experience consistent across routing, UI labels, and detail rendering.

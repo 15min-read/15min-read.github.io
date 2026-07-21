@@ -39,18 +39,11 @@ npm test
 
 This repository is designed to publish as a GitHub Pages site from the `main` branch.
 
-Checklist:
-
-- [x] Confirm local changes pass `npm test`
-- [x] Commit updates to `main`
-- [x] Push to GitHub: `git push origin main`
-- [x] Verify the published site at `https://15min-read.github.io`
+After deployment, the site should be available at:
 
 ```bash
 git push origin main
 ```
-
-After deployment, the site should be available at:
 
 ```text
 https://15min-read.github.io

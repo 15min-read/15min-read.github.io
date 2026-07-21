@@ -281,7 +281,7 @@ async function showDetail(slug) {
 
   mainContent.hidden = true;
   detailView.hidden = false;
-  await renderDetail(book, detailView, loadBookMarkdown);
+  await renderDetail(book, books, detailView, loadBookMarkdown);
   await new Promise((resolve) => requestAnimationFrame(resolve));
   resetScroll();
 }

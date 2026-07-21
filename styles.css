@@ -322,16 +322,16 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
-  gap: 32px;
+  align-items: center;
+  gap: 24px;
   margin-top: 28px;
-  padding-bottom: 20px;
+  padding: 0 12px 20px;
 }
 
 .books-grid .book-card {
-  flex: 1 1 240px;
-  min-width: 220px;
-  max-width: 320px;
+  flex: 0 1 280px;
+  min-width: 260px;
+  max-width: 300px;
 }
 
 .books-grid.single-book {
@@ -488,7 +488,6 @@ img {
 }
 
 .book-card__cover .author {
-  margin-top: 10px;
   font-size: 1rem;
   opacity: 0.85;
   color: rgba(255, 255, 255, 0.9);

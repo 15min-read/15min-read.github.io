@@ -39,11 +39,16 @@ input {
 }
 button:focus-visible,
 input:focus-visible,
-.book-card:focus-visible,
 .related-card:focus-visible,
 .skip-link:focus-visible {
   outline: 3px solid var(--accent);
   outline-offset: 3px;
+}
+
+h1:focus-visible,
+h2:focus-visible,
+h3:focus-visible {
+  outline: none;
 }
 img {
   max-width: 100%;
@@ -500,7 +505,7 @@ img {
 .book-card__content .quote {
   margin: 0 0 14px;
   color: rgba(31, 25, 20, 0.88);
-  font-size: 1.05rem;
+  font-size: 0.75rem;
   line-height: 1.7;
 }
 
@@ -515,7 +520,7 @@ img {
 }
 
 .book-card__footer span {
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .book-card__footer span:last-child {
@@ -810,7 +815,7 @@ img {
   /* Make book cards shorter and more book-like on phones */
   .book-card {
     min-height: 280px;
-    aspect-ratio: auto;
+    aspect-ratio: 3 / 4;
     border-radius: 8px;
   }
 

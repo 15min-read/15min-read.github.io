@@ -1,6 +1,7 @@
 # Grit
 
 ## Ficha Técnica
+
 - **Título:** Grit: O Poder da Paixão e da Perseverança (Grit: The Power of Passion and Perseverance)
 - **Autor:** Angela Duckworth
 - **Ano:** 2016
@@ -9,6 +10,7 @@
 - **Nível:** Iniciante — nenhum conhecimento prévio necessário
 
 ## Índice
+
 1. A Ideia Central
 2. Checklist de Implementação
 3. Quiz Rápido
@@ -52,17 +54,20 @@ Reconhecer que perseverança e paixão de longo prazo podem ser desenvolvidas, e
 ## Checklist de Implementação
 
 ### Antes de Começar
+
 - [ ] Reflita sobre seus interesses de longo prazo: existe algo que você tem mantido consistentemente ao longo dos anos, além de entusiasmos passageiros?
 - [ ] Avalie sua relação com prática deliberada: você costuma focar deliberadamente em seus pontos fracos, ou evita esse desconforto?
 - [ ] Considere fazer uma autoavaliação informal usando os quatro componentes (interesse, prática deliberada, propósito, esperança)
 
 ### Durante Implementação
+
 - [ ] Escolha um objetivo de longo prazo e proteja seu interesse por ele, revisitando-o mesmo diante de novos estímulos e distrações
 - [ ] Estruture sessões de prática deliberada, com metas específicas e feedback claro sobre pontos a melhorar
 - [ ] Conecte seu objetivo a um propósito maior, além do interesse pessoal imediato
 - [ ] Pratique reformular contratempos como temporários e superáveis, reforçando a mentalidade de esperança
 
 ### Após Implementação
+
 - [ ] Revise periodicamente se seu interesse pelo objetivo de longo prazo permanece consistente
 - [ ] Avalie se está evitando prática deliberada em áreas desconfortáveis, mas necessárias
 - [ ] Se estiver formando outras pessoas (filhos, equipe, alunos), avalie o equilíbrio entre exigência e apoio emocional oferecido
@@ -82,11 +87,13 @@ Reconhecer que perseverança e paixão de longo prazo podem ser desenvolvidas, e
 ## Conexões com Outros Livros
 
 ### Livros Relacionados
+
 - **Mindset** (Carol Dweck) — fundamenta a crença de que habilidade é desenvolvível, base psicológica que sustenta a perseverança discutida em Grit.
 - **Deep Work** (Cal Newport) — complementa com técnicas específicas de concentração aplicáveis à prática deliberada.
 - **Em Busca de Sentido** (Viktor Frankl) — dialoga com o componente de propósito como sustentação da perseverança diante de dificuldades.
 
 ### Sequência Sugerida de Leitura
+
 Mindset → Grit → Deep Work → Em Busca de Sentido (da crença sobre desenvolvimento de habilidade até a perseverança de longo prazo, sua aplicação prática em foco e sua conexão com propósito).
 
 ---
@@ -94,24 +101,29 @@ Mindset → Grit → Deep Work → Em Busca de Sentido (da crença sobre desenvo
 ## Avaliação Pessoal
 
 ### Pontos Fortes
+
 - Pesquisa robusta e bem documentada, com estudos em contextos de alta exigência (militar, esportivo, acadêmico)
 - Introduz um instrumento de medição (Escala de Grit) que torna o conceito mensurável e não apenas abstrato
 - Conecta-se de forma coerente com pesquisas relacionadas (mindset, prática deliberada), formando um quadro mais amplo sobre desempenho humano
 
 ### Pontos Fracos
+
 - Alguns críticos apontam que o conceito de grit se sobrepõe consideravelmente a traços de personalidade já estudados (como conscienciosidade), sem diferenciação totalmente clara
 - Menor atenção a fatores estruturais e socioeconômicos que também influenciam fortemente a capacidade de perseverar em objetivos de longo prazo
 - Alguns capítulos sobre parentalidade e educação são mais prescritivos do que sustentados por evidência direta e robusta
 
 ### Para Quem É
+
 Pessoas interessadas em entender os fatores psicológicos por trás da perseverança de longo prazo, educadores, pais e treinadores que trabalham no desenvolvimento de outras pessoas.
 
 ### Para Quem Não É
+
 Quem busca reconhecer e valorizar também fatores estruturais e de oportunidade no sucesso — o livro foca predominantemente em fatores psicológicos individuais.
 
 ---
 
 ## Vale a Pena Ler o Livro Completo Se...
+
 - Você quer se aprofundar nos estudos e na metodologia por trás da Escala de Grit
 - Você é educador, pai/mãe ou treinador e quer explorar com mais profundidade estratégias de "parentalidade sábia"
 - Você tem interesse nas histórias completas de atletas, profissionais e cadetes usadas para ilustrar os conceitos

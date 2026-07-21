@@ -1,6 +1,7 @@
 # Resumo: O Poder do Hábito
 
 ## Ficha Técnica
+
 - **Título:** O Poder do Hábito: Por Que Fazemos o Que Fazemos e Como Mudar
 - **Autor:** Charles Duhigg
 - **Ano:** 2012
@@ -9,6 +10,7 @@
 - **Nível:** Iniciante — nenhum conhecimento prévio necessário
 
 ## Índice
+
 1. A Ideia Central
 2. Checklist de Implementação
 3. Quiz Rápido
@@ -55,17 +57,20 @@ Entender a mecânica dos hábitos tira o peso da "força de vontade" como única
 ## Checklist de Implementação
 
 ### Antes de Começar
+
 - [ ] Escolha um hábito específico que deseja mudar
 - [ ] Observe e anote, por alguns dias, a deixa que dispara esse hábito (horário, local, emoção, pessoas presentes)
 - [ ] Identifique qual recompensa real esse hábito está entregando (distração, alívio de estresse, prazer, conexão social)
 
 ### Durante Implementação
+
 - [ ] Teste rotinas alternativas que entreguem uma recompensa semelhante, mantendo a mesma deixa
 - [ ] Escreva um plano simples: "Quando [deixa], farei [nova rotina], para obter [recompensa]"
 - [ ] Considere adotar um "hábito-chave" (como exercício ou organização matinal) para gerar efeitos positivos em cadeia
 - [ ] Pratique fortalecer sua força de vontade em pequenas doses diárias, sem se sobrecarregar
 
 ### Após Implementação
+
 - [ ] Revise semanalmente se a nova rotina está realmente substituindo o comportamento antigo
 - [ ] Ajuste a recompensa se o novo hábito não estiver se sustentando
 - [ ] Identifique se o novo hábito gerou efeitos positivos em outras áreas da vida (sinal de hábito-chave bem escolhido)
@@ -85,11 +90,13 @@ Entender a mecânica dos hábitos tira o peso da "força de vontade" como única
 ## Conexões com Outros Livros
 
 ### Livros Relacionados
+
 - **Hábitos Atômicos** (James Clear) — expande o modelo do loop do hábito em um framework prático de quatro leis para construção e eliminação de hábitos.
 - **Inteligência Emocional** (Daniel Goleman) — complementa com a base neurológica das reações automáticas e regulação emocional.
 - **Essencialismo** (Greg McKeown) — ajuda a decidir quais hábitos e rotinas realmente merecem o investimento de energia para serem transformados.
 
 ### Sequência Sugerida de Leitura
+
 O Poder do Hábito → Hábitos Atômicos → Inteligência Emocional → Essencialismo (do entendimento neurológico do hábito até sua aplicação prática, regulação emocional e priorização consciente).
 
 ---
@@ -97,24 +104,29 @@ O Poder do Hábito → Hábitos Atômicos → Inteligência Emocional → Essenc
 ## Avaliação Pessoal
 
 ### Pontos Fortes
+
 - Narrativa envolvente, com estudos de caso reais de empresas, atletas e movimentos sociais
 - Explica de forma acessível a base neurocientífica dos hábitos sem ser excessivamente técnico
 - O conceito de "hábitos-chave" oferece um atalho estratégico interessante para mudança de comportamento
 
 ### Pontos Fracos
+
 - Menos prescritivo do que outros livros do gênero — oferece menos passos práticos diretos de aplicação
 - Algumas histórias são longas e poderiam ser mais concisas para o ponto que ilustram
 - A seção sobre hábitos organizacionais e sociais, embora interessante, foge um pouco do foco pessoal do restante do livro
 
 ### Para Quem É
+
 Pessoas que gostam de entender o "porquê" por trás do comportamento humano antes de aplicar técnicas, e que apreciam boas narrativas e estudos de caso.
 
 ### Para Quem Não É
+
 Quem busca um manual direto, com exercícios estruturados passo a passo — nesse caso, um livro mais prescritivo pode ser mais adequado.
 
 ---
 
 ## Vale a Pena Ler o Livro Completo Se...
+
 - Você quer as histórias completas (P&G, Starbucks, movimentos de direitos civis) que ilustram os conceitos com mais profundidade
 - Você tem interesse particular em como hábitos funcionam em organizações e não apenas em nível individual
 - Você quer entender com mais detalhe os estudos científicos por trás do loop do hábito

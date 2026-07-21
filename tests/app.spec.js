@@ -40,8 +40,10 @@ test("clicking a book opens detail page and loads summary", async ({
 
 test("catalog includes books from the markdown manifest", async ({ page }) => {
   await page.goto("/");
-  await expect(page.locator("article.book-card", { hasText: "Agile Testing" })).toHaveCount(1);
-  await expect(page.locator("#book-count")).toHaveText("15");
+  await expect(
+    page.locator("article.book-card", { hasText: "Agile Testing" }),
+  ).toHaveCount(1);
+  await expect(page.locator("#book-count")).toHaveText("16");
 });
 
 test("detail page renders content from a markdown file", async ({ page }) => {
@@ -68,8 +70,10 @@ test("category filter changes book count", async ({ page }) => {
   await expect(page.locator("#book-count")).not.toHaveText(firstCount);
 });
 
-test("catalog metadata is complete and each markdown file exists", async ({ page }) => {
-  const response = await page.request.get('/books/catalog.json');
+test("catalog metadata is complete and each markdown file exists", async ({
+  page,
+}) => {
+  const response = await page.request.get("/books/catalog.json");
   expect(response.ok()).toBeTruthy();
   const catalog = await response.json();
 
@@ -97,22 +101,25 @@ test("catalog metadata is complete and each markdown file exists", async ({ page
   }
 });
 
-test("catalog fallback manifest renders when books/catalog.json fails", async ({ page }) => {
-  await page.route('**/books/catalog.json', (route) => {
-    route.fulfill({ status: 500, body: 'Server error' });
+test("catalog fallback manifest renders when books/catalog.json fails", async ({
+  page,
+}) => {
+  await page.route("**/books/catalog.json", (route) => {
+    route.fulfill({ status: 500, body: "Server error" });
   });
 
-  await page.goto('/');
-  await expect(page.locator('.book-card')).toHaveCount(15);
-  await expect(page.locator('#book-count')).toHaveText('15');
-  await expect(page.locator('.book-card h3').first()).toBeVisible();
+  await page.goto("/");
+  await expect(page.locator(".book-card")).toHaveCount(16);
+  await expect(page.locator("#book-count")).toHaveText("16");
+  await expect(page.locator(".book-card h3").first()).toBeVisible();
 });
-
-test('markdown headings expose anchors and scroll smoothly', async ({ page }) => {
-  await page.goto('/#/livros/habitos-atomicos');
-  const heading = page.locator('.markdown-body h2').first();
+test("markdown headings expose anchors and scroll smoothly", async ({
+  page,
+}) => {
+  await page.goto("/#/livros/habitos-atomicos");
+  const heading = page.locator(".markdown-body h2").first();
   await expect(heading).toBeVisible();
-  const anchor = heading.locator('.markdown-anchor');
+  const anchor = heading.locator(".markdown-anchor");
   await expect(anchor).toBeVisible();
   await anchor.click();
   const scrollY = await page.evaluate(() => window.scrollY);

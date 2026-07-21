@@ -1,6 +1,7 @@
 # Resumo: Ética a Nicômaco
 
 ## Ficha Técnica
+
 - **Título:** Ética a Nicômaco
 - **Autor:** Aristóteles
 - **Ano:** aprox. 340 a.C.
@@ -9,6 +10,7 @@
 - **Nível:** Intermediário — recomendável alguma familiaridade prévia com filosofia clássica
 
 ## Índice
+
 1. A Ideia Central
 2. Checklist de Implementação
 3. Quiz Rápido
@@ -49,17 +51,20 @@ A obra oferece um modelo de ética centrado no caráter e no hábito, e não ape
 ## Checklist de Implementação
 
 ### Antes de Começar
+
 - [ ] Reflita sobre o que você entende por "vida boa" — prazer, sucesso, propósito?
 - [ ] Identifique uma virtude que você gostaria de desenvolver (ex: coragem, paciência, generosidade)
 - [ ] Observe em quais situações você tende ao excesso ou à falta dessa virtude
 
 ### Durante Implementação
+
 - [ ] Pratique repetidamente ações alinhadas à virtude escolhida, mesmo em pequenas situações
 - [ ] Busque o "meio-termo" em cada contexto específico, evitando respostas automáticas de excesso ou falta
 - [ ] Cultive discernimento prático (frónesis): avalie cada situação em seus próprios termos, não apenas por regras fixas
 - [ ] Invista tempo em amizades baseadas em admiração mútua de caráter, não apenas utilidade ou prazer
 
 ### Após Implementação
+
 - [ ] Reflita periodicamente sobre se suas ações estão formando um caráter estável e virtuoso
 - [ ] Avalie se suas escolhas cotidianas estão alinhadas com uma vida de florescimento, não apenas prazer imediato
 - [ ] Ajuste o "meio-termo" conforme ganha mais experiência e discernimento prático
@@ -79,11 +84,13 @@ A obra oferece um modelo de ética centrado no caráter e no hábito, e não ape
 ## Conexões com Outros Livros
 
 ### Livros Relacionados
+
 - **A República** (Platão) — obra anterior que também discute virtude, justiça e a vida boa, com abordagem mais idealista.
 - **Meditações** (Marco Aurélio) — aplica princípios éticos similares (razão, virtude, autocontrole) sob a perspectiva estoica.
 - **Hábitos Atômicos** (James Clear) — conexão moderna com a ideia aristotélica de que o caráter se forma pela repetição de ações, não por intenção isolada.
 
 ### Sequência Sugerida de Leitura
+
 A República → Ética a Nicômaco → Meditações → Hábitos Atômicos (da fundação filosófica clássica até uma aplicação contemporânea de formação de hábito e caráter).
 
 ---
@@ -91,24 +98,29 @@ A República → Ética a Nicômaco → Meditações → Hábitos Atômicos (da 
 ## Avaliação Pessoal
 
 ### Pontos Fortes
+
 - Sistema ético coerente e amplamente influente, base de boa parte da filosofia moral ocidental
 - Conecta virtude, hábito e ação prática de forma que continua relevante fora do contexto acadêmico
 - Discussão rica e detalhada sobre amizade, incomum em obras de ética
 
 ### Pontos Fracos
+
 - Linguagem e estrutura filosófica antiga tornam a leitura densa e, por vezes, repetitiva
 - Pressupostos da época (como visões sobre escravidão e papéis sociais) refletem limitações históricas do contexto de Aristóteles
 - Conceitos como "meio-termo" exigem interpretação cuidadosa para não serem simplificados de forma equivocada
 
 ### Para Quem É
+
 Pessoas interessadas em filosofia moral, formação de caráter e nos fundamentos históricos da ética ocidental.
 
 ### Para Quem Não É
+
 Quem busca um guia prático e direto de autoajuda — a obra é filosófica e exige reflexão, não trará "passos" simples e imediatos.
 
 ---
 
 ## Vale a Pena Ler o Livro Completo Se...
+
 - Você quer entender profundamente os fundamentos da filosofia moral ocidental
 - Você tem interesse em como conceitos antigos de virtude dialogam com discussões contemporâneas sobre caráter e hábito
 - Você deseja explorar a discussão completa sobre amizade, uma das partes mais ricas e menos resumidas da obra

@@ -1,18 +1,17 @@
-<<<<<<< HEAD
-15min-read
-=======
+# 15min-read
+
 ## Principles
+
 - Priorize simplicity, eficiência e legibilidade.
 - Faça melhorias incrementais de baixo risco; evite recursos que aumentem complexidade ou fragilidade.
 
-# 15min-read
-
 Static site that renders a book catalog from `books/catalog.json` and individual markdown files in `books/`.
+Supports Portuguese (PT-BR) and English UI text with a built-in language switcher, including English markdown summaries for each book.
 
 ## Run locally
 
 ```bash
-cd /home/kaiorampz/15min-read.github.io
+cd /path/to/15min-read.github.io.worktrees/agents-project-maintenance-and-testing
 npm install
 npm run serve
 ```
@@ -48,4 +47,5 @@ git push origin main
 ```text
 https://15min-read.github.io
 ```
->>>>>>> a4d841b (v2.1: catalog restructure — remove stale book shells (7 removed), add 3 new books (flow, ética, em busca de sentido), consolidate book content, shrink app.js, update tests)
+
+> > > > > > > a4d841b (v2.1: catalog restructure — remove stale book shells (7 removed), add 3 new books (flow, ética, em busca de sentido), consolidate book content, shrink app.js, update tests)

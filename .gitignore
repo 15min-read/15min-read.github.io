@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Testing
+tests/
+playwright.config.js
+test-results/
+
+# Build & Dist
+dist/
+build/
+*.tsbuildinfo
+
+# Old/Unused
+src/
+summaries.js
+public/favicon.ico
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local

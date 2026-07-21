@@ -1,6 +1,7 @@
 # Resumo: Essencialismo
 
 ## Ficha Técnica
+
 - **Título:** Essencialismo: A Disciplinada Busca por Menos
 - **Autor:** Greg McKeown
 - **Ano:** 2014
@@ -9,6 +10,7 @@
 - **Nível:** Iniciante — nenhum conhecimento prévio necessário
 
 ## Índice
+
 1. A Ideia Central
 2. Checklist de Implementação
 3. Quiz Rápido
@@ -53,17 +55,20 @@ Em um mundo de distrações e demandas constantes, a habilidade de discernir o q
 ## Checklist de Implementação
 
 ### Antes de Começar
+
 - [ ] Liste todos os seus compromissos e projetos atuais
 - [ ] Para cada um, pergunte: "isso pontua pelo menos 90 em importância para mim?"
 - [ ] Identifique de 1 a 3 prioridades que realmente merecem seu foco no momento
 
 ### Durante Implementação
+
 - [ ] Pratique dizer "não" a pedidos que não passam no filtro dos 90%
 - [ ] Reserve tempo de "exploração" antes de se comprometer com novas oportunidades
 - [ ] Elimine tarefas de baixo valor da sua rotina, mesmo que pareçam produtivas
 - [ ] Construa rotinas e sistemas que facilitem a execução das prioridades essenciais
 
 ### Após Implementação
+
 - [ ] Revise semanalmente se suas ações estão alinhadas com o que você definiu como essencial
 - [ ] Reavalie compromissos antigos que podem ter deixado de ser prioritários
 - [ ] Celebre o progresso mínimo viável nas poucas coisas que realmente importam
@@ -83,11 +88,13 @@ Em um mundo de distrações e demandas constantes, a habilidade de discernir o q
 ## Conexões com Outros Livros
 
 ### Livros Relacionados
+
 - **Hábitos Atômicos** (James Clear) — complementa com foco em sistemas e pequenas ações consistentes para sustentar prioridades essenciais.
-- **A Sutil Arte de Ligar o F*da-se** (Mark Manson) — reforça a ideia de escolher conscientemente onde investir energia emocional e atenção.
+- **A Sutil Arte de Ligar o F\*da-se** (Mark Manson) — reforça a ideia de escolher conscientemente onde investir energia emocional e atenção.
 - **Deep Work** (Cal Newport) — aprofunda a execução focada em uma prioridade essencial, com técnicas de trabalho profundo.
 
 ### Sequência Sugerida de Leitura
+
 Essencialismo → Deep Work → Hábitos Atômicos → A Sutil Arte de Ligar o F*da-se (do discernimento estratégico à execução focada e sustentável).
 
 ---
@@ -95,24 +102,29 @@ Essencialismo → Deep Work → Hábitos Atômicos → A Sutil Arte de Ligar o F
 ## Avaliação Pessoal
 
 ### Pontos Fortes
+
 - Framework simples e memorável (Explorar, Eliminar, Executar)
 - Linguagem acessível, com muitas histórias e analogias do dia a dia
 - Desafia diretamente a cultura do "sim automático", algo raro em livros de produtividade
 
 ### Pontos Fracos
+
 - Algumas repetições de conceitos ao longo dos capítulos
 - Pouca orientação prática para quem trabalha em ambientes com pouca autonomia (ex: cargos operacionais rígidos)
 - Exemplos majoritariamente corporativos/executivos, menos aplicáveis a outros contextos de vida
 
 ### Para Quem É
+
 Profissionais e líderes sobrecarregados que precisam aprender a priorizar e dizer não com mais clareza.
 
 ### Para Quem Não É
+
 Pessoas em posições com pouca autonomia sobre suas tarefas, que podem achar os conceitos difíceis de aplicar diretamente ao seu contexto.
 
 ---
 
 ## Vale a Pena Ler o Livro Completo Se...
+
 - Você lidera equipes ou projetos e precisa tomar decisões constantes sobre prioridades
 - Você quer mais histórias e exemplos para internalizar o mindset essencialista
 - Você busca ferramentas práticas de discernimento para aplicar em decisões de carreira e vida pessoal

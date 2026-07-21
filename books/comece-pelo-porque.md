@@ -1,6 +1,7 @@
 # Resumo: Comece Pelo Porquê
 
 ## Ficha Técnica
+
 - **Título:** Comece Pelo Porquê: Como Grandes Líderes Inspiram Ação (Start with Why: How Great Leaders Inspire Everyone to Take Action)
 - **Autor:** Simon Sinek
 - **Ano:** 2009
@@ -9,6 +10,7 @@
 - **Nível:** Iniciante — nenhum conhecimento prévio necessário
 
 ## Índice
+
 1. A Ideia Central
 2. Checklist de Implementação
 3. Quiz Rápido
@@ -53,17 +55,20 @@ Entender e comunicar claramente o "porquê" por trás de um negócio, um projeto
 ## Checklist de Implementação
 
 ### Antes de Começar
+
 - [ ] Reflita e escreva, em uma frase simples, qual é o "porquê" por trás do seu trabalho, projeto ou negócio (além do lucro)
 - [ ] Avalie sua comunicação atual: ela começa pelo "o quê" ou pelo "porquê"?
 - [ ] Identifique se sua equipe ou clientes conseguem articular claramente o propósito por trás do que vocês fazem
 
 ### Durante Implementação
+
 - [ ] Reestruture apresentações, sites e materiais de comunicação para começar pelo "porquê", antes do "como" e do "o quê"
 - [ ] Use histórias e exemplos concretos para tornar o "porquê" tangível, não apenas uma frase abstrata
 - [ ] Busque atrair primeiro um pequeno grupo de "early adopters" que genuinamente compartilhem da causa, em vez de tentar convencer todo o mercado de uma vez
 - [ ] Alinhe decisões internas (contratação, processos, parcerias) ao "porquê" definido, garantindo coerência
 
 ### Após Implementação
+
 - [ ] Avalie se a comunicação baseada no "porquê" está gerando mais engajamento e lealdade do que antes
 - [ ] Revise periodicamente se as ações da organização continuam alinhadas ao propósito declarado
 - [ ] Reforce o "porquê" internamente com a equipe, não apenas externamente com clientes
@@ -83,11 +88,13 @@ Entender e comunicar claramente o "porquê" por trás de um negócio, um projeto
 ## Conexões com Outros Livros
 
 ### Livros Relacionados
+
 - **Os Líderes Comem Por Último** (Simon Sinek) — aprofunda a discussão sobre liderança e confiança dentro de equipes e organizações.
 - **Essencialismo** (Greg McKeown) — complementa com a ideia de foco e clareza de propósito na tomada de decisões.
 - **A Startup Enxuta** (Eric Ries) — dialoga com a ideia de conquistar primeiro um pequeno grupo de early adopters antes de escalar.
 
 ### Sequência Sugerida de Leitura
+
 Comece Pelo Porquê → Os Líderes Comem Por Último → Essencialismo → A Startup Enxuta (do propósito central da liderança até sua aplicação em cultura organizacional, priorização e estratégia de crescimento).
 
 ---
@@ -95,24 +102,29 @@ Comece Pelo Porquê → Os Líderes Comem Por Último → Essencialismo → A St
 ## Avaliação Pessoal
 
 ### Pontos Fortes
+
 - Modelo simples e fácil de lembrar (Círculo Dourado), aplicável a diferentes contextos além de negócios
 - Exemplos conhecidos (Apple, Martin Luther King, irmãos Wright) tornam o conceito mais concreto
 - Argumento relevante para diferenciação em mercados competitivos e saturados
 
 ### Pontos Fracos
+
 - Repetição considerável dos mesmos exemplos e ideias ao longo dos capítulos
 - Explicação neurocientífica é apresentada de forma simplificada, e merece ser lida com algum ceticismo crítico
 - Poucas ferramentas práticas de como efetivamente descobrir ou articular o "porquê" de uma organização já estabelecida
 
 ### Para Quem É
+
 Líderes, empreendedores e profissionais de marketing que querem comunicar propósito de forma mais clara e construir lealdade genuína com equipes e clientes.
 
 ### Para Quem Não É
+
 Quem busca um manual tático com passos detalhados de implementação — o livro é mais conceitual e inspiracional do que um guia operacional.
 
 ---
 
 ## Vale a Pena Ler o Livro Completo Se...
+
 - Você quer os estudos de caso completos (Apple, irmãos Wright, Martin Luther King) com mais profundidade histórica
 - Você lidera uma equipe ou organização e quer trabalhar a definição de propósito de forma mais estruturada
 - Você tem interesse em aprofundar a relação entre neurociência e tomada de decisão

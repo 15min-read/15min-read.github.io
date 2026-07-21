@@ -1,6 +1,7 @@
 # Resumo: Deep Work
 
 ## Ficha Técnica
+
 - **Título:** Deep Work: Regras para o Sucesso Focado em um Mundo Distraído
 - **Autor:** Cal Newport
 - **Ano:** 2016
@@ -9,6 +10,7 @@
 - **Nível:** Iniciante — nenhum conhecimento prévio necessário
 
 ## Índice
+
 1. A Ideia Central
 2. Checklist de Implementação
 3. Quiz Rápido
@@ -52,17 +54,20 @@ Em um ambiente de trabalho cada vez mais dominado por notificações, reuniões 
 ## Checklist de Implementação
 
 ### Antes de Começar
+
 - [ ] Identifique quais tarefas do seu trabalho são realmente "profundas" (exigem foco intenso) e quais são "rasas"
 - [ ] Avalie qual das quatro filosofias (monástica, bimodal, ritualística, jornalística) melhor se encaixa na sua rotina e tipo de trabalho
 - [ ] Analise honestamente o uso de redes sociais e ferramentas digitais: elas realmente trazem valor comprovado para seus objetivos?
 
 ### Durante Implementação
+
 - [ ] Bloqueie horários fixos na agenda exclusivamente para trabalho profundo, tratando-os como compromissos inegociáveis
 - [ ] Elimine notificações e acesso a redes sociais/e-mail durante esses blocos
 - [ ] Crie um ritual de início (local, horário, preparação) que sinalize ao cérebro a entrada em modo de foco profundo
 - [ ] Pratique tolerar momentos de tédio sem recorrer imediatamente a distrações digitais
 
 ### Após Implementação
+
 - [ ] Revise semanalmente quanto tempo real foi dedicado a trabalho profundo versus trabalho raso
 - [ ] Ajuste a filosofia escolhida caso ela não esteja se encaixando bem na sua rotina real
 - [ ] Avalie a qualidade e o impacto dos resultados produzidos durante os blocos de trabalho profundo
@@ -82,11 +87,13 @@ Em um ambiente de trabalho cada vez mais dominado por notificações, reuniões 
 ## Conexões com Outros Livros
 
 ### Livros Relacionados
+
 - **Essencialismo** (Greg McKeown) — complementa com o discernimento sobre quais atividades merecem foco e energia.
 - **Hábitos Atômicos** (James Clear) — oferece ferramentas práticas para transformar os rituais de trabalho profundo em hábitos consistentes.
 - **Rápido e Devagar** (Daniel Kahneman) — traz base cognitiva sobre os dois sistemas de pensamento, relevante para entender os custos de alternância de atenção (multitarefa).
 
 ### Sequência Sugerida de Leitura
+
 Essencialismo → Deep Work → Hábitos Atômicos → Rápido e Devagar (do discernimento sobre prioridades até a execução focada, sua consolidação em hábito e o entendimento cognitivo por trás da atenção).
 
 ---
@@ -94,24 +101,29 @@ Essencialismo → Deep Work → Hábitos Atômicos → Rápido e Devagar (do dis
 ## Avaliação Pessoal
 
 ### Pontos Fortes
+
 - Argumento bem fundamentado sobre o valor econômico e pessoal do foco profundo
 - Apresenta múltiplas filosofias de aplicação, reconhecendo que diferentes rotinas exigem abordagens diferentes
 - Combina estudos de caso de diferentes áreas (acadêmicos, escritores, executivos) para sustentar os argumentos
 
 ### Pontos Fracos
+
 - Algumas recomendações (como a filosofia monástica) são pouco realistas para a maioria dos profissionais em empregos convencionais
 - Posição bastante rígida contra redes sociais pode soar radical para leitores que dependem delas profissionalmente (ex: criadores de conteúdo)
 - Menor foco em como lidar com ambientes de trabalho colaborativos que exigem alta disponibilidade e resposta rápida
 
 ### Para Quem É
+
 Profissionais de conhecimento (escritores, programadores, pesquisadores, criativos) que sentem que distrações constantes estão prejudicando a qualidade do seu trabalho.
 
 ### Para Quem Não É
+
 Profissionais cujas funções dependem essencialmente de disponibilidade constante e resposta rápida a demandas externas (ex: suporte ao cliente, funções operacionais reativas), para quem as filosofias propostas são mais difíceis de aplicar diretamente.
 
 ---
 
 ## Vale a Pena Ler o Livro Completo Se...
+
 - Você quer mais exemplos e estudos de caso detalhados de profissionais que aplicam trabalho profundo com sucesso
 - Você busca estratégias específicas e aprofundadas para reduzir o uso de redes sociais e tecnologia distrativa
 - Você quer explorar com mais profundidade a relação entre trabalho profundo e significado profissional

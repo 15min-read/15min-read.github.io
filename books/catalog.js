@@ -1,22 +1,25 @@
 window.BOOKS_MANIFEST = [
   {
-    "slug": "habitos-atomicos",
-    "file": "habitos-atomicos.md",
-    "title": "Hábitos Atômicos",
-    "author": "James Clear",
-    "year": 2018,
-    "category": "Produtividade",
-    "minutes": 15,
-    "hook": "Você não sobe ao nível das suas metas — você cai ao nível dos seus sistemas.",
-    "summary": "James Clear mostra que mudanças reais acontecem menos por força de vontade e mais por estruturas simples que reduzem a fricção do hábito desejado.",
-    "tags": [
-      "hábitos",
-      "sistemas",
-      "mudança"
-    ]
+    slug: "habitos-atomicos",
+    file: "habitos-atomicos.md",
+    title: "Hábitos Atômicos",
+    author: "James Clear",
+    year: 2018,
+    category: "Produtividade",
+    minutes: 15,
+    hook: "Você não sobe ao nível das suas metas — você cai ao nível dos seus sistemas.",
+    summary:
+      "James Clear mostra que mudanças reais acontecem menos por força de vontade e mais por estruturas simples que reduzem a fricção do hábito desejado.",
+    tags: ["hábitos", "sistemas", "mudança"],
+    titleEn: "Atomic Habits",
+    categoryEn: "Productivity",
+    hookEn:
+      "You don't rise to the level of your goals — you fall to the level of your systems.",
+    fileEn: "habitos-atomicos.en.md",
+    summaryEn:
+      "James Clear shows that real change happens less by willpower and more by simple structures that reduce friction for desired habits.",
   },
   {
-<<<<<<< HEAD
     slug: "habitos-atomicos-otimizado",
     file: "habitos-atomicos-otimizado.md",
     title: "Hábitos Atômicos (Otimizado)",
@@ -25,8 +28,15 @@ window.BOOKS_MANIFEST = [
     category: "Produtividade",
     minutes: 15,
     hook: "Pequenas mudanças repetidas geram progresso real ao longo do tempo.",
-    summary: "Uma versão enxuta do livro para reforçar o valor de sistemas simples e consistência.",
-    tags: ["hábitos", "consistência", "sistemas"]
+    summary:
+      "Uma versão enxuta do livro para reforçar o valor de sistemas simples e consistência.",
+    tags: ["hábitos", "consistência", "sistemas"],
+    titleEn: "Atomic Habits (Optimized)",
+    categoryEn: "Productivity",
+    hookEn: "Small repeated changes create real progress over time.",
+    fileEn: "habitos-atomicos-otimizado.en.md",
+    summaryEn:
+      "A slimmed-down version of the book reinforcing the value of simple systems and consistency.",
   },
   {
     slug: "deep-work",
@@ -37,231 +47,265 @@ window.BOOKS_MANIFEST = [
     category: "Produtividade",
     minutes: 15,
     hook: "Atenção sem distração é a superhabilidade do século XXI.",
-    summary: "Cal Newport argumenta que o trabalho profundo se tornou raro e extremamente valioso.",
-    tags: ["foco", "atenção", "carreira"]
-=======
-    "slug": "deep-work",
-    "file": "deep-work.md",
-    "title": "Deep Work",
-    "author": "Cal Newport",
-    "year": 2016,
-    "category": "Produtividade",
-    "minutes": 15,
-    "hook": "Atenção sem distração é a superhabilidade do século XXI.",
-    "summary": "Cal Newport argumenta que o trabalho profundo se tornou raro e extremamente valioso.",
-    "tags": [
-      "foco",
-      "atenção",
-      "carreira"
-    ]
->>>>>>> a4d841b (v2.1: catalog restructure — remove stale book shells (7 removed), add 3 new books (flow, ética, em busca de sentido), consolidate book content, shrink app.js, update tests)
+    summary:
+      "Cal Newport argumenta que o trabalho profundo se tornou raro e extremamente valioso.",
+    tags: ["foco", "atenção", "carreira"],
+    titleEn: "Deep Work",
+    categoryEn: "Productivity",
+    hookEn:
+      "Attention without distraction is the superpower of the 21st century.",
+    fileEn: "deep-work.en.md",
+    summaryEn:
+      "Cal Newport argues that deep work has become rare and extremely valuable in a distracted world.",
   },
   {
-    "slug": "essencialismo",
-    "file": "essencialismo.md",
-    "title": "Essencialismo",
-    "author": "Greg McKeown",
-    "year": 2014,
-    "category": "Produtividade",
-    "minutes": 15,
-    "hook": "Se não é um “hell yes”, é um não.",
-    "summary": "Greg McKeown defende que a produtividade real vem da disciplina de dizer não.",
-    "tags": [
-      "prioridade",
-      "disciplina",
-      "foco"
-    ]
+    slug: "essencialismo",
+    file: "essencialismo.md",
+    title: "Essencialismo",
+    author: "Greg McKeown",
+    year: 2014,
+    category: "Produtividade",
+    minutes: 15,
+    hook: "Se não é um “hell yes”, é um não.",
+    summary:
+      "Greg McKeown defende que a produtividade real vem da disciplina de dizer não.",
+    tags: ["prioridade", "disciplina", "foco"],
+    titleEn: "Essentialism",
+    categoryEn: "Productivity",
+    hookEn: "If it isn't a hell yes, it's a no.",
+    fileEn: "essencialismo.en.md",
+    summaryEn:
+      "Greg McKeown defends that real productivity comes from the discipline of saying no.",
   },
   {
-    "slug": "o-poder-do-habito",
-    "file": "o-poder-do-habito.md",
-    "title": "O Poder do Hábito",
-    "author": "Charles Duhigg",
-    "year": 2012,
-    "category": "Produtividade",
-    "minutes": 15,
-    "hook": "Gatilho, rotina, recompensa — o loop que governa metade da sua vida.",
-    "summary": "Duhigg mostra como hábitos se formam e se mantêm por meio de um loop simples.",
-    "tags": [
-      "hábito",
-      "loop",
-      "mudança"
-    ]
+    slug: "o-poder-do-habito",
+    file: "o-poder-do-habito.md",
+    title: "O Poder do Hábito",
+    author: "Charles Duhigg",
+    year: 2012,
+    category: "Produtividade",
+    minutes: 15,
+    hook: "Gatilho, rotina, recompensa — o loop que governa metade da sua vida.",
+    summary:
+      "Duhigg mostra como hábitos se formam e se mantêm por meio de um loop simples.",
+    tags: ["hábito", "loop", "mudança"],
+    titleEn: "The Power of Habit",
+    categoryEn: "Productivity",
+    hookEn: "Cue, routine, reward — the loop that governs half your life.",
+    fileEn: "o-poder-do-habito.en.md",
+    summaryEn:
+      "Duhigg shows how habits form and persist through a simple cue-routine-reward loop.",
   },
   {
-    "slug": "mindset",
-    "file": "mindset.md",
-    "title": "Mindset",
-    "author": "Carol Dweck",
-    "year": 2006,
-    "category": "Psicologia",
-    "minutes": 15,
-    "hook": "Ainda não é um veredicto — é o próximo passo.",
-    "summary": "Carol Dweck conecta a forma como pensamos sobre talento e esforço com o desenvolvimento humano.",
-    "tags": [
-      "crescimento",
-      "aprendizagem",
-      "resiliência"
-    ]
+    slug: "mindset",
+    file: "mindset.md",
+    title: "Mindset",
+    author: "Carol Dweck",
+    year: 2006,
+    category: "Psicologia",
+    minutes: 15,
+    hook: "Ainda não é um veredicto — é o próximo passo.",
+    summary:
+      "Carol Dweck conecta a forma como pensamos sobre talento e esforço com o desenvolvimento humano.",
+    tags: ["crescimento", "aprendizagem", "resiliência"],
+    titleEn: "Mindset",
+    categoryEn: "Psychology",
+    hookEn: "This is not a verdict — it is the next step.",
+    fileEn: "mindset.en.md",
+    summaryEn:
+      "Carol Dweck links how we think about talent and effort with human development.",
   },
   {
-    "slug": "inteligencia-emocional",
-    "file": "inteligencia-emocional.md",
-    "title": "Inteligência Emocional",
-    "author": "Daniel Goleman",
-    "year": 1995,
-    "category": "Psicologia",
-    "minutes": 15,
-    "hook": "QI te leva à entrevista; QE te faz ficar.",
-    "summary": "Goleman destaca que as habilidades emocionais são tão importantes quanto a inteligência técnica.",
-    "tags": [
-      "emoções",
-      "empatia",
-      "liderança"
-    ]
+    slug: "inteligencia-emocional",
+    file: "inteligencia-emocional.md",
+    title: "Inteligência Emocional",
+    author: "Daniel Goleman",
+    year: 1995,
+    category: "Psicologia",
+    minutes: 15,
+    hook: "QI te leva à entrevista; QE te faz ficar.",
+    summary:
+      "Goleman destaca que as habilidades emocionais são tão importantes quanto a inteligência técnica.",
+    tags: ["emoções", "empatia", "liderança"],
+    titleEn: "Emotional Intelligence",
+    categoryEn: "Psychology",
+    hookEn: "IQ gets you the interview; EQ helps you stay.",
+    fileEn: "inteligencia-emocional.en.md",
+    summaryEn:
+      "Goleman highlights that emotional skills are as important as technical intelligence.",
   },
   {
-    "slug": "flow",
-    "file": "flow.md",
-    "title": "Flow",
-    "author": "Mihaly Csikszentmihalyi",
-    "year": 1990,
-    "category": "Psicologia",
-    "minutes": 15,
-    "hook": "Felicidade não é encontrada — é construída na atenção.",
-    "summary": "Csikszentmihalyi investiga o estado de absorção plena em que a pessoa se sente inteiramente engajada.",
-    "tags": [
-      "fluxo",
-      "atenção",
-      "sentido"
-    ]
+    slug: "flow",
+    file: "flow.md",
+    title: "Flow",
+    author: "Mihaly Csikszentmihalyi",
+    year: 1990,
+    category: "Psicologia",
+    minutes: 15,
+    hook: "Felicidade não é encontrada — é construída na atenção.",
+    summary:
+      "Csikszentmihalyi investiga o estado de absorção plena em que a pessoa se sente inteiramente engajada.",
+    tags: ["fluxo", "atenção", "sentido"],
+    titleEn: "Flow",
+    categoryEn: "Psychology",
+    hookEn: "Happiness is not found — it is built in focused attention.",
+    fileEn: "flow.en.md",
+    summaryEn:
+      "Csikszentmihalyi explores the state of total absorption where people feel fully engaged.",
   },
   {
-    "slug": "grit",
-    "file": "grit.md",
-    "title": "Grit",
-    "author": "Angela Duckworth",
-    "year": 2016,
-    "category": "Psicologia",
-    "minutes": 15,
-    "hook": "Talento × esforço = habilidade. Habilidade × esforço = conquista.",
-    "summary": "Angela Duckworth mostra que perseverança e paixão podem explicar muito do sucesso.",
-    "tags": [
-      "perseverança",
-      "esforço",
-      "paixão"
-    ]
+    slug: "grit",
+    file: "grit.md",
+    title: "Grit",
+    author: "Angela Duckworth",
+    year: 2016,
+    category: "Psicologia",
+    minutes: 15,
+    hook: "Talento × esforço = habilidade. Habilidade × esforço = conquista.",
+    summary:
+      "Angela Duckworth mostra que perseverança e paixão podem explicar muito do sucesso.",
+    tags: ["perseverança", "esforço", "paixão"],
+    titleEn: "Grit",
+    categoryEn: "Psychology",
+    hookEn: "Talent × effort = skill. Skill × effort = achievement.",
+    fileEn: "grit.en.md",
+    summaryEn:
+      "Angela Duckworth shows that perseverance and passion can explain much of success.",
   },
   {
-    "slug": "em-busca-de-sentido",
-    "file": "em-busca-de-sentido.md",
-    "title": "Em Busca de Sentido",
-    "author": "Viktor Frankl",
-    "year": 1946,
-    "category": "Psicologia",
-    "minutes": 15,
-    "hook": "Mesmo no extremo da dor, o sentido interior pode ser conservado.",
-    "summary": "Frankl mostra como a busca de sentido sustenta a liberdade interior mesmo nas piores circunstâncias.",
-    "tags": [
-      "sentido",
-      "sofrimento",
-      "psicologia"
-    ]
+    slug: "em-busca-de-sentido",
+    file: "em-busca-de-sentido.md",
+    title: "Em Busca de Sentido",
+    author: "Viktor Frankl",
+    year: 1946,
+    category: "Psicologia",
+    minutes: 15,
+    hook: "Mesmo no extremo da dor, o sentido interior pode ser conservado.",
+    summary:
+      "Frankl mostra como a busca de sentido sustenta a liberdade interior mesmo nas piores circunstâncias.",
+    tags: ["sentido", "sofrimento", "psicologia"],
+    titleEn: "Man's Search for Meaning",
+    categoryEn: "Psychology",
+    hookEn: "Even at the edge of suffering, inner meaning can be preserved.",
+    fileEn: "em-busca-de-sentido.en.md",
+    summaryEn:
+      "Frankl shows how the search for meaning sustains inner freedom even in extreme suffering.",
   },
   {
-    "slug": "comece-pelo-porque",
-    "file": "comece-pelo-porque.md",
-    "title": "Comece Pelo Porquê",
-    "author": "Simon Sinek",
-    "year": 2009,
-    "category": "Negócios",
-    "minutes": 15,
-    "hook": "Pessoas não compram o que você faz — compram por que você faz.",
-    "summary": "Sinek mostra como líderes e marcas ganham força quando partem de uma ideia central clara.",
-    "tags": [
-      "propósito",
-      "liderança",
-      "marca"
-    ]
+    slug: "comece-pelo-porque",
+    file: "comece-pelo-porque.md",
+    title: "Comece Pelo Porquê",
+    author: "Simon Sinek",
+    year: 2009,
+    category: "Negócios",
+    minutes: 15,
+    hook: "Pessoas não compram o que você faz — compram por que você faz.",
+    summary:
+      "Sinek mostra como líderes e marcas ganham força quando partem de uma ideia central clara.",
+    tags: ["propósito", "liderança", "marca"],
+    titleEn: "Start with Why",
+    categoryEn: "Business",
+    hookEn: "People do not buy what you do — they buy why you do it.",
+    fileEn: "comece-pelo-porque.en.md",
+    summaryEn:
+      "Sinek shows how leaders and brands gain strength when they start from a clear central idea.",
   },
   {
-    "slug": "codigo-limpo",
-    "file": "codigo-limpo.md",
-    "title": "Código Limpo",
-    "author": "Robert C. Martin",
-    "year": 2008,
-    "category": "Tecnologia",
-    "minutes": 15,
-    "hook": "Código é lido dez vezes mais do que é escrito. Escreva para o leitor.",
-    "summary": "Martin reúne princípios práticos para escrever software mais legível, sustentável e fácil de manter.",
-    "tags": [
-      "engenharia",
-      "manutenção",
-      "craft"
-    ]
+    slug: "codigo-limpo",
+    file: "codigo-limpo.md",
+    title: "Código Limpo",
+    author: "Robert C. Martin",
+    year: 2008,
+    category: "Tecnologia",
+    minutes: 15,
+    hook: "Código é lido dez vezes mais do que é escrito. Escreva para o leitor.",
+    summary:
+      "Martin reúne princípios práticos para escrever software mais legível, sustentável e fácil de manter.",
+    tags: ["engenharia", "manutenção", "craft"],
+    titleEn: "Clean Code",
+    categoryEn: "Technology",
+    hookEn:
+      "Code is read ten times more than it is written. Write for the reader.",
+    fileEn: "codigo-limpo.en.md",
+    summaryEn:
+      "Martin gathers practical principles for writing software that is more readable, sustainable, and maintainable.",
   },
   {
-    "slug": "etica-a-nicomaco",
-    "file": "etica-a-nicomaco.md",
-    "title": "Ética a Nicômaco",
-    "author": "Aristóteles",
-    "year": -340,
-    "category": "Filosofia",
-    "minutes": 15,
-    "hook": "A vida boa é construída pela prática constante das virtudes.",
-    "summary": "Aristóteles descreve a vida ética como o equilíbrio virtuoso entre excesso e falta e como o caráter se forma pela prática.",
-    "tags": [
-      "ética",
-      "virtude",
-      "filosofia"
-    ]
+    slug: "etica-a-nicomaco",
+    file: "etica-a-nicomaco.md",
+    title: "Ética a Nicômaco",
+    author: "Aristóteles",
+    year: -340,
+    category: "Filosofia",
+    minutes: 15,
+    hook: "A vida boa é construída pela prática constante das virtudes.",
+    summary:
+      "Aristóteles descreve a vida ética como o equilíbrio virtuoso entre excesso e falta e como o caráter se forma pela prática.",
+    tags: ["ética", "virtude", "filosofia"],
+    titleEn: "Nicomachean Ethics",
+    categoryEn: "Philosophy",
+    hookEn: "The good life is built by the constant practice of virtue.",
+    fileEn: "etica-a-nicomaco.en.md",
+    summaryEn:
+      "Aristotle describes ethical life as the virtuous balance between excess and deficiency.",
   },
   {
-    "slug": "agile-testing",
-    "file": "agile-testing.md",
-    "title": "Agile Testing",
-    "author": "Lisa Crispin & Janet Gregory",
-    "year": 2008,
-    "category": "Tecnologia",
-    "minutes": 15,
-    "hook": "Qualidade é construída em cada sprint, não só no fim do projeto.",
-    "summary": "A abordagem mostra que QA e desenvolvimento trabalham juntos desde o começo.",
-    "tags": [
-      "agile",
-      "qualidade",
-      "teste"
-    ]
+    slug: "agile-testing",
+    file: "agile-testing.md",
+    title: "Agile Testing",
+    author: "Lisa Crispin & Janet Gregory",
+    year: 2008,
+    category: "Tecnologia",
+    minutes: 15,
+    hook: "Qualidade é construída em cada sprint, não só no fim do projeto.",
+    summary:
+      "A abordagem mostra que QA e desenvolvimento trabalham juntos desde o começo.",
+    tags: ["agile", "qualidade", "teste"],
+    titleEn: "Agile Testing",
+    categoryEn: "Technology",
+    hookEn:
+      "Quality is built into every sprint, not only at the end of the project.",
+    fileEn: "agile-testing.en.md",
+    summaryEn:
+      "The approach shows that QA and development work together from the start.",
   },
   {
-    "slug": "continuous-delivery",
-    "file": "continuous-delivery.md",
-    "title": "Continuous Delivery",
-    "author": "Jez Humble & David Farley",
-    "year": 2010,
-    "category": "Tecnologia",
-    "minutes": 15,
-    "hook": "Entrega frequente exige automação, confiança e fluxo contínuo.",
-    "summary": "O livro mostra como reduzir risco de release com automação e feedback contínuo.",
-    "tags": [
-      "devops",
-      "entrega",
-      "automação"
-    ]
+    slug: "continuous-delivery",
+    file: "continuous-delivery.md",
+    title: "Continuous Delivery",
+    author: "Jez Humble & David Farley",
+    year: 2010,
+    category: "Tecnologia",
+    minutes: 15,
+    hook: "Entrega frequente exige automação, confiança e fluxo contínuo.",
+    summary:
+      "O livro mostra como reduzir risco de release com automação e feedback contínuo.",
+    tags: ["devops", "entrega", "automação"],
+    titleEn: "Continuous Delivery",
+    categoryEn: "Technology",
+    hookEn:
+      "Frequent delivery requires automation, trust, and continuous flow.",
+    fileEn: "continuous-delivery.en.md",
+    summaryEn:
+      "The book shows how to reduce release risk with automation and continuous feedback.",
   },
   {
-    "slug": "perfect-software",
-    "file": "perfect-software.md",
-    "title": "Perfect Software",
-    "author": "Roger S. Pressman",
-    "year": 2005,
-    "category": "Tecnologia",
-    "minutes": 15,
-    "hook": "Software perfeito não é ausência de defeitos, mas uma estratégia de excelência.",
-    "summary": "O texto reforça que qualidade depende de processos, disciplina e visão sistêmica.",
-    "tags": [
-      "qualidade",
-      "processo",
-      "software"
-    ]
-  }
+    slug: "perfect-software",
+    file: "perfect-software.md",
+    title: "Perfect Software",
+    author: "Roger S. Pressman",
+    year: 2005,
+    category: "Tecnologia",
+    minutes: 15,
+    hook: "Software perfeito não é ausência de defeitos, mas uma estratégia de excelência.",
+    summary:
+      "O texto reforça que qualidade depende de processos, disciplina e visão sistêmica.",
+    tags: ["qualidade", "processo", "software"],
+    titleEn: "Perfect Software",
+    categoryEn: "Technology",
+    hookEn: "Perfect software is not defect-free, but an excellence strategy.",
+    fileEn: "perfect-software.en.md",
+    summaryEn:
+      "The text reinforces that quality depends on process, discipline, and systemic vision.",
+  },
 ];

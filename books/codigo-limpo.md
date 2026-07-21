@@ -1,6 +1,7 @@
 # Resumo: Código Limpo
 
 ## Ficha Técnica
+
 - **Título:** Código Limpo: A Arte de Escrever Código Legível e Manutenível (Clean Code: A Handbook of Agile Software Craftsmanship)
 - **Autor:** Robert C. Martin (Uncle Bob)
 - **Ano:** 2008
@@ -9,6 +10,7 @@
 - **Nível:** Intermediário — recomendável experiência básica com programação
 
 ## Índice
+
 1. A Ideia Central
 2. Checklist de Implementação
 3. Quiz Rápido
@@ -54,11 +56,13 @@ Em equipes de desenvolvimento, a maior parte do tempo é gasta lendo e entendend
 ## Checklist de Implementação
 
 ### Antes de Começar
+
 - [ ] Revise um trecho de código recente e avalie: os nomes de variáveis e funções comunicam claramente sua intenção?
 - [ ] Identifique funções ou métodos com mais de uma responsabilidade
 - [ ] Verifique se existem testes automatizados cobrindo as partes críticas do código
 
 ### Durante Implementação
+
 - [ ] Renomeie variáveis e funções para refletir claramente seu propósito
 - [ ] Quebre funções grandes em funções menores, cada uma com uma única responsabilidade
 - [ ] Remova comentários que apenas explicam o que o código já deveria comunicar sozinho
@@ -66,6 +70,7 @@ Em equipes de desenvolvimento, a maior parte do tempo é gasta lendo e entendend
 - [ ] Aplique a regra do escoteiro: sempre que tocar em um arquivo, deixe-o um pouco melhor do que encontrou
 
 ### Após Implementação
+
 - [ ] Peça revisão de código (code review) de colegas para validar clareza e legibilidade
 - [ ] Verifique se os testes automatizados continuam passando após as refatorações
 - [ ] Monitore, ao longo do tempo, se a facilidade de manutenção do código melhorou
@@ -85,11 +90,13 @@ Em equipes de desenvolvimento, a maior parte do tempo é gasta lendo e entendend
 ## Conexões com Outros Livros
 
 ### Livros Relacionados
+
 - **Refactoring** (Martin Fowler) — aprofunda tecnicamente as técnicas de refatoração mencionadas por Martin.
 - **The Pragmatic Programmer** (David Thomas e Andrew Hunt) — complementa com princípios práticos mais amplos de boas práticas de engenharia de software.
 - **Domain-Driven Design** (Eric Evans) — expande a discussão sobre organização de código e design de classes para sistemas mais complexos.
 
 ### Sequência Sugerida de Leitura
+
 Código Limpo → The Pragmatic Programmer → Refactoring → Domain-Driven Design (dos princípios fundamentais de legibilidade até técnicas mais avançadas de refatoração e design de sistemas).
 
 ---
@@ -97,24 +104,29 @@ Código Limpo → The Pragmatic Programmer → Refactoring → Domain-Driven Des
 ## Avaliação Pessoal
 
 ### Pontos Fortes
+
 - Exemplos de código concretos que ilustram cada princípio de forma prática
 - Princípios atemporais, aplicáveis independentemente da linguagem de programação
 - Argumentação convincente sobre o impacto de longo prazo da qualidade de código
 
 ### Pontos Fracos
+
 - Exemplos majoritariamente em Java, o que pode tornar alguns trechos menos diretamente aplicáveis para quem programa em linguagens muito diferentes
 - Algumas recomendações (como o tamanho ideal de funções) são apresentadas de forma bastante rígida, e a comunidade de desenvolvedores hoje debate esses limites com mais nuance
 - O livro não aborda tão profundamente arquitetura de sistemas em larga escala, focando mais no nível de código e classes
 
 ### Para Quem É
+
 Desenvolvedores de software, de iniciantes a experientes, que quer melhorar a qualidade e manutenibilidade do código que escrevem no dia a dia.
 
 ### Para Quem Não É
+
 Profissionais que não escrevem código diretamente, ou que buscam conteúdo sobre arquitetura de sistemas em grande escala — nesse caso, outras obras do próprio autor (como "Arquitetura Limpa") seriam mais adequadas.
 
 ---
 
 ## Vale a Pena Ler o Livro Completo Se...
+
 - Você quer ver os exemplos de código completos, com o processo de refatoração passo a passo
 - Você trabalha em equipe e quer aprofundar práticas de code review e padrões de qualidade
 - Você deseja explorar capítulos específicos sobre tratamento de erros, testes e organização de sistemas com mais profundidade

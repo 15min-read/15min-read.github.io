@@ -1,24 +1,24 @@
-# Summary: O Poder do Hábito
+# Summary: The Power of Habit
 
 ## Metadata
 
-- **Title:** O Poder do Hábito: Por Que Fazemos o Que Fazemos e Como Mudar
+- **Title:** The Power of Habit: Why We Do What We Do and How to Change
 - **Author:** Charles Duhigg
 - **Year:** 2012
-- **Category:** Psicologia / Desenvolvimento Pessoal
-- **Reading Time:** 15 minutos
-- **Level:** Iniciante — nenhum conhecimento prévio necessário
+- **Category:** Psychology / Personal Development
+- **Reading Time:** 15 minutes
+- **Level:** Beginner — no prior knowledge required
 
-## Index
+## Table of Contents
 
-1. A Ideia Central
-2. Checklist de Implementação
-3. Quiz Rápido
-4. Conexões com Outros Livros
-5. Avaliação Pessoal
-6. Vale a Pena Ler o Livro Completo Se...
-7. Notas do Resumidor
-8. Recapitulação Rápida
+1. The Core Idea
+2. Implementation Checklist
+3. Quick Quiz
+4. Connections with Other Books
+5. Personal Review
+6. Worth Reading the Full Book If...
+7. Summarizer's Notes
+8. Quick Recap
 
 ---
 
@@ -26,31 +26,31 @@
 
 **Summary:**
 
-Duhigg, jornalista investigativo, explica como hábitos se formam e funcionam no cérebro, e por que compreender essa mecânica é a chave para mudá-los — tanto na vida individual quanto em organizações e sociedades. O argumento central é que hábitos não desaparecem quando tentamos eliminá-los; eles precisam ser substituídos, porque a estrutura neurológica que os sustenta permanece no cérebro mesmo depois que paramos de praticá-los.
+Duhigg, an investigative journalist, explains how habits form and work in the brain, and why understanding this mechanism is the key to changing them — both in individual life and in organizations and societies. The central argument is that habits don't disappear when we try to eliminate them; they need to be replaced, because the neurological structure that supports them remains in the brain even after we stop practicing them.
 
-O núcleo do livro é o modelo do **"loop do hábito"** (habit loop), composto por três elementos:
+The core of the book is the **habit loop** model, composed of three elements:
 
-1. **Deixa (cue)** — um gatilho, situação ou contexto que sinaliza ao cérebro para entrar em modo automático e qual comportamento executar.
-2. **Rotina (routine)** — o comportamento em si, físico, mental ou emocional.
-3. **Recompensa (reward)** — o benefício que o cérebro recebe, que ajuda a determinar se aquele loop específico vale a pena ser lembrado no futuro.
+1. **Cue** — a trigger, situation or context that signals the brain to enter automatic mode and which behavior to execute.
+2. **Routine** — the behavior itself, physical, mental or emotional.
+3. **Reward** — the benefit the brain receives, which helps determine whether that specific loop is worth remembering in the future.
 
-Com a repetição, esse loop gera um **"desejo"** (craving): o cérebro passa a antecipar a recompensa assim que percebe a deixa, e é esse desejo antecipatório — não a recompensa em si — que impulsiona o comportamento automático. Duhigg explica que os hábitos se formam nos gânglios basais, uma região cerebral profunda, e que, uma vez consolidados, exigem pouco ou nenhum esforço consciente para serem executados — o que libera capacidade mental para outras tarefas, mas também torna hábitos difíceis de erradicar.
+With repetition, this loop generates a **craving**: the brain starts anticipating the reward as soon as it perceives the cue, and it's this anticipatory craving — not the reward itself — that drives automatic behavior. Duhigg explains that habits form in the basal ganglia, a deep brain region, and that once consolidated, they require little or no conscious effort to execute — which frees up mental capacity for other tasks, but also makes habits hard to eradicate.
 
-A principal estratégia de mudança apresentada é a **regra de ouro da mudança de hábito**: não é possível simplesmente eliminar um hábito ruim, mas é possível mantê-lo funcionando com a mesma deixa e a mesma recompensa, alterando apenas a rotina no meio. Ou seja, substituir o comportamento problemático por um novo, mantendo a estrutura do loop intacta.
+The main change strategy presented is the **golden rule of habit change**: you can't simply eliminate a bad habit, but you can keep it working with the same cue and the same reward, changing only the routine in between. In other words, replace the problematic behavior with a new one, keeping the loop structure intact.
 
-Outro conceito central é o dos **"hábitos-chave"** (keystone habits): certos hábitos que, ao serem mudados, geram uma reação em cadeia positiva em outras áreas da vida. Exercício físico regular, por exemplo, frequentemente leva a melhorias espontâneas em alimentação, produtividade e humor, mesmo sem que a pessoa tenha planejado essas mudanças diretamente.
+Another central concept is that of **keystone habits**: certain habits that, when changed, generate a positive chain reaction in other areas of life. Regular physical exercise, for example, often leads to spontaneous improvements in eating, productivity and mood, even without the person having directly planned these changes.
 
-Duhigg também introduz o conceito de **força de vontade como "músculo"**: estudos citados no livro sugerem que a força de vontade é um recurso finito que se esgota ao longo do dia com o uso, mas que também pode ser fortalecida com prática consistente, de forma semelhante a um músculo físico.
+Duhigg also introduces the concept of **willpower as a "muscle"**: studies cited in the book suggest that willpower is a finite resource that gets depleted with use over the day, but that can also be strengthened with consistent practice, similar to a physical muscle.
 
-Por fim, o livro amplia a discussão para hábitos organizacionais e sociais — como empresas usam rotinas institucionais para moldar comportamento, e como movimentos sociais se espalham a partir da mudança de hábitos coletivos em comunidades.
+Finally, the book expands the discussion to organizational and social habits — how companies use institutional routines to shape behavior, and how social movements spread from the change of collective habits in communities.
 
-**Exemplo Prático:**
+**Practical Example:**
 
-Duhigg detalha o caso da Procter & Gamble e o lançamento do desodorizante de ambientes Febreze. Inicialmente, o produto vendeu mal, pois eliminava odores mas não deixava um cheiro perceptível — sem "recompensa" sensorial imediata, o hábito de usá-lo não se formava. A empresa reformulou o produto adicionando um perfume agradável e reposicionou a propaganda como parte do ritual de "finalizar a limpeza da casa", criando uma recompensa clara associada à rotina. As vendas dispararam, ilustrando na prática como a estrutura do loop do hábito (deixa, rotina, recompensa) determina se um comportamento se consolida ou não.
+Duhigg details the case of Procter & Gamble and the launch of the Febreze air freshener. Initially, the product sold poorly because it eliminated odors but left no noticeable scent — without an immediate sensory "reward," the habit of using it didn't form. The company reformulated the product adding a pleasant fragrance and repositioned the advertising as part of the "finish cleaning the house" ritual, creating a clear reward associated with the routine. Sales skyrocketed, demonstrating in practice how the habit loop structure (cue, routine, reward) determines whether a behavior consolidates or not.
 
-**Por que importa:**
+**Why It Matters:**
 
-Entender a mecânica dos hábitos tira o peso da "força de vontade" como única explicação para mudança de comportamento, e oferece um caminho mais realista: identificar o loop existente e substituir apenas a rotina, mantendo deixa e recompensa — uma abordagem mais eficaz do que tentar eliminar hábitos pela pura repressão.
+Understanding the mechanics of habits takes the weight off "willpower" as the sole explanation for behavior change, and offers a more realistic path: identify the existing loop and replace only the routine, keeping the cue and reward — an approach more effective than trying to eliminate habits through pure repression.
 
 ---
 
@@ -58,91 +58,91 @@ Entender a mecânica dos hábitos tira o peso da "força de vontade" como única
 
 ### Before Getting Started
 
-- [ ] Escolha um hábito específico que deseja mudar
-- [ ] Observe e anote, por alguns dias, a deixa que dispara esse hábito (horário, local, emoção, pessoas presentes)
-- [ ] Identifique qual recompensa real esse hábito está entregando (distração, alívio de estresse, prazer, conexão social)
+- [ ] Choose a specific habit you want to change
+- [ ] Observe and note, for a few days, the cue that triggers this habit (time, place, emotion, people present)
+- [ ] Identify what real reward this habit delivers (distraction, stress relief, pleasure, social connection)
 
 ### During Implementation
 
-- [ ] Teste rotinas alternativas que entreguem uma recompensa semelhante, mantendo a mesma deixa
-- [ ] Escreva um plano simples: "Quando [deixa], farei [nova rotina], para obter [recompensa]"
-- [ ] Considere adotar um "hábito-chave" (como exercício ou organização matinal) para gerar efeitos positivos em cadeia
-- [ ] Pratique fortalecer sua força de vontade em pequenas doses diárias, sem se sobrecarregar
+- [ ] Test alternative routines that deliver a similar reward, keeping the same cue
+- [ ] Write a simple plan: "When [cue], I will do [new routine], to get [reward]"
+- [ ] Consider adopting a "keystone habit" (like exercise or morning organization) to generate positive chain effects
+- [ ] Practice strengthening your willpower in small daily doses, without overloading yourself
 
 ### After Implementation
 
-- [ ] Revise semanalmente se a nova rotina está realmente substituindo o comportamento antigo
-- [ ] Ajuste a recompensa se o novo hábito não estiver se sustentando
-- [ ] Identifique se o novo hábito gerou efeitos positivos em outras áreas da vida (sinal de hábito-chave bem escolhido)
+- [ ] Weekly review whether the new routine is really replacing the old behavior
+- [ ] Adjust the reward if the new habit isn't sustaining itself
+- [ ] Identify if the new habit has generated positive effects in other areas of life (sign of a well-chosen keystone habit)
 
 ---
 
-## Quick Quiz (5 perguntas)
+## Quick Quiz (5 questions)
 
-1. Quais são os três componentes do "loop do hábito"?
-2. Por que, segundo Duhigg, não é possível simplesmente eliminar um hábito, apenas substituí-lo?
-3. O que é um "hábito-chave" (keystone habit) e qual seu efeito característico?
-4. O que o caso do Febreze demonstra sobre a importância da recompensa na formação de um hábito?
-5. Segundo o livro, a força de vontade se comporta mais como o quê: um traço fixo de personalidade ou um recurso que pode se esgotar e ser fortalecido?
+1. What are the three components of the "habit loop"?
+2. Why, according to Duhigg, can't you simply eliminate a habit, only replace it?
+3. What is a "keystone habit" and what's its characteristic effect?
+4. What does the Febreze case demonstrate about the importance of reward in habit formation?
+5. According to the book, does willpower behave more like a fixed personality trait or a resource that can be depleted and strengthened?
 
 ---
 
 ## Connections with Other Books
 
-### Livros Relacionados
+### Related Books
 
-- **Hábitos Atômicos** (James Clear) — expande o modelo do loop do hábito em um framework prático de quatro leis para construção e eliminação de hábitos.
-- **Inteligência Emocional** (Daniel Goleman) — complementa com a base neurológica das reações automáticas e regulação emocional.
-- **Essencialismo** (Greg McKeown) — ajuda a decidir quais hábitos e rotinas realmente merecem o investimento de energia para serem transformados.
+- **Atomic Habits** (James Clear) — expands the habit loop model into a practical four-law framework for building and eliminating habits.
+- **Emotional Intelligence** (Daniel Goleman) — complements with the neurological basis of automatic reactions and emotional regulation.
+- **Essentialism** (Greg McKeown) — helps decide which habits and routines really deserve the energy investment to be transformed.
 
-### Sequência Sugerida de Leitura
+### Suggested Reading Order
 
-O Poder do Hábito → Hábitos Atômicos → Inteligência Emocional → Essencialismo (do entendimento neurológico do hábito até sua aplicação prática, regulação emocional e priorização consciente).
+The Power of Habit → Atomic Habits → Emotional Intelligence → Essentialism (from the neurological understanding of habit to its practical application, emotional regulation and conscious prioritization).
 
 ---
 
 ## Personal Review
 
-### Pontos Fortes
+### Strengths
 
-- Narrativa envolvente, com estudos de caso reais de empresas, atletas e movimentos sociais
-- Explica de forma acessível a base neurocientífica dos hábitos sem ser excessivamente técnico
-- O conceito de "hábitos-chave" oferece um atalho estratégico interessante para mudança de comportamento
+- Engaging narrative, with real case studies of companies, athletes and social movements
+- Explains the neuroscientific basis of habits in an accessible way without being overly technical
+- The concept of "keystone habits" offers an interesting strategic shortcut for behavior change
 
-### Pontos Fracos
+### Weaknesses
 
-- Menos prescritivo do que outros livros do gênero — oferece menos passos práticos diretos de aplicação
-- Algumas histórias são longas e poderiam ser mais concisas para o ponto que ilustram
-- A seção sobre hábitos organizacionais e sociais, embora interessante, foge um pouco do foco pessoal do restante do livro
+- Less prescriptive than other books in the genre — offers fewer direct practical application steps
+- Some stories are long and could be more concise for the point they illustrate
+- The section on organizational and social habits, although interesting, strays a bit from the personal focus of the rest of the book
 
-### Para Quem É
+### For Whom
 
-Pessoas que gostam de entender o "porquê" por trás do comportamento humano antes de aplicar técnicas, e que apreciam boas narrativas e estudos de caso.
+People who like to understand the "why" behind human behavior before applying techniques, and who appreciate good stories and case studies.
 
-### Para Quem Não É
+### Not For Whom
 
-Quem busca um manual direto, com exercícios estruturados passo a passo — nesse caso, um livro mais prescritivo pode ser mais adequado.
+Anyone looking for a direct manual, with structured step-by-step exercises — in that case, a more prescriptive book may be more suitable.
 
 ---
 
 ## Worth Reading the Full Book If...
 
-- Você quer as histórias completas (P&G, Starbucks, movimentos de direitos civis) que ilustram os conceitos com mais profundidade
-- Você tem interesse particular em como hábitos funcionam em organizações e não apenas em nível individual
-- Você quer entender com mais detalhe os estudos científicos por trás do loop do hábito
+- You want the complete stories (P&G, Starbucks, civil rights movements) that illustrate the concepts in more depth
+- You have a particular interest in how habits work in organizations and not just at the individual level
+- You want to understand in more detail the scientific studies behind the habit loop
 
 ---
 
-## Summary Notes
+## Summarizer's Notes
 
-O grande diferencial do livro é reformular a mudança de comportamento como um problema de engenharia, não de força de vontade: identificar a deixa e a recompensa de um hábito indesejado permite substituir apenas a rotina do meio, uma abordagem mais realista e sustentável do que tentar "simplesmente parar" um comportamento automático.
+The great differentiator of the book is reframing behavior change as an engineering problem, not a willpower problem: identifying the cue and reward of an unwanted habit allows replacing only the middle routine, a more realistic and sustainable approach than trying to "just stop" an automatic behavior.
 
 ---
 
-## RECAPITULAÇÃO RÁPIDA (30 segundos)
+## QUICK RECAP (30 seconds)
 
-**Lembre do principal em 30 segundos:**
-Todo hábito segue um loop de deixa, rotina e recompensa. Não é possível eliminar hábitos, apenas substituí-los, mantendo a mesma deixa e recompensa. Hábitos-chave geram efeitos positivos em cadeia em outras áreas da vida.
+**Remember the main thing in 30 seconds:**
+Every habit follows a loop of cue, routine and reward. You can't eliminate habits, only replace them, keeping the same cue and reward. Keystone habits generate positive chain effects in other areas of life.
 
-**Ação imediata:**
-Identifique a deixa e a recompensa de um hábito que você quer mudar, e defina hoje mesmo uma nova rotina para testar no lugar dele.
+**Immediate action:**
+Identify the cue and reward of a habit you want to change, and define a new routine to test in its place right now.

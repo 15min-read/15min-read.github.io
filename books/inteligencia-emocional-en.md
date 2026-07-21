@@ -1,24 +1,24 @@
-# Summary: Inteligência Emocional
+# Summary: Emotional Intelligence
 
 ## Metadata
 
-- **Title:** Inteligência Emocional (Emotional Intelligence: Why It Can Matter More Than IQ)
+- **Title:** Emotional Intelligence: Why It Can Matter More Than IQ
 - **Author:** Daniel Goleman
 - **Year:** 1995
-- **Category:** Psicologia / Desenvolvimento Pessoal
-- **Reading Time:** 15 minutos
-- **Level:** Iniciante — nenhum conhecimento prévio necessário
+- **Category:** Psychology / Personal Development
+- **Reading Time:** 15 minutes
+- **Level:** Beginner — no prior knowledge required
 
-## Index
+## Table of Contents
 
-1. A Ideia Central
-2. Checklist de Implementação
-3. Quiz Rápido
-4. Conexões com Outros Livros
-5. Avaliação Pessoal
-6. Vale a Pena Ler o Livro Completo Se...
-7. Notas do Resumidor
-8. Recapitulação Rápida
+1. The Core Idea
+2. Implementation Checklist
+3. Quick Quiz
+4. Connections with Other Books
+5. Personal Review
+6. Worth Reading the Full Book If...
+7. Summarizer's Notes
+8. Quick Recap
 
 ---
 
@@ -26,29 +26,29 @@
 
 **Summary:**
 
-Goleman argumenta que o sucesso na vida — profissional, pessoal e social — depende menos do QI (inteligência racional/cognitiva) e muito mais daquilo que ele chama de inteligência emocional (IE): a capacidade de reconhecer, entender e gerenciar as próprias emoções, e também de perceber e lidar bem com as emoções dos outros. Segundo o autor, pessoas com QI alto mas baixa IE frequentemente fracassam em relações e carreiras, enquanto pessoas com QI moderado e alta IE se destacam.
+Goleman argues that success in life — professional, personal and social — depends less on IQ (rational/cognitive intelligence) and much more on what he calls emotional intelligence (EI): the ability to recognize, understand and manage one's own emotions, and also to perceive and handle others' emotions well. According to the author, people with high IQ but low EI often fail in relationships and careers, while people with moderate IQ and high EI stand out.
 
-O livro se apoia em descobertas da neurociência sobre o cérebro emocional, especialmente o papel da amígdala. Goleman descreve o fenômeno do **"sequestro amigdalar"** (amygdala hijack): situações em que a amígdala reage tão rápido a uma ameaça percebida que "sequestra" o córtex pré-frontal (responsável pelo raciocínio racional), levando a reações impulsivas e desproporcionais — como explosões de raiva ou pânico — antes mesmo que a pessoa processe racionalmente o que aconteceu.
+The book draws on neuroscientific discoveries about the emotional brain, especially the role of the amygdala. Goleman describes the phenomenon of the **"amygdala hijack"**: situations where the amygdala reacts so quickly to a perceived threat that it "hijacks" the prefrontal cortex (responsible for rational reasoning), leading to impulsive and disproportionate reactions — like outbursts of anger or panic — even before the person processes rationally what happened.
 
-Goleman estrutura a inteligência emocional em cinco componentes principais:
+Goleman structures emotional intelligence into five main components:
 
-1. **Autoconsciência** — reconhecer as próprias emoções enquanto elas acontecem, entender seus gatilhos e seu impacto.
-2. **Autorregulação** — gerenciar impulsos e emoções perturbadoras, mantendo o controle mesmo sob pressão.
-3. **Motivação** — usar as emoções a favor de objetivos de longo prazo, mantendo otimismo e persistência diante de contratempos.
-4. **Empatia** — perceber e compreender as emoções e perspectivas dos outros.
-5. **Habilidades sociais** — gerenciar relacionamentos, influenciar, liderar e resolver conflitos de forma eficaz.
+1. **Self-awareness** — recognizing your own emotions as they happen, understanding their triggers and their impact.
+2. **Self-regulation** — managing impulses and disturbing emotions, maintaining control even under pressure.
+3. **Motivation** — using emotions in favor of long-term goals, maintaining optimism and persistence in the face of setbacks.
+4. **Empathy** — perceiving and understanding others' emotions and perspectives.
+5. **Social skills** — managing relationships, influencing, leading and resolving conflicts effectively.
 
-Um ponto central é que, diferentemente do QI (relativamente fixo ao longo da vida), a inteligência emocional pode ser desenvolvida e fortalecida com prática e autoconhecimento, especialmente durante a infância e a adolescência, embora também na vida adulta. Isso torna a IE uma habilidade treinável, e não um traço imutável.
+A key point is that, unlike IQ (relatively fixed over life), emotional intelligence can be developed and strengthened with practice and self-knowledge, especially during childhood and adolescence, though also in adulthood. This makes EI a trainable skill, not an immutable trait.
 
-Goleman também discute as implicações sociais: falta de IE está associada a maior violência, dificuldades de relacionamento e problemas de saúde mental. Ele defende a importância da "alfabetização emocional" nas escolas — ensinar crianças a nomear e regular emoções — como forma de prevenção.
+Goleman also discusses the social implications: lack of EI is associated with greater violence, relationship difficulties and mental health problems. He advocates for the importance of "emotional literacy" in schools — teaching children to name and regulate emotions — as a form of prevention.
 
-**Exemplo Prático:**
+**Practical Example:**
 
-Um experimento citado no livro é o famoso "teste do marshmallow", conduzido por Walter Mischel: crianças pequenas recebiam um marshmallow e a promessa de ganhar um segundo se conseguissem esperar alguns minutos sem comê-lo. Anos depois, acompanhando essas crianças, pesquisadores encontraram uma correlação entre a capacidade de adiar a gratificação na infância e melhores resultados acadêmicos, sociais e emocionais na vida adulta — evidência do peso do autocontrole emocional sobre o desempenho futuro.
+An experiment cited in the book is the famous "marshmallow test," conducted by Walter Mischel: young children were given a marshmallow and promised a second one if they could wait a few minutes without eating it. Years later, following up on these children, researchers found a correlation between the ability to delay gratification in childhood and better academic, social and emotional outcomes in adulthood — evidence of the weight of emotional self-control on future performance.
 
-**Por que importa:**
+**Why It Matters:**
 
-Entender e desenvolver a inteligência emocional muda a forma como lidamos com estresse, conflitos e relacionamentos. Em vez de reagir automaticamente a partir de impulsos, a pessoa passa a responder de forma mais consciente, o que impacta diretamente qualidade de vida, carreira e conexões pessoais.
+Understanding and developing emotional intelligence changes how we handle stress, conflicts and relationships. Instead of reacting automatically from impulses, the person starts to respond more consciously, which directly impacts quality of life, career and personal connections.
 
 ---
 
@@ -56,91 +56,91 @@ Entender e desenvolver a inteligência emocional muda a forma como lidamos com e
 
 ### Before Getting Started
 
-- [ ] Reserve um momento diário para observar e nomear suas emoções (diário emocional)
-- [ ] Identifique seus gatilhos mais comuns de "sequestro amigdalar" (raiva, ansiedade)
-- [ ] Avalie, honestamente, em qual dos cinco componentes de IE você é mais fraco
+- [ ] Reserve a daily moment to observe and name your emotions (emotional journal)
+- [ ] Identify your most common "amygdala hijack" triggers (anger, anxiety)
+- [ ] Honestly evaluate which of the five EI components you're weakest in
 
 ### During Implementation
 
-- [ ] Pratique a pausa antes de reagir: respire e conte até dez em momentos de tensão
-- [ ] Treine escuta ativa em conversas, focando em entender antes de responder
-- [ ] Pratique nomear emoções dos outros em situações sociais (empatia ativa)
-- [ ] Use técnicas de regulação (respiração, reformulação cognitiva) quando notar irritação ou ansiedade
+- [ ] Practice pausing before reacting: breathe and count to ten in tense moments
+- [ ] Practice active listening in conversations, focusing on understanding before responding
+- [ ] Practice naming others' emotions in social situations (active empathy)
+- [ ] Use regulation techniques (breathing, cognitive reframing) when you notice irritation or anxiety
 
 ### After Implementation
 
-- [ ] Revise semanalmente situações em que reagiu bem ou mal emocionalmente
-- [ ] Peça feedback de pessoas próximas sobre como você lida com conflitos
-- [ ] Ajuste gradualmente suas respostas automáticas com base no que aprendeu
+- [ ] Weekly review situations where you reacted well or poorly emotionally
+- [ ] Ask people close to you for feedback on how you handle conflicts
+- [ ] Gradually adjust your automatic reactions based on what you've learned
 
 ---
 
-## Quick Quiz (5 perguntas)
+## Quick Quiz (5 questions)
 
-1. O que é o "sequestro amigdalar" e por que ele acontece?
-2. Quais são os cinco componentes da inteligência emocional segundo Goleman?
-3. Por que a IE é considerada mais treinável do que o QI?
-4. O que o teste do marshmallow revelou sobre autocontrole e resultados futuros?
-5. Segundo o autor, por que a alfabetização emocional nas escolas é importante?
+1. What is the "amygdala hijack" and why does it happen?
+2. What are the five components of emotional intelligence according to Goleman?
+3. Why is EI considered more trainable than IQ?
+4. What did the marshmallow test reveal about self-control and future outcomes?
+5. According to the author, why is emotional literacy in schools important?
 
 ---
 
 ## Connections with Other Books
 
-### Livros Relacionados
+### Related Books
 
-- **Liderança: A Inteligência Emocional na Formação do Líder Excepcional** (Daniel Goleman) — aplica os conceitos de IE especificamente ao contexto de liderança e gestão.
-- **Mindset** (Carol Dweck) — complementa a ideia de que capacidades (incluindo emocionais) podem ser desenvolvidas, não são fixas.
-- **Rápido e Devagar** (Daniel Kahneman) — explora os dois sistemas de pensamento (rápido/emocional e devagar/racional), oferecendo base cognitiva para entender reações impulsivas.
+- **Leadership: Emotional Intelligence in the Making of Exceptional Leaders** (Daniel Goleman) — applies EI concepts specifically to the context of leadership and management.
+- **Mindset** (Carol Dweck) — complements the idea that abilities (including emotional ones) can be developed, not fixed.
+- **Thinking, Fast and Slow** (Daniel Kahneman) — explores the two systems of thinking (fast/emotional and slow/rational), offering a cognitive basis for understanding impulsive reactions.
 
-### Sequência Sugerida de Leitura
+### Suggested Reading Order
 
-Inteligência Emocional → Rápido e Devagar → Mindset → Liderança (do fundamento emocional/cognitivo até a aplicação prática em liderança).
+Emotional Intelligence → Thinking, Fast and Slow → Mindset → Leadership (from the emotional/cognitive foundation to practical application in leadership).
 
 ---
 
 ## Personal Review
 
-### Pontos Fortes
+### Strengths
 
-- Base científica sólida, com estudos de neurociência e psicologia bem explicados
-- Introduz um vocabulário útil (sequestro amigdalar, os cinco componentes de IE) para entender comportamentos do dia a dia
-- Argumenta de forma convincente sobre a importância prática da IE em diversas áreas da vida
+- Solid scientific basis, with well-explained neuroscience and psychology studies
+- Introduces a useful vocabulary (amygdala hijack, the five EI components) for understanding everyday behaviors
+- Convincingly argues for the practical importance of EI in various areas of life
 
-### Pontos Fracos
+### Weaknesses
 
-- Livro longo e denso, com muitas seções sobre neurociência que podem cansar leitores que buscam algo mais direto
-- Poucas ferramentas práticas passo a passo — é mais descritivo/explicativo do que um manual de exercícios
-- Alguns estudos citados (como o do marshmallow) tiveram resultados questionados por pesquisas posteriores, algo que o leitor deve considerar com espírito crítico
+- Long and dense book, with many neuroscience sections that may tire readers looking for something more direct
+- Few step-by-step practical tools — it's more descriptive/explanatory than an exercise manual
+- Some cited studies (like the marshmallow test) have had results questioned by later research, something the reader should consider with a critical eye
 
-### Para Quem É
+### For Whom
 
-Pessoas interessadas em entender a base científica das emoções e como elas afetam decisões, relacionamentos e desempenho profissional.
+People interested in understanding the scientific basis of emotions and how they affect decisions, relationships and professional performance.
 
-### Para Quem Não É
+### Not For Whom
 
-Quem busca um guia prático e direto com exercícios passo a passo — nesse caso, livros mais recentes sobre IE aplicada podem ser mais objetivos.
+Anyone looking for a practical and direct guide with step-by-step exercises — in that case, more recent books on applied EI may be more objective.
 
 ---
 
 ## Worth Reading the Full Book If...
 
-- Você quer entender profundamente a neurociência por trás das emoções
-- Você é educador, pai/mãe ou profissional de saúde interessado em desenvolvimento emocional infantil
-- Você quer os estudos de caso completos que sustentam os argumentos do autor
+- You want to deeply understand the neuroscience behind emotions
+- You're an educator, parent or health professional interested in children's emotional development
+- You want the complete case studies that support the author's arguments
 
 ---
 
-## Summary Notes
+## Summarizer's Notes
 
-O grande mérito do livro é ter popularizado, já nos anos 90, a ideia de que emoções não são "ruído" a ser ignorado pela razão, mas um sistema de informação essencial para boas decisões e relações saudáveis. O conceito de sequestro amigdalar continua extremamente útil como ferramenta mental para reconhecer reações desproporcionais em tempo real.
+The great merit of the book is having popularized, back in the 90s, the idea that emotions aren't "noise" to be ignored by reason, but an essential information system for good decisions and healthy relationships. The concept of amygdala hijack remains extremely useful as a mental tool for recognizing disproportionate reactions in real time.
 
 ---
 
-## RECAPITULAÇÃO RÁPIDA (30 segundos)
+## QUICK RECAP (30 seconds)
 
-**Lembre do principal em 30 segundos:**
-Inteligência emocional (autoconsciência, autorregulação, motivação, empatia e habilidades sociais) pesa mais que o QI para o sucesso na vida. Emoções mal geridas podem "sequestrar" o raciocínio racional. A boa notícia: IE pode ser desenvolvida.
+**Remember the main thing in 30 seconds:**
+Emotional intelligence (self-awareness, self-regulation, motivation, empathy and social skills) weighs more than IQ for life success. Poorly managed emotions can "hijack" rational thinking. The good news: EI can be developed.
 
-**Ação imediata:**
-Na próxima situação de tensão, pause antes de reagir e nomeie a emoção que está sentindo antes de agir.
+**Immediate action:**
+Next tense situation, pause before reacting and name the emotion you're feeling before acting.

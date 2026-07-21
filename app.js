@@ -25,6 +25,25 @@ const localeTexts = {
     footerLineTwo:
       "Não substituem a leitura das obras originais. Todos os direitos das obras pertencem aos respectivos autores e editoras.",
     allCategory: "Todos",
+    quoteEyebrow: "Do editor",
+    quoteText: "Durante uma vida humana média, é possível ler apenas alguns milhares de livros — cerca de 0,1% das maiores bibliotecas do mundo. O segredo é saber quais ler.",
+    quoteAuthor: "— Carl Sagan",
+    catalogLoading: "Carregando livros…",
+    catalogEmpty: "Nenhum livro disponível no momento. Tente novamente mais tarde.",
+    searchEmpty: "Nada encontrado. Tente outra palavra-chave ou remova o filtro de categoria.",
+    readSummary: "Ler resumo >",
+    openSummary: "Abrir resumo: ",
+    detailLoading: "Carregando resumo…",
+    detailHome: "Biblioteca",
+    detailSummaryHeading: "Resumo interpretativo",
+    detailSidebarHeading: "Por que vale a pena ler",
+    detailContinueReading: "Continue lendo em",
+    detailSidebarPoints: [
+      "Entende o argumento central sem perder tempo.",
+      "Conecta ideias a hábitos, carreira e pensamento crítico.",
+      "Serve como referência rápida para estudo e revisão.",
+    ],
+    summaryUnavailable: "Resumo indisponível.",
   },
   en: {
     htmlLang: "en",
@@ -45,6 +64,25 @@ const localeTexts = {
     footerLineTwo:
       "Not a substitute for the original works. All rights belong to the authors and publishers.",
     allCategory: "All",
+    quoteEyebrow: "From the editor",
+    quoteText: "In an average human lifetime, you can read only a few thousand books — about 0.1% of the world's greatest libraries. The secret is knowing which ones to read.",
+    quoteAuthor: "— Carl Sagan",
+    catalogLoading: "Loading books…",
+    catalogEmpty: "No books are available right now. Please try again later.",
+    searchEmpty: "Nothing found. Try another keyword or clear the category filter.",
+    readSummary: "Read summary >",
+    openSummary: "Open summary: ",
+    detailLoading: "Loading summary…",
+    detailHome: "Library",
+    detailSummaryHeading: "Interpretive Summary",
+    detailSidebarHeading: "Why it is worth reading",
+    detailContinueReading: "Keep reading in",
+    detailSidebarPoints: [
+      "Understand the core argument without wasting time.",
+      "Connect ideas to habits, career, and critical thinking.",
+      "Use it as a quick reference for study and review.",
+    ],
+    summaryUnavailable: "Summary unavailable.",
   },
 };
 
@@ -102,6 +140,7 @@ const state = {
   query: "",
   category: localeTexts[getPreferredLanguage()].allCategory,
   language: getPreferredLanguage(),
+  isChangingLanguage: false,
 };
 
 const booksGrid = document.getElementById("booksGrid");
@@ -168,6 +207,9 @@ function translateStaticText() {
     locale.readingTimeLabel;
   document.getElementById("footerLineOne").textContent = locale.footerLineOne;
   document.getElementById("footerLineTwo").textContent = locale.footerLineTwo;
+  document.getElementById("quoteEyebrow").textContent = locale.quoteEyebrow;
+  document.getElementById("quoteText").textContent = `"${locale.quoteText}"`;
+  document.getElementById("quoteAuthor").textContent = locale.quoteAuthor;
   applyDocumentMetadata();
 }
 
@@ -227,25 +269,36 @@ function setLanguage(language) {
   applyLanguage(normalizedLanguage);
 
   if (currentRoute.slug) {
+    // Save current scroll position before updating hash
+    const currentScrollY = window.scrollY;
+    state.isChangingLanguage = true;
     window.location.hash = `${getRoutePrefix(normalizedLanguage)}${currentRoute.slug}`;
+    // Restore scroll position after hash change
+    window.scrollTo(0, currentScrollY);
+    // Reset the flag after a short time
+    setTimeout(() => {
+      state.isChangingLanguage = false;
+    }, 100);
     return;
   }
 
-  routeFromHash();
+  // When on home, don't call routeFromHash (which triggers focus/scroll), just re-render
+  renderCatalogView();
 }
 
 function getCatalogLoadingMessage() {
-  return state.language === "en" ? "Loading books…" : "Carregando livros…";
+  const language = normalizeLanguage(state.language, DEFAULT_LANGUAGE);
+  return localeTexts[language].catalogLoading;
 }
 
 function getCatalogEmptyMessage() {
-  return state.language === "en"
-    ? "No books are available right now. Please try again later."
-    : "Nenhum livro disponível no momento. Tente novamente mais tarde.";
+  const language = normalizeLanguage(state.language, DEFAULT_LANGUAGE);
+  return localeTexts[language].catalogEmpty;
 }
 
 function getDetailLoadingMessage() {
-  return state.language === "en" ? "Loading summary…" : "Carregando resumo…";
+  const language = normalizeLanguage(state.language, DEFAULT_LANGUAGE);
+  return localeTexts[language].detailLoading;
 }
 
 function renderCatalogMessage(message, isError = false) {
@@ -259,7 +312,9 @@ function renderCatalogView() {
     return;
   }
 
-  renderFilters(books, state, filters);
+  const language = normalizeLanguage(state.language, DEFAULT_LANGUAGE);
+  const locale = localeTexts[language];
+  renderFilters(books, state, filters, locale);
   renderBooks(
     books,
     state,
@@ -267,10 +322,11 @@ function renderCatalogView() {
     categoryColors,
     bookCount,
     categoryCount,
+    locale,
   );
 }
 
-function showHome() {
+function showHome(shouldScrollAndFocus = true) {
   heroSection.hidden = false;
   filterBar.hidden = false;
   booksGrid.hidden = false;
@@ -278,7 +334,9 @@ function showHome() {
   detailView.innerHTML = "";
   renderCatalogView();
   applyDocumentMetadata();
-  focusMainContent();
+  if (shouldScrollAndFocus) {
+    focusMainContent();
+  }
 }
 
 function resetScroll() {
@@ -291,36 +349,41 @@ function resetScroll() {
   root.style.scrollBehavior = behavior;
 }
 
-async function showDetail(slug) {
+async function showDetail(slug, shouldScrollAndFocus = true) {
   const book = books.find((entry) => entry.slug === slug);
   if (!book) {
     window.location.hash = "";
-    showHome();
+    showHome(shouldScrollAndFocus);
     return;
   }
 
+  const language = normalizeLanguage(state.language, DEFAULT_LANGUAGE);
+  const locale = localeTexts[language];
+  
   heroSection.hidden = true;
   filterBar.hidden = true;
   booksGrid.hidden = true;
   detailView.hidden = false;
   detailView.innerHTML = `<article class="detail-page"><div class="detail-page__loading" role="status">${getDetailLoadingMessage()}</div></article>`;
-  await renderDetail(book, books, detailView, loadBookMarkdown, state.language);
+  await renderDetail(book, books, detailView, loadBookMarkdown, state.language, locale);
   applyDocumentMetadata(getBookTitle(book, state.language));
   await new Promise((resolve) => requestAnimationFrame(resolve));
-  resetScroll();
-  focusDetailHeading();
+  if (shouldScrollAndFocus) {
+    resetScroll();
+    focusDetailHeading();
+  }
 }
 
-async function routeFromHash() {
+async function routeFromHash(shouldScrollAndFocus = true) {
   const route = parseRouteHash(window.location.hash);
   if (route.language && route.language !== state.language) {
     applyLanguage(route.language);
   }
 
   if (route.slug) {
-    await showDetail(route.slug);
+    await showDetail(route.slug, shouldScrollAndFocus);
   } else {
-    showHome();
+    showHome(shouldScrollAndFocus);
   }
 }
 
@@ -361,25 +424,7 @@ if (languageSwitcher) {
   });
 }
 
-if (booksGrid) {
-  booksGrid.addEventListener("click", (event) => {
-    const card = event.target.closest(".book-card");
-    if (!card) return;
-    const slug = card.getAttribute("data-slug");
-    window.location.hash = `${getRoutePrefix(state.language)}${slug}`;
-  });
-}
 
-if (booksGrid) {
-  booksGrid.addEventListener("keydown", (event) => {
-    if (event.key === "Enter" || event.key === " ") {
-      const card = event.target.closest(".book-card");
-      if (!card) return;
-      event.preventDefault();
-      card.click();
-    }
-  });
-}
 
 if (detailView) {
   detailView.addEventListener("click", (event) => {
@@ -410,7 +455,7 @@ if (detailView) {
 }
 
 window.addEventListener("hashchange", () => {
-  routeFromHash();
+  routeFromHash(!state.isChangingLanguage);
 });
 
 loadBooks().catch((error) => {

@@ -2,23 +2,23 @@
 
 ## Metadata
 
-- **Title:** Deep Work: Regras para o Sucesso Focado em um Mundo Distraído
+- **Title:** Deep Work: Rules for Focused Success in a Distracted World
 - **Author:** Cal Newport
 - **Year:** 2016
-- **Category:** Produtividade / Desenvolvimento Profissional
-- **Reading Time:** 15 minutos
-- **Level:** Iniciante — nenhum conhecimento prévio necessário
+- **Category:** Productivity / Professional Development
+- **Reading Time:** 15 minutes
+- **Level:** Beginner — no prior knowledge required
 
 ## Index
 
-1. A Ideia Central
-2. Checklist de Implementação
-3. Quiz Rápido
-4. Conexões com Outros Livros
-5. Avaliação Pessoal
-6. Vale a Pena Ler o Livro Completo Se...
-7. Notas do Resumidor
-8. Recapitulação Rápida
+1. The Core Idea
+2. Implementation Checklist
+3. Quick Quiz
+4. Connections with Other Books
+5. Personal Review
+6. Worth Reading the Full Book If...
+7. Summarizer's Notes
+8. Quick Recap
 
 ---
 
@@ -26,120 +26,120 @@
 
 **Summary:**
 
-Cal Newport, professor de ciência da computação, define **"trabalho profundo"** (deep work) como a capacidade de focar sem distrações em uma tarefa cognitivamente exigente, levando as habilidades ao limite. Em oposição, o **"trabalho raso"** (shallow work) engloba tarefas de baixo valor cognitivo, frequentemente executadas em estado de distração (e-mails, reuniões desnecessárias, redes sociais), que podem ser replicadas com facilidade e geram pouco valor diferenciado.
+Cal Newport, computer science professor, defines **"deep work"** as the ability to focus without distraction on a cognitively demanding task, pushing skills to their limit. In contrast, **"shallow work"** includes low cognitive value tasks, often performed in a state of distraction (emails, unnecessary meetings, social media), which can be easily replicated and generate little differentiated value.
 
-A tese central do livro é que a capacidade de realizar trabalho profundo está se tornando cada vez mais rara — justamente porque ambientes de trabalho modernos incentivam distração constante e conectividade permanente — e, ao mesmo tempo, cada vez mais valiosa, porque é ela que permite produzir resultados de alto valor em uma economia cada vez mais baseada em conhecimento e criatividade. Newport resume essa ideia na fórmula: **valor do trabalho produzido = tempo gasto × intensidade do foco**.
+The book's central thesis is that the ability to perform deep work is becoming increasingly rare — precisely because modern work environments encourage constant distraction and permanent connectivity — and, at the same time, increasingly valuable, because it's what allows producing high-value results in an economy increasingly based on knowledge and creativity. Newport summarizes this idea in the formula: **value of work produced = time spent × focus intensity**.
 
-Newport argumenta que duas habilidades centrais determinam sucesso nesse novo cenário econômico: (1) a capacidade de aprender rapidamente coisas complexas, e (2) a capacidade de produzir em um nível de qualidade e velocidade elevados. Ambas dependem diretamente da capacidade de realizar trabalho profundo — algo que se conecta ao conceito de **"prática deliberada"**, popularizado por pesquisas sobre desempenho de elite: para dominar habilidades complexas, é necessário atenção focada e sem distrações, com feedback específico sobre o desempenho.
+Newport argues that two core skills determine success in this new economic scenario: (1) the ability to quickly learn complex things, and (2) the ability to produce at a high level of quality and speed. Both depend directly on the ability to perform deep work — something that connects to the concept of **"deliberate practice,"** popularized by research on elite performance: to master complex skills, focused and distraction-free attention is needed, with specific feedback on performance.
 
-O livro apresenta quatro filosofias de aplicação do trabalho profundo, que a pessoa pode adaptar conforme sua rotina:
+The book presents four philosophies for applying deep work, which the person can adapt to their routine:
 
-1. **Monástica** — eliminar quase completamente distrações e compromissos rasos, dedicando praticamente toda a rotina profissional ao trabalho profundo (mais comum em escritores e pesquisadores independentes).
-2. **Bimodal** — dividir o tempo em blocos claramente definidos, alternando entre períodos dedicados exclusivamente a trabalho profundo (dias ou semanas) e períodos abertos a trabalho raso.
-3. **Ritualística** — reservar blocos fixos e regulares na rotina diária (mesmo horário, mesmo local) exclusivamente para trabalho profundo, tornando-o um hábito estruturado.
-4. **Jornalística** — encaixar sessões de trabalho profundo sempre que houver uma brecha na agenda, exigindo alta capacidade de transição rápida entre modos de atenção (mais indicada para profissionais experientes).
+1. **Monastic** — eliminate almost all distractions and shallow commitments, dedicating practically the entire professional routine to deep work (most common among writers and independent researchers).
+2. **Bimodal** — divide time into clearly defined blocks, alternating between periods dedicated exclusively to deep work (days or weeks) and periods open to shallow work.
+3. **Ritualistic** — reserve fixed and regular blocks in the daily routine (same time, same place) exclusively for deep work, making it a structured habit.
+4. **Journalistic** — fit deep work sessions whenever there's a gap in the schedule, requiring high ability to quickly switch between attention modes (most suitable for experienced professionals).
 
-Newport também defende práticas específicas para viabilizar o trabalho profundo, como: eliminar ou reduzir drasticamente o uso de redes sociais quando seu valor real para os objetivos da pessoa não é claramente comprovado (o que ele chama de "critério do artesão"); praticar o **"tédio produtivo"**, ou seja, resistir ao impulso de preencher todo momento de tédio com estímulos digitais, fortalecendo a capacidade de concentração; e estabelecer rituais claros de início e fim do trabalho profundo, incluindo um horário definido para "desligar" completamente do trabalho.
+Newport also advocates specific practices to enable deep work, such as: eliminate or drastically reduce the use of social media when its real value for the person's goals is not clearly proven (what he calls the "craftsman's criterion"); practice **"productive boredom,"** i.e., resist the urge to fill every moment of boredom with digital stimuli, strengthening concentration ability; and establish clear start and end rituals for deep work, including a defined time to "log off" completely from work.
 
-**Exemplo Prático:**
+**Practical Example:**
 
-Newport cita o caso do escritor J.K. Rowling, que, durante a escrita de um de seus livros, se hospedou em um hotel de luxo especificamente para eliminar distrações do ambiente doméstico e garantir blocos ininterruptos de escrita concentrada — uma aplicação prática da filosofia monástica de trabalho profundo, ainda que de forma temporária e pontual.
+Newport cites the case of writer J.K. Rowling, who, while writing one of her books, stayed at a luxury hotel specifically to eliminate distractions from the home environment and ensure uninterrupted blocks of focused writing — a practical application of the monastic philosophy of deep work, albeit temporarily and on an ad-hoc basis.
 
-**Por que importa:**
+**Why it matters:**
 
-Em um ambiente de trabalho cada vez mais dominado por notificações, reuniões e multitarefa, a capacidade de proteger blocos de atenção profunda e ininterrupta se torna um diferencial competitivo real — tanto para a qualidade do trabalho produzido quanto para a satisfação pessoal, já que Newport argumenta que o trabalho profundo também está associado a maior senso de significado e realização profissional.
+In a work environment increasingly dominated by notifications, meetings, and multitasking, the ability to protect blocks of deep and uninterrupted attention becomes a real competitive advantage — both for the quality of the work produced and for personal satisfaction, as Newport argues that deep work is also associated with a greater sense of meaning and professional fulfillment.
 
 ---
 
 ## Implementation Checklist
 
-### Before Getting Started
+### Before Starting
 
-- [ ] Identifique quais tarefas do seu trabalho são realmente "profundas" (exigem foco intenso) e quais são "rasas"
-- [ ] Avalie qual das quatro filosofias (monástica, bimodal, ritualística, jornalística) melhor se encaixa na sua rotina e tipo de trabalho
-- [ ] Analise honestamente o uso de redes sociais e ferramentas digitais: elas realmente trazem valor comprovado para seus objetivos?
+- [ ] Identify which tasks in your work are really "deep" (require intense focus) and which are "shallow"
+- [ ] Evaluate which of the four philosophies (monastic, bimodal, ritualistic, journalistic) best fits your routine and work type
+- [ ] Honestly analyze the use of social media and digital tools: do they really bring proven value to your goals?
 
 ### During Implementation
 
-- [ ] Bloqueie horários fixos na agenda exclusivamente para trabalho profundo, tratando-os como compromissos inegociáveis
-- [ ] Elimine notificações e acesso a redes sociais/e-mail durante esses blocos
-- [ ] Crie um ritual de início (local, horário, preparação) que sinalize ao cérebro a entrada em modo de foco profundo
-- [ ] Pratique tolerar momentos de tédio sem recorrer imediatamente a distrações digitais
+- [ ] Block fixed times in the schedule exclusively for deep work, treating them as non-negotiable commitments
+- [ ] Eliminate notifications and access to social media/email during these blocks
+- [ ] Create a start ritual (location, time, preparation) that signals to the brain the entry into deep focus mode
+- [ ] Practice tolerating moments of boredom without immediately resorting to digital distractions
 
 ### After Implementation
 
-- [ ] Revise semanalmente quanto tempo real foi dedicado a trabalho profundo versus trabalho raso
-- [ ] Ajuste a filosofia escolhida caso ela não esteja se encaixando bem na sua rotina real
-- [ ] Avalie a qualidade e o impacto dos resultados produzidos durante os blocos de trabalho profundo
+- [ ] Review weekly how much real time was dedicated to deep work versus shallow work
+- [ ] Adjust the chosen philosophy if it's not fitting well into your real routine
+- [ ] Evaluate the quality and impact of results produced during deep work blocks
 
 ---
 
-## Quick Quiz (5 perguntas)
+## Quick Quiz (5 questions)
 
-1. Qual é a diferença central entre trabalho profundo e trabalho raso?
-2. Qual é a fórmula que Newport propõe para o valor do trabalho produzido?
-3. Quais são as quatro filosofias de aplicação do trabalho profundo apresentadas no livro?
-4. O que Newport quer dizer com "critério do artesão" em relação ao uso de redes sociais?
-5. Por que a prática do "tédio produtivo" é considerada importante para fortalecer a capacidade de concentração?
+1. What is the central difference between deep work and shallow work?
+2. What is the formula Newport proposes for the value of work produced?
+3. What are the four philosophies for applying deep work presented in the book?
+4. What does Newport mean by "craftsman's criterion" regarding social media use?
+5. Why is the practice of "productive boredom" considered important for strengthening concentration ability?
 
 ---
 
 ## Connections with Other Books
 
-### Livros Relacionados
+### Related Books
 
-- **Essencialismo** (Greg McKeown) — complementa com o discernimento sobre quais atividades merecem foco e energia.
-- **Hábitos Atômicos** (James Clear) — oferece ferramentas práticas para transformar os rituais de trabalho profundo em hábitos consistentes.
-- **Rápido e Devagar** (Daniel Kahneman) — traz base cognitiva sobre os dois sistemas de pensamento, relevante para entender os custos de alternância de atenção (multitarefa).
+- **Essentialism** (Greg McKeown) — complements with discernment about which activities deserve focus and energy.
+- **Atomic Habits** (James Clear) — offers practical tools to turn deep work rituals into consistent habits.
+- **Thinking, Fast and Slow** (Daniel Kahneman) — brings cognitive basis about the two thinking systems, relevant for understanding the costs of attention switching (multitasking).
 
-### Sequência Sugerida de Leitura
+### Suggested Reading Sequence
 
-Essencialismo → Deep Work → Hábitos Atômicos → Rápido e Devagar (do discernimento sobre prioridades até a execução focada, sua consolidação em hábito e o entendimento cognitivo por trás da atenção).
+Essentialism → Deep Work → Atomic Habits → Thinking, Fast and Slow (from discernment about priorities to focused execution, its consolidation into a habit, and the cognitive understanding behind attention).
 
 ---
 
 ## Personal Review
 
-### Pontos Fortes
+### Strengths
 
-- Argumento bem fundamentado sobre o valor econômico e pessoal do foco profundo
-- Apresenta múltiplas filosofias de aplicação, reconhecendo que diferentes rotinas exigem abordagens diferentes
-- Combina estudos de caso de diferentes áreas (acadêmicos, escritores, executivos) para sustentar os argumentos
+- Well-founded argument about the economic and personal value of deep focus
+- Presents multiple application philosophies, recognizing that different routines require different approaches
+- Combines case studies from different areas (academics, writers, executives) to support arguments
 
-### Pontos Fracos
+### Weaknesses
 
-- Algumas recomendações (como a filosofia monástica) são pouco realistas para a maioria dos profissionais em empregos convencionais
-- Posição bastante rígida contra redes sociais pode soar radical para leitores que dependem delas profissionalmente (ex: criadores de conteúdo)
-- Menor foco em como lidar com ambientes de trabalho colaborativos que exigem alta disponibilidade e resposta rápida
+- Some recommendations (like the monastic philosophy) are unrealistic for most professionals in conventional jobs
+- Quite rigid position against social media may sound radical for readers who depend on them professionally (e.g., content creators)
+- Less focus on how to deal with collaborative work environments that require high availability and quick response
 
-### Para Quem É
+### Who It's For
 
-Profissionais de conhecimento (escritores, programadores, pesquisadores, criativos) que sentem que distrações constantes estão prejudicando a qualidade do seu trabalho.
+Knowledge professionals (writers, programmers, researchers, creatives) who feel that constant distractions are harming their work quality.
 
-### Para Quem Não É
+### Who It's Not For
 
-Profissionais cujas funções dependem essencialmente de disponibilidade constante e resposta rápida a demandas externas (ex: suporte ao cliente, funções operacionais reativas), para quem as filosofias propostas são mais difíceis de aplicar diretamente.
+Professionals whose roles depend essentially on constant availability and quick response to external demands (e.g., customer support, reactive operational roles), for whom the proposed philosophies are harder to apply directly.
 
 ---
 
 ## Worth Reading the Full Book If...
 
-- Você quer mais exemplos e estudos de caso detalhados de profissionais que aplicam trabalho profundo com sucesso
-- Você busca estratégias específicas e aprofundadas para reduzir o uso de redes sociais e tecnologia distrativa
-- Você quer explorar com mais profundidade a relação entre trabalho profundo e significado profissional
+- You want more examples and detailed case studies of professionals who apply deep work successfully
+- You seek specific and in-depth strategies to reduce the use of social media and distracting technology
+- You want to explore more deeply the relationship between deep work and professional meaning
 
 ---
 
-## Summary Notes
+## Summarizer's Notes
 
-O maior valor prático do livro está na fórmula simples "valor = tempo × intensidade do foco", que ajuda a reformular a produtividade não como uma questão de horas trabalhadas, mas de qualidade de atenção investida. Isso é especialmente relevante em profissões criativas e de conhecimento, onde o resultado depende mais da profundidade do pensamento do que do tempo total dedicado.
+The book's greatest practical value lies in the simple formula "value = time × focus intensity," which helps reframe productivity not as a matter of hours worked, but of quality of attention invested. This is especially relevant in creative and knowledge professions, where the result depends more on depth of thought than on total time spent.
 
 ---
 
-## RECAPITULAÇÃO RÁPIDA (30 segundos)
+## QUICK RECAP (30 seconds)
 
-**Lembre do principal em 30 segundos:**
-Trabalho profundo (foco intenso, sem distrações) gera muito mais valor do que trabalho raso. Escolha uma filosofia de aplicação (monástica, bimodal, ritualística ou jornalística) compatível com sua rotina, e proteja blocos de tempo exclusivos para isso, eliminando distrações digitais.
+**Remember the main point in 30 seconds:**
+Deep work (intense focus, no distractions) generates much more value than shallow work. Choose an application philosophy (monastic, bimodal, ritualistic, or journalistic) compatible with your routine, and protect exclusive time blocks for that, eliminating digital distractions.
 
-**Ação imediata:**
-Bloqueie um horário fixo de pelo menos uma hora nesta semana, exclusivo para trabalho profundo, sem notificações ou interrupções.
+**Immediate Action:**
+Block a fixed time of at least one hour this week, exclusively for deep work, without notifications or interruptions.

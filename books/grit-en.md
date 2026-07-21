@@ -2,23 +2,23 @@
 
 ## Metadata
 
-- **Title:** Grit: O Poder da Paixão e da Perseverança (Grit: The Power of Passion and Perseverance)
+- **Title:** Grit: The Power of Passion and Perseverance
 - **Author:** Angela Duckworth
 - **Year:** 2016
-- **Category:** Psicologia / Desempenho Humano
-- **Reading Time:** 15 minutos
-- **Level:** Iniciante — nenhum conhecimento prévio necessário
+- **Category:** Psychology / Human Performance
+- **Reading Time:** 15 minutes
+- **Level:** Beginner — no prior knowledge required
 
-## Index
+## Table of Contents
 
-1. A Ideia Central
-2. Checklist de Implementação
-3. Quiz Rápido
-4. Conexões com Outros Livros
-5. Avaliação Pessoal
-6. Vale a Pena Ler o Livro Completo Se...
-7. Notas do Resumidor
-8. Recapitulação Rápida
+1. The Core Idea
+2. Implementation Checklist
+3. Quick Quiz
+4. Connections with Other Books
+5. Personal Review
+6. Worth Reading the Full Book If...
+7. Summarizer's Notes
+8. Quick Recap
 
 ---
 
@@ -26,28 +26,28 @@
 
 **Summary:**
 
-Angela Duckworth, psicóloga e pesquisadora, argumenta que **"grit"** — traduzido como "garra" ou perseverança combinada com paixão sustentada por objetivos de longo prazo — é um preditor mais confiável de sucesso do que talento inato. A autora define grit como a combinação de duas qualidades centrais: **paixão** (manter interesse consistente por um objetivo ao longo de anos, não apenas entusiasmo passageiro) e **perseverança** (persistir no esforço mesmo diante de fracassos, obstáculos e platôs de progresso).
+Angela Duckworth, a psychologist and researcher, argues that **"grit"** — translated as perseverance combined with sustained passion for long-term goals — is a more reliable predictor of success than innate talent. The author defines grit as the combination of two central qualities: **passion** (maintaining consistent interest in a goal over years, not just fleeting enthusiasm) and **perseverance** (persisting in effort even in the face of failures, obstacles and plateaus in progress).
 
-O ponto de partida da pesquisa de Duckworth foi observar, em diferentes contextos de alta exigência (como a academia militar de West Point, competições de soletração e vendas), que pessoas com maior talento inicial frequentemente desistiam antes de pessoas com talento mediano, mas alta grit. Isso a levou a desenvolver a **"Escala de Grit"**, um instrumento de medição que avalia consistência de interesses e persistência de esforço ao longo do tempo, e que se mostrou, em diversos estudos, mais preditiva de sucesso a longo prazo do que medidas tradicionais de talento ou QI.
+The starting point of Duckworth's research was observing, in various high-demand contexts (like the West Point military academy, spelling bees and sales), that people with higher initial talent often gave up before people with moderate talent but high grit. This led her to develop the **"Grit Scale,"** a measurement instrument that assesses consistency of interests and persistence of effort over time, and which proved, in various studies, more predictive of long-term success than traditional measures of talent or IQ.
 
-Duckworth propõe a chamada **"equação da realização"**, argumentando que o talento, quando combinado com esforço, gera habilidade; e a habilidade, quando combinada novamente com esforço, gera realização. Ou seja, o esforço conta duas vezes na equação — tanto para desenvolver habilidade quanto para transformar essa habilidade em resultados concretos, o que explica por que grit tende a superar talento bruto no longo prazo.
+Duckworth proposes the so-called **"achievement equation,"** arguing that talent, when combined with effort, generates skill; and skill, when combined again with effort, generates achievement. In other words, effort counts twice in the equation — both to develop skill and to turn that skill into concrete results, which explains why grit tends to outperform raw talent in the long run.
 
-A autora identifica quatro componentes psicológicos que sustentam o desenvolvimento de grit ao longo da vida:
+The author identifies four psychological components that support the development of grit over life:
 
-1. **Interesse** — encontrar algo que genuinamente desperte curiosidade e engajamento, geralmente através de exploração ativa.
-2. **Prática deliberada** — dedicar-se a um tipo específico de prática focada em melhorar pontos fracos, com metas claras, concentração total e feedback constante, mesmo quando desconfortável.
-3. **Propósito** — conectar o próprio trabalho a algo maior que si mesmo, o que sustenta motivação em momentos difíceis.
-4. **Esperança** — manter a crença de que o esforço pode melhorar o futuro, mesmo diante de contratempos, e que dificuldades são temporárias e superáveis.
+1. **Interest** — finding something that genuinely sparks curiosity and engagement, generally through active exploration.
+2. **Deliberate practice** — dedicating yourself to a specific type of practice focused on improving weaknesses, with clear goals, full concentration and constant feedback, even when uncomfortable.
+3. **Purpose** — connecting your own work to something larger than yourself, which sustains motivation in difficult times.
+4. **Hope** — maintaining the belief that effort can improve the future, even in the face of setbacks, and that difficulties are temporary and surmountable.
 
-Duckworth também discute como o grit pode ser cultivado tanto de "dentro para fora" (desenvolvendo interesse, prática, propósito e esperança individualmente) quanto de "fora para dentro", através de ambientes de apoio: famílias, escolas e comunidades que combinam altas expectativas com apoio emocional consistente tendem a formar pessoas com maior grit. A autora chama esse ambiente ideal de **"parentalidade sábia"** (wise parenting), caracterizada pelo equilíbrio entre exigência e suporte.
+Duckworth also discusses how grit can be cultivated both from "the inside out" (developing interest, practice, purpose and hope individually) and from "the outside in," through supportive environments: families, schools and communities that combine high expectations with consistent emotional support tend to form people with higher grit. The author calls this ideal environment **"wise parenting,"** characterized by the balance between demand and support.
 
-**Exemplo Prático:**
+**Practical Example:**
 
-Duckworth relata sua pesquisa com cadetes da academia militar de West Point, durante o rigoroso período inicial de treinamento conhecido como "Beast Barracks". Ao aplicar a Escala de Grit antes do início do treinamento, ela conseguiu prever, com mais precisão do que as métricas tradicionais usadas pela própria academia (como desempenho físico e acadêmico prévio), quais cadetes teriam maior probabilidade de completar o treinamento sem desistir — reforçando que a combinação de paixão sustentada e perseverança pesava mais do que aptidão inicial.
+Duckworth tells about her research with West Point cadets during the rigorous initial training period known as "Beast Barracks." By applying the Grit Scale before training began, she was able to predict, more accurately than the academy's own traditional metrics (like prior physical and academic performance), which cadets would be more likely to complete the training without quitting — reinforcing that the combination of sustained passion and perseverance weighed more than initial aptitude.
 
-**Por que importa:**
+**Why It Matters:**
 
-Reconhecer que perseverança e paixão de longo prazo podem ser desenvolvidas, e não são apenas traços inatos, muda a forma como indivíduos, pais e educadores abordam o desenvolvimento de habilidades e a busca por objetivos ambiciosos — colocando o esforço sustentado, e não apenas o talento, no centro da equação do sucesso.
+Recognizing that perseverance and long-term passion can be developed, and aren't just innate traits, changes how individuals, parents and educators approach skill development and the pursuit of ambitious goals — putting sustained effort, not just talent, at the center of the success equation.
 
 ---
 
@@ -55,91 +55,91 @@ Reconhecer que perseverança e paixão de longo prazo podem ser desenvolvidas, e
 
 ### Before Getting Started
 
-- [ ] Reflita sobre seus interesses de longo prazo: existe algo que você tem mantido consistentemente ao longo dos anos, além de entusiasmos passageiros?
-- [ ] Avalie sua relação com prática deliberada: você costuma focar deliberadamente em seus pontos fracos, ou evita esse desconforto?
-- [ ] Considere fazer uma autoavaliação informal usando os quatro componentes (interesse, prática deliberada, propósito, esperança)
+- [ ] Reflect on your long-term interests: is there something you've consistently maintained over the years, beyond fleeting enthusiasms?
+- [ ] Evaluate your relationship with deliberate practice: do you usually deliberately focus on your weaknesses, or avoid this discomfort?
+- [ ] Consider doing an informal self-assessment using the four components (interest, deliberate practice, purpose, hope)
 
 ### During Implementation
 
-- [ ] Escolha um objetivo de longo prazo e proteja seu interesse por ele, revisitando-o mesmo diante de novos estímulos e distrações
-- [ ] Estruture sessões de prática deliberada, com metas específicas e feedback claro sobre pontos a melhorar
-- [ ] Conecte seu objetivo a um propósito maior, além do interesse pessoal imediato
-- [ ] Pratique reformular contratempos como temporários e superáveis, reforçando a mentalidade de esperança
+- [ ] Choose a long-term goal and protect your interest in it, revisiting it even in the face of new stimuli and distractions
+- [ ] Structure deliberate practice sessions, with specific goals and clear feedback on points to improve
+- [ ] Connect your goal to a larger purpose, beyond immediate personal interest
+- [ ] Practice reframing setbacks as temporary and surmountable, reinforcing a hopeful mindset
 
 ### After Implementation
 
-- [ ] Revise periodicamente se seu interesse pelo objetivo de longo prazo permanece consistente
-- [ ] Avalie se está evitando prática deliberada em áreas desconfortáveis, mas necessárias
-- [ ] Se estiver formando outras pessoas (filhos, equipe, alunos), avalie o equilíbrio entre exigência e apoio emocional oferecido
+- [ ] Periodically review if your interest in the long-term goal remains consistent
+- [ ] Evaluate if you're avoiding deliberate practice in uncomfortable but necessary areas
+- [ ] If you're raising others (children, team, students), evaluate the balance between demand and emotional support offered
 
 ---
 
-## Quick Quiz (5 perguntas)
+## Quick Quiz (5 questions)
 
-1. Como Duckworth define "grit" e quais são seus dois componentes centrais?
-2. Qual é a "equação da realização" proposta pela autora, e por que o esforço conta duas vezes nela?
-3. Quais são os quatro componentes psicológicos que sustentam o desenvolvimento de grit?
-4. O que a pesquisa em West Point revelou sobre a capacidade preditiva da Escala de Grit?
-5. O que caracteriza a "parentalidade sábia" (wise parenting) descrita no livro?
+1. How does Duckworth define "grit" and what are its two central components?
+2. What is the "achievement equation" proposed by the author, and why does effort count twice in it?
+3. What are the four psychological components that support the development of grit?
+4. What did the West Point research reveal about the predictive power of the Grit Scale?
+5. What characterizes "wise parenting" described in the book?
 
 ---
 
 ## Connections with Other Books
 
-### Livros Relacionados
+### Related Books
 
-- **Mindset** (Carol Dweck) — fundamenta a crença de que habilidade é desenvolvível, base psicológica que sustenta a perseverança discutida em Grit.
-- **Deep Work** (Cal Newport) — complementa com técnicas específicas de concentração aplicáveis à prática deliberada.
-- **Em Busca de Sentido** (Viktor Frankl) — dialoga com o componente de propósito como sustentação da perseverança diante de dificuldades.
+- **Mindset** (Carol Dweck) — underpins the belief that ability is developable, the psychological foundation that supports the perseverance discussed in Grit.
+- **Deep Work** (Cal Newport) — complements with specific focus techniques applicable to deliberate practice.
+- **Man's Search for Meaning** (Viktor Frankl) — dialogues with the purpose component as a sustainer of perseverance in the face of difficulties.
 
-### Sequência Sugerida de Leitura
+### Suggested Reading Order
 
-Mindset → Grit → Deep Work → Em Busca de Sentido (da crença sobre desenvolvimento de habilidade até a perseverança de longo prazo, sua aplicação prática em foco e sua conexão com propósito).
+Mindset → Grit → Deep Work → Man's Search for Meaning (from the belief about skill development to long-term perseverance, its practical application in focus and its connection to purpose).
 
 ---
 
 ## Personal Review
 
-### Pontos Fortes
+### Strengths
 
-- Pesquisa robusta e bem documentada, com estudos em contextos de alta exigência (militar, esportivo, acadêmico)
-- Introduz um instrumento de medição (Escala de Grit) que torna o conceito mensurável e não apenas abstrato
-- Conecta-se de forma coerente com pesquisas relacionadas (mindset, prática deliberada), formando um quadro mais amplo sobre desempenho humano
+- Robust and well-documented research, with studies in high-demand contexts (military, sports, academic)
+- Introduces a measurement instrument (Grit Scale) that makes the concept measurable and not just abstract
+- Connects coherently with related research (mindset, deliberate practice), forming a broader framework about human performance
 
-### Pontos Fracos
+### Weaknesses
 
-- Alguns críticos apontam que o conceito de grit se sobrepõe consideravelmente a traços de personalidade já estudados (como conscienciosidade), sem diferenciação totalmente clara
-- Menor atenção a fatores estruturais e socioeconômicos que também influenciam fortemente a capacidade de perseverar em objetivos de longo prazo
-- Alguns capítulos sobre parentalidade e educação são mais prescritivos do que sustentados por evidência direta e robusta
+- Some critics point out that the concept of grit overlaps considerably with already studied personality traits (like conscientiousness), without fully clear differentiation
+- Less attention to structural and socioeconomic factors that also strongly influence the ability to persevere in long-term goals
+- Some chapters about parenting and education are more prescriptive than supported by direct and robust evidence
 
-### Para Quem É
+### For Whom
 
-Pessoas interessadas em entender os fatores psicológicos por trás da perseverança de longo prazo, educadores, pais e treinadores que trabalham no desenvolvimento de outras pessoas.
+People interested in understanding the psychological factors behind long-term perseverance, educators, parents and coaches who work on developing others.
 
-### Para Quem Não É
+### Not For Whom
 
-Quem busca reconhecer e valorizar também fatores estruturais e de oportunidade no sucesso — o livro foca predominantemente em fatores psicológicos individuais.
+Anyone looking to recognize and also value structural and opportunity factors in success — the book focuses predominantly on individual psychological factors.
 
 ---
 
 ## Worth Reading the Full Book If...
 
-- Você quer se aprofundar nos estudos e na metodologia por trás da Escala de Grit
-- Você é educador, pai/mãe ou treinador e quer explorar com mais profundidade estratégias de "parentalidade sábia"
-- Você tem interesse nas histórias completas de atletas, profissionais e cadetes usadas para ilustrar os conceitos
+- You want to delve into the studies and methodology behind the Grit Scale
+- You're an educator, parent or coach and want to explore "wise parenting" strategies in more depth
+- You're interested in the complete stories of athletes, professionals and cadets used to illustrate the concepts
 
 ---
 
-## Summary Notes
+## Summarizer's Notes
 
-O maior valor prático do livro está em reforçar que interesse e paixão por um objetivo não surgem prontos — eles se desenvolvem e se aprofundam ao longo do tempo, através de exploração ativa e prática sustentada. Isso é particularmente útil para quem espera "descobrir sua paixão" de forma repentina, quando na realidade ela costuma ser cultivada gradualmente.
+The greatest practical value of the book is reinforcing that interest and passion for a goal don't arise ready-made — they develop and deepen over time, through active exploration and sustained practice. This is particularly useful for those who expect to "find their passion" suddenly, when in reality it's usually cultivated gradually.
 
 ---
 
-## RECAPITULAÇÃO RÁPIDA (30 segundos)
+## QUICK RECAP (30 seconds)
 
-**Lembre do principal em 30 segundos:**
-Grit é a combinação de paixão sustentada e perseverança de longo prazo, e prediz sucesso melhor do que talento isolado. O esforço conta duas vezes: transforma talento em habilidade, e habilidade em realização. Grit pode ser desenvolvido através de interesse, prática deliberada, propósito e esperança.
+**Remember the main thing in 30 seconds:**
+Grit is the combination of sustained passion and long-term perseverance, and predicts success better than talent alone. Effort counts twice: it turns talent into skill, and skill into achievement. Grit can be developed through interest, deliberate practice, purpose and hope.
 
-**Ação imediata:**
-Escolha um objetivo de longo prazo que você já vem perseguindo e defina uma sessão de prática deliberada, com meta clara e foco em um ponto específico a melhorar, para esta semana.
+**Immediate action:**
+Pick a long-term goal you're already pursuing and define a deliberate practice session, with a clear goal and focus on a specific point to improve, for this week.

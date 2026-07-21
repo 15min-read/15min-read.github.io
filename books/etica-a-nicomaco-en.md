@@ -1,24 +1,24 @@
-# Summary: Ética a Nicômaco
+# Summary: Nicomachean Ethics
 
 ## Metadata
 
-- **Title:** Ética a Nicômaco
-- **Author:** Aristóteles
-- **Year:** aprox. 340 a.C.
-- **Category:** Filosofia / Ética
-- **Reading Time:** 15 minutos
-- **Level:** Intermediário — recomendável alguma familiaridade prévia com filosofia clássica
+- **Title:** Nicomachean Ethics
+- **Author:** Aristotle
+- **Year:** approx. 340 BC
+- **Category:** Philosophy / Ethics
+- **Reading Time:** 15 minutes
+- **Level:** Intermediate — recommended some prior familiarity with classical philosophy
 
-## Index
+## Table of Contents
 
-1. A Ideia Central
-2. Checklist de Implementação
-3. Quiz Rápido
-4. Conexões com Outros Livros
-5. Avaliação Pessoal
-6. Vale a Pena Ler o Livro Completo Se...
-7. Notas do Resumidor
-8. Recapitulação Rápida
+1. The Core Idea
+2. Implementation Checklist
+3. Quick Quiz
+4. Connections with Other Books
+5. Personal Review
+6. Worth Reading the Full Book If...
+7. Summarizer's Notes
+8. Quick Recap
 
 ---
 
@@ -26,25 +26,25 @@
 
 **Summary:**
 
-Aristóteles investiga qual é o propósito último ("bem supremo") da vida humana, e conclui que esse fim é a **eudaimonia** — frequentemente traduzida como "felicidade", mas melhor entendida como florescimento humano ou uma vida bem vivida e realizada. Diferente do prazer momentâneo, a eudaimonia é um estado alcançado ao longo de toda uma vida, através do exercício pleno das capacidades racionais e virtuosas do ser humano.
+Aristotle investigates what the ultimate purpose ("highest good") of human life is, and concludes that this end is **eudaimonia** — often translated as "happiness," but better understood as human flourishing or a well-lived and fulfilled life. Unlike momentary pleasure, eudaimonia is a state achieved throughout an entire lifetime, through the full exercise of humans' rational and virtuous capacities.
 
-Para Aristóteles, todo ser tem uma função própria (ergon), e a função distintiva do ser humano é a razão. A vida boa, portanto, é aquela vivida em conformidade com a razão e com a virtude (areté) — não como conhecimento abstrato, mas como excelência de caráter demonstrada na ação repetida.
+For Aristotle, every being has its own function (ergon), and the distinctive function of humans is reason. The good life, therefore, is one lived in accordance with reason and virtue (aretê) — not as abstract knowledge, but as excellence of character demonstrated in repeated action.
 
-Um dos conceitos mais influentes do livro é a **doutrina do meio-termo** (mesotes): toda virtude ética é um equilíbrio entre dois vícios — um por excesso e outro por falta. A coragem, por exemplo, é o meio-termo entre a covardia (falta) e a temeridade (excesso). A generosidade é o meio-termo entre a avareza e o esbanjamento. Esse meio-termo não é uma média matemática fixa, mas relativo à situação e à pessoa — exige discernimento prático (frónesis) para ser identificado corretamente em cada circunstância.
+One of the most influential concepts in the book is the **doctrine of the mean** (mesotes): every ethical virtue is a balance between two vices — one of excess and one of deficiency. Courage, for example, is the mean between cowardice (deficiency) and recklessness (excess). Generosity is the mean between stinginess and extravagance. This mean isn't a fixed mathematical average, but relative to the situation and the person — it requires practical wisdom (phronesis) to be correctly identified in each circumstance.
 
-Aristóteles distingue dois tipos de virtude: as **virtudes intelectuais** (como sabedoria e discernimento prático), adquiridas principalmente através do ensino, e as **virtudes de caráter** (como coragem, temperança e justiça), adquiridas através do hábito — praticando repetidamente ações virtuosas até que elas se tornem parte do caráter da pessoa. Essa é uma das ideias centrais do livro: não nos tornamos virtuosos pensando sobre virtude, mas agindo virtuosamente de forma repetida, até que a virtude se torne uma disposição estável.
+Aristotle distinguishes two types of virtue: the **intellectual virtues** (like wisdom and practical wisdom), acquired mainly through teaching, and the **virtues of character** (like courage, temperance and justice), acquired through habit — by repeatedly practicing virtuous actions until they become part of the person's character. This is one of the book's central ideas: we don't become virtuous by thinking about virtue, but by acting virtuously repeatedly, until virtue becomes a stable disposition.
 
-O livro também aborda o papel central da **amizade** (philia) na vida boa, dedicando um espaço extenso ao tema. Aristóteles distingue três tipos de amizade: por utilidade, por prazer e a amizade verdadeira, baseada na admiração mútua pelo caráter do outro — sendo esta última a mais rara e valiosa, pois busca o bem do outro por si mesmo.
+The book also addresses the central role of **friendship** (philia) in the good life, devoting an extensive space to the topic. Aristotle distinguishes three types of friendship: for utility, for pleasure, and true friendship, based on mutual admiration for the other's character — the latter being the rarest and most valuable, since it seeks the other's good for their own sake.
 
-Por fim, Aristóteles discute o papel do prazer e da contemplação: a vida mais elevada, segundo ele, é aquela dedicada à atividade contemplativa e ao exercício da razão em sua forma mais pura, embora reconheça que a vida prática, política e social também seja parte essencial de uma vida bem vivida.
+Finally, Aristotle discusses the role of pleasure and contemplation: the highest life, according to him, is one dedicated to contemplative activity and the exercise of reason in its purest form, although he recognizes that practical, political and social life is also an essential part of a well-lived life.
 
-**Exemplo Prático:**
+**Practical Example:**
 
-Aristóteles usa o exemplo da coragem em batalha: o soldado covarde foge diante do perigo mesmo quando a ação exigiria enfrentá-lo; o soldado temerário se lança ao perigo de forma imprudente, sem avaliar riscos reais; já o soldado corajoso — o meio-termo — enfrenta o perigo quando necessário, na medida certa, avaliando racionalmente a situação. A virtude, nesse caso, não é ausência de medo, mas a resposta adequada e proporcional a ele.
+Aristotle uses the example of courage in battle: the cowardly soldier flees from danger even when action requires facing it; the reckless soldier throws himself into danger imprudently, without evaluating real risks; the courageous soldier — the mean — faces danger when necessary, in the right measure, rationally evaluating the situation. Virtue, in this case, isn't the absence of fear, but the appropriate and proportional response to it.
 
-**Por que importa:**
+**Why It Matters:**
 
-A obra oferece um modelo de ética centrado no caráter e no hábito, e não apenas em regras ou consequências, e continua influenciando debates contemporâneos sobre educação moral, formação de hábitos e a busca por uma vida significativa, para além da simples busca por prazer ou sucesso material.
+The work offers an ethics model centered on character and habit, and not just on rules or consequences, and continues to influence contemporary discussions about moral education, habit formation and the search for a meaningful life, beyond the simple pursuit of pleasure or material success.
 
 ---
 
@@ -52,91 +52,91 @@ A obra oferece um modelo de ética centrado no caráter e no hábito, e não ape
 
 ### Before Getting Started
 
-- [ ] Reflita sobre o que você entende por "vida boa" — prazer, sucesso, propósito?
-- [ ] Identifique uma virtude que você gostaria de desenvolver (ex: coragem, paciência, generosidade)
-- [ ] Observe em quais situações você tende ao excesso ou à falta dessa virtude
+- [ ] Reflect on what you understand by "good life" — pleasure, success, purpose?
+- [ ] Identify a virtue you want to develop (e.g., courage, patience, generosity)
+- [ ] Observe in which situations you tend toward excess or deficiency of this virtue
 
 ### During Implementation
 
-- [ ] Pratique repetidamente ações alinhadas à virtude escolhida, mesmo em pequenas situações
-- [ ] Busque o "meio-termo" em cada contexto específico, evitando respostas automáticas de excesso ou falta
-- [ ] Cultive discernimento prático (frónesis): avalie cada situação em seus próprios termos, não apenas por regras fixas
-- [ ] Invista tempo em amizades baseadas em admiração mútua de caráter, não apenas utilidade ou prazer
+- [ ] Repeatedly practice actions aligned with the chosen virtue, even in small situations
+- [ ] Seek the "mean" in each specific context, avoiding automatic responses of excess or deficiency
+- [ ] Cultivate practical wisdom (phronesis): evaluate each situation in its own terms, not just by fixed rules
+- [ ] Invest time in friendships based on mutual character admiration, not just utility or pleasure
 
 ### After Implementation
 
-- [ ] Reflita periodicamente sobre se suas ações estão formando um caráter estável e virtuoso
-- [ ] Avalie se suas escolhas cotidianas estão alinhadas com uma vida de florescimento, não apenas prazer imediato
-- [ ] Ajuste o "meio-termo" conforme ganha mais experiência e discernimento prático
+- [ ] Periodically reflect on whether your actions are forming a stable and virtuous character
+- [ ] Evaluate if your daily choices are aligned with a flourishing life, not just immediate pleasure
+- [ ] Adjust the "mean" as you gain more experience and practical wisdom
 
 ---
 
-## Quick Quiz (5 perguntas)
+## Quick Quiz (5 questions)
 
-1. O que Aristóteles quer dizer com "eudaimonia" e por que não é o mesmo que prazer?
-2. Como funciona a doutrina do meio-termo na definição das virtudes éticas?
-3. Qual a diferença entre virtudes intelectuais e virtudes de caráter?
-4. Como as virtudes de caráter são adquiridas, segundo Aristóteles?
-5. Quais são os três tipos de amizade discutidos no livro, e qual é considerado o mais elevado?
+1. What does Aristotle mean by "eudaimonia" and why isn't it the same as pleasure?
+2. How does the doctrine of the mean work in defining ethical virtues?
+3. What's the difference between intellectual virtues and virtues of character?
+4. How are virtues of character acquired, according to Aristotle?
+5. What are the three types of friendship discussed in the book, and which is considered the highest?
 
 ---
 
 ## Connections with Other Books
 
-### Livros Relacionados
+### Related Books
 
-- **A República** (Platão) — obra anterior que também discute virtude, justiça e a vida boa, com abordagem mais idealista.
-- **Meditações** (Marco Aurélio) — aplica princípios éticos similares (razão, virtude, autocontrole) sob a perspectiva estoica.
-- **Hábitos Atômicos** (James Clear) — conexão moderna com a ideia aristotélica de que o caráter se forma pela repetição de ações, não por intenção isolada.
+- **The Republic** (Plato) — earlier work that also discusses virtue, justice and the good life, with a more idealistic approach.
+- **Meditations** (Marcus Aurelius) — applies similar ethical principles (reason, virtue, self-control) from a Stoic perspective.
+- **Atomic Habits** (James Clear) — modern connection with the Aristotelian idea that character is formed through repeated actions, not just intention.
 
-### Sequência Sugerida de Leitura
+### Suggested Reading Order
 
-A República → Ética a Nicômaco → Meditações → Hábitos Atômicos (da fundação filosófica clássica até uma aplicação contemporânea de formação de hábito e caráter).
+The Republic → Nicomachean Ethics → Meditations → Atomic Habits (from the classical philosophical foundation to a contemporary application of habit and character formation).
 
 ---
 
 ## Personal Review
 
-### Pontos Fortes
+### Strengths
 
-- Sistema ético coerente e amplamente influente, base de boa parte da filosofia moral ocidental
-- Conecta virtude, hábito e ação prática de forma que continua relevante fora do contexto acadêmico
-- Discussão rica e detalhada sobre amizade, incomum em obras de ética
+- Coherent and widely influential ethical system, the basis of much of Western moral philosophy
+- Connects virtue, habit and practical action in a way that remains relevant outside the academic context
+- Rich and detailed discussion about friendship, uncommon in ethics works
 
-### Pontos Fracos
+### Weaknesses
 
-- Linguagem e estrutura filosófica antiga tornam a leitura densa e, por vezes, repetitiva
-- Pressupostos da época (como visões sobre escravidão e papéis sociais) refletem limitações históricas do contexto de Aristóteles
-- Conceitos como "meio-termo" exigem interpretação cuidadosa para não serem simplificados de forma equivocada
+- Ancient language and philosophical structure make the reading dense and, at times, repetitive
+- The era's presuppositions (like views on slavery and social roles) reflect the historical limitations of Aristotle's context
+- Concepts like the "mean" require careful interpretation so as not to be oversimplified in the wrong way
 
-### Para Quem É
+### For Whom
 
-Pessoas interessadas em filosofia moral, formação de caráter e nos fundamentos históricos da ética ocidental.
+People interested in moral philosophy, character formation and the historical foundations of Western ethics.
 
-### Para Quem Não É
+### Not For Whom
 
-Quem busca um guia prático e direto de autoajuda — a obra é filosófica e exige reflexão, não trará "passos" simples e imediatos.
+Anyone looking for a practical and direct self-help manual — the work is philosophical and requires reflection, it won't bring simple and immediate "steps."
 
 ---
 
 ## Worth Reading the Full Book If...
 
-- Você quer entender profundamente os fundamentos da filosofia moral ocidental
-- Você tem interesse em como conceitos antigos de virtude dialogam com discussões contemporâneas sobre caráter e hábito
-- Você deseja explorar a discussão completa sobre amizade, uma das partes mais ricas e menos resumidas da obra
+- You want to deeply understand the foundations of Western moral philosophy
+- You're interested in how ancient concepts of virtue dialogue with contemporary discussions about character and habit
+- You want to explore the complete discussion about friendship, one of the richest and least summarized parts of the work
 
 ---
 
-## Summary Notes
+## Summarizer's Notes
 
-A força da obra está em tratar ética não como um conjunto de regras abstratas, mas como uma prática de vida construída ao longo do tempo, através de hábito e discernimento. A ideia de que "nos tornamos justos praticando atos justos" antecipa, de forma notável, muito do que a psicologia comportamental moderna viria a confirmar sobre formação de hábitos e caráter.
+The strength of the work lies in treating ethics not as a set of abstract rules, but as a life practice built over time, through habit and discernment. The idea that "we become just by practicing just acts" anticipates, in a remarkable way, much of what modern behavioral psychology would later confirm about habit and character formation.
 
 ---
 
-## RECAPITULAÇÃO RÁPIDA (30 segundos)
+## QUICK RECAP (30 seconds)
 
-**Lembre do principal em 30 segundos:**
-O objetivo da vida humana é a eudaimonia — florescimento através da razão e da virtude. Virtude é um meio-termo entre excesso e falta, e se desenvolve pela prática repetida, não apenas pelo pensamento. Amizade verdadeira e discernimento prático são essenciais para uma vida bem vivida.
+**Remember the main thing in 30 seconds:**
+The goal of human life is eudaimonia — flourishing through reason and virtue. Virtue is a mean between excess and deficiency, and is developed through repeated practice, not just thought. True friendship and practical wisdom are essential for a well-lived life.
 
-**Ação imediata:**
-Escolha uma virtude para praticar esta semana e identifique, em cada situação concreta, onde está o meio-termo entre o excesso e a falta dela.
+**Immediate action:**
+Pick a virtue to practice this week and identify, in each concrete situation, where the mean is between excess and deficiency of it.

@@ -1,24 +1,24 @@
-# Summary: Código Limpo
+# Summary: Clean Code
 
 ## Metadata
 
-- **Title:** Código Limpo: A Arte de Escrever Código Legível e Manutenível (Clean Code: A Handbook of Agile Software Craftsmanship)
+- **Title:** Clean Code: A Handbook of Agile Software Craftsmanship
 - **Author:** Robert C. Martin (Uncle Bob)
 - **Year:** 2008
-- **Category:** Tecnologia / Engenharia de Software
-- **Reading Time:** 15 minutos
-- **Level:** Intermediário — recomendável experiência básica com programação
+- **Category:** Technology / Software Engineering
+- **Reading Time:** 15 minutes
+- **Level:** Intermediate — recommended basic programming experience
 
-## Index
+## Table of Contents
 
-1. A Ideia Central
-2. Checklist de Implementação
-3. Quiz Rápido
-4. Conexões com Outros Livros
-5. Avaliação Pessoal
-6. Vale a Pena Ler o Livro Completo Se...
-7. Notas do Resumidor
-8. Recapitulação Rápida
+1. The Core Idea
+2. Implementation Checklist
+3. Quick Quiz
+4. Connections with Other Books
+5. Personal Review
+6. Worth Reading the Full Book If...
+7. Summarizer's Notes
+8. Quick Recap
 
 ---
 
@@ -26,30 +26,30 @@
 
 **Summary:**
 
-Robert Martin argumenta que código é lido muito mais vezes do que é escrito, e que a qualidade de um software depende diretamente da legibilidade e clareza do código-fonte — não apenas de sua funcionalidade. Um "código limpo" é aquele que qualquer desenvolvedor consegue entender, modificar e estender com facilidade, mesmo meses ou anos depois de escrito, e mesmo por alguém que não o escreveu originalmente.
+Robert Martin argues that code is read much more often than it's written, and that the quality of a software depends directly on the readability and clarity of the source code — not just on its functionality. A "clean code" is one that any developer can understand, modify and extend easily, even months or years after it's written, and even by someone who didn't write it originally.
 
-O livro parte da constatação de que código malfeito ("código sujo") gera um efeito cumulativo de lentidão: cada nova funcionalidade se torna mais difícil de implementar, bugs se tornam mais frequentes, e o custo de manutenção cresce exponencialmente ao longo do tempo — fenômeno que Martin associa ao conceito de "débito técnico". Escrever código limpo desde o início é, para o autor, um investimento que se paga na velocidade e qualidade do desenvolvimento a longo prazo.
+The book starts from the observation that bad code ("dirty code") generates a cumulative slowdown effect: each new feature becomes harder to implement, bugs become more frequent, and maintenance costs grow exponentially over time — a phenomenon Martin associates with the concept of "technical debt." Writing clean code from the start is, for the author, an investment that pays off in the speed and quality of long-term development.
 
-Entre os princípios centrais defendidos no livro estão:
+Among the central principles advocated in the book are:
 
-1. **Nomes significativos** — variáveis, funções e classes devem ter nomes que revelem claramente sua intenção, evitando abreviações obscuras ou nomes genéricos como "dado" ou "temp".
-2. **Funções pequenas e com uma única responsabilidade** — cada função deve fazer apenas uma coisa, e fazê-la bem, o que facilita testes, reutilização e compreensão.
-3. **Comentários usados com moderação** — Martin defende que o código deve ser autoexplicativo o suficiente para dispensar a maioria dos comentários; comentários frequentemente indicam que o código em si não está claro o bastante.
-4. **Formatação consistente** — organização visual do código (indentação, espaçamento, ordem de declarações) afeta diretamente a facilidade de leitura e compreensão.
-5. **Tratamento de erros robusto e separado da lógica principal** — usar exceções de forma clara, sem misturar tratamento de erro com a lógica de negócio central.
-6. **Classes coesas e de responsabilidade única** — princípio relacionado ao "S" do SOLID (Single Responsibility Principle), reforçando que cada classe deve ter um único motivo para mudar.
+1. **Meaningful names** — variables, functions and classes must have names that clearly reveal their intention, avoiding obscure abbreviations or generic names like "data" or "temp."
+2. **Small functions with single responsibility** — each function should do only one thing, and do it well, which makes testing, reuse and understanding easier.
+3. **Comments used sparingly** — Martin argues that code should be self-explanatory enough to dispense with most comments; comments often indicate that the code itself isn't clear enough.
+4. **Consistent formatting** — visual organization of code (indentation, spacing, declaration order) directly affects reading and understanding ease.
+5. **Robust error handling separate from main logic** — using exceptions clearly, without mixing error handling with the core business logic.
+6. **Cohesive classes with single responsibility** — principle related to the "S" of SOLID, reinforcing that each class should have a single reason to change.
 
-Martin também defende a prática do **"escoteiro"** (Boy Scout Rule): a regra de sempre deixar o código um pouco mais limpo do que como foi encontrado, mesmo em pequenas melhorias incrementais durante manutenções normais, evitando que a qualidade do código se degrade com o tempo.
+Martin also advocates the practice of the **"Boy Scout Rule"**: the rule of always leaving the code a little cleaner than you found it, even in small incremental improvements during normal maintenance, preventing code quality from degrading over time.
 
-Outro ponto central é a importância de **testes automatizados** como parte inseparável de código limpo. Martin defende testes unitários claros, rápidos e independentes, seguindo o princípio F.I.R.S.T. (Fast, Independent, Repeatable, Self-validating, Timely), argumentando que código sem testes automatizados não pode ser considerado verdadeiramente limpo, pois a confiança para refatorá-lo com segurança fica comprometida.
+Another central point is the importance of **automated tests** as an inseparable part of clean code. Martin advocates clear, fast and independent unit tests, following the FIRST principle (Fast, Independent, Repeatable, Self-validating, Timely), arguing that code without automated tests can't be considered truly clean, since confidence in refactoring it safely is compromised.
 
-**Exemplo Prático:**
+**Practical Example:**
 
-Um dos exemplos centrais do livro é a refatoração progressiva de uma função longa e confusa, com múltiplas responsabilidades misturadas (validação, cálculo, formatação de saída), transformando-a em várias funções pequenas, cada uma com nome claro e responsabilidade única. Martin demonstra passo a passo como esse processo torna o código não apenas mais legível, mas também mais fácil de testar isoladamente e reaproveitar em outros contextos.
+One of the central examples in the book is the progressive refactoring of a long and confusing function, with multiple mixed responsibilities (validation, calculation, output formatting), transforming it into several small functions, each with a clear name and single responsibility. Martin demonstrates step by step how this process makes the code not just more readable, but also easier to test in isolation and reuse in other contexts.
 
-**Por que importa:**
+**Why It Matters:**
 
-Em equipes de desenvolvimento, a maior parte do tempo é gasta lendo e entendendo código já existente, não escrevendo código novo do zero. Um código limpo reduz drasticamente o tempo necessário para entender, corrigir e evoluir um sistema, além de reduzir a introdução de novos bugs — impactando diretamente a produtividade e a saúde de longo prazo de qualquer projeto de software.
+In development teams, most time is spent reading and understanding existing code, not writing new code from scratch. Clean code drastically reduces the time needed to understand, fix and evolve a system, as well as reducing the introduction of new bugs — directly impacting the productivity and long-term health of any software project.
 
 ---
 
@@ -57,92 +57,92 @@ Em equipes de desenvolvimento, a maior parte do tempo é gasta lendo e entendend
 
 ### Before Getting Started
 
-- [ ] Revise um trecho de código recente e avalie: os nomes de variáveis e funções comunicam claramente sua intenção?
-- [ ] Identifique funções ou métodos com mais de uma responsabilidade
-- [ ] Verifique se existem testes automatizados cobrindo as partes críticas do código
+- [ ] Review a recent piece of code and evaluate: do variable and function names clearly communicate their intention?
+- [ ] Identify functions or methods with more than one responsibility
+- [ ] Check if there are automated tests covering critical parts of the code
 
 ### During Implementation
 
-- [ ] Renomeie variáveis e funções para refletir claramente seu propósito
-- [ ] Quebre funções grandes em funções menores, cada uma com uma única responsabilidade
-- [ ] Remova comentários que apenas explicam o que o código já deveria comunicar sozinho
-- [ ] Escreva (ou complemente) testes unitários antes de refatorar trechos críticos
-- [ ] Aplique a regra do escoteiro: sempre que tocar em um arquivo, deixe-o um pouco melhor do que encontrou
+- [ ] Rename variables and functions to clearly reflect their purpose
+- [ ] Break large functions into smaller ones, each with single responsibility
+- [ ] Remove comments that only explain what the code should already communicate on its own
+- [ ] Write (or complement) unit tests before refactoring critical pieces
+- [ ] Apply the Boy Scout Rule: whenever you touch a file, leave it a little better than you found it
 
 ### After Implementation
 
-- [ ] Peça revisão de código (code review) de colegas para validar clareza e legibilidade
-- [ ] Verifique se os testes automatizados continuam passando após as refatorações
-- [ ] Monitore, ao longo do tempo, se a facilidade de manutenção do código melhorou
+- [ ] Ask for code review from colleagues to validate clarity and readability
+- [ ] Check if automated tests still pass after refactoring
+- [ ] Monitor, over time, if the ease of maintaining the code has improved
 
 ---
 
-## Quick Quiz (5 perguntas)
+## Quick Quiz (5 questions)
 
-1. Por que Martin argumenta que a legibilidade do código é mais importante do que a velocidade de escrevê-lo?
-2. O que significa dizer que uma função deve "fazer apenas uma coisa"?
-3. Qual é a visão do autor sobre o uso de comentários no código?
-4. O que é a "regra do escoteiro" (Boy Scout Rule) aplicada ao código?
-5. Por que testes automatizados são considerados parte essencial de código limpo, segundo o livro?
+1. Why does Martin argue that code readability is more important than the speed of writing it?
+2. What does it mean for a function to "do only one thing"?
+3. What's the author's view on using comments in code?
+4. What's the "Boy Scout Rule" applied to code?
+5. Why are automated tests considered an essential part of clean code, according to the book?
 
 ---
 
 ## Connections with Other Books
 
-### Livros Relacionados
+### Related Books
 
-- **Refactoring** (Martin Fowler) — aprofunda tecnicamente as técnicas de refatoração mencionadas por Martin.
-- **The Pragmatic Programmer** (David Thomas e Andrew Hunt) — complementa com princípios práticos mais amplos de boas práticas de engenharia de software.
-- **Domain-Driven Design** (Eric Evans) — expande a discussão sobre organização de código e design de classes para sistemas mais complexos.
+- **Refactoring** (Martin Fowler) — deepens technically the refactoring techniques mentioned by Martin.
+- **The Pragmatic Programmer** (David Thomas and Andrew Hunt) — complements with broader practical principles of good software engineering practices.
+- **Domain-Driven Design** (Eric Evans) — expands the discussion about code organization and class design for more complex systems.
 
-### Sequência Sugerida de Leitura
+### Suggested Reading Order
 
-Código Limpo → The Pragmatic Programmer → Refactoring → Domain-Driven Design (dos princípios fundamentais de legibilidade até técnicas mais avançadas de refatoração e design de sistemas).
+Clean Code → The Pragmatic Programmer → Refactoring → Domain-Driven Design (from core readability principles to more advanced refactoring and system design techniques).
 
 ---
 
 ## Personal Review
 
-### Pontos Fortes
+### Strengths
 
-- Exemplos de código concretos que ilustram cada princípio de forma prática
-- Princípios atemporais, aplicáveis independentemente da linguagem de programação
-- Argumentação convincente sobre o impacto de longo prazo da qualidade de código
+- Concrete code examples that illustrate each principle in a practical way
+- Timeless principles, applicable regardless of programming language
+- Convincing argument about the long-term impact of code quality
 
-### Pontos Fracos
+### Weaknesses
 
-- Exemplos majoritariamente em Java, o que pode tornar alguns trechos menos diretamente aplicáveis para quem programa em linguagens muito diferentes
-- Algumas recomendações (como o tamanho ideal de funções) são apresentadas de forma bastante rígida, e a comunidade de desenvolvedores hoje debate esses limites com mais nuance
-- O livro não aborda tão profundamente arquitetura de sistemas em larga escala, focando mais no nível de código e classes
+- Mostly Java examples, which can make some parts less directly applicable to those programming in very different languages
+- Some recommendations (like ideal function size) are presented quite rigidly, and the developer community today debates these limits with more nuance
+- The book doesn't address as deeply large-scale system architecture, focusing more on code and class level
 
-### Para Quem É
+### For Whom
 
-Desenvolvedores de software, de iniciantes a experientes, que quer melhorar a qualidade e manutenibilidade do código que escrevem no dia a dia.
+Software developers, from beginners to experienced, who want to improve the quality and maintainability of the code they write daily.
 
-### Para Quem Não É
+### Not For Whom
 
-Profissionais que não escrevem código diretamente, ou que buscam conteúdo sobre arquitetura de sistemas em grande escala — nesse caso, outras obras do próprio autor (como "Arquitetura Limpa") seriam mais adequadas.
+Professionals who don't write code directly, or who are looking for content about large-scale system architecture — in that case, other works by the author himself (like "Clean Architecture") would be more appropriate.
 
 ---
 
 ## Worth Reading the Full Book If...
 
-- Você quer ver os exemplos de código completos, com o processo de refatoração passo a passo
-- Você trabalha em equipe e quer aprofundar práticas de code review e padrões de qualidade
-- Você deseja explorar capítulos específicos sobre tratamento de erros, testes e organização de sistemas com mais profundidade
+- You want to see the complete code examples, with the step-by-step refactoring process
+- You work in a team and want to deepen code review practices and quality standards
+- You want to explore specific chapters about error handling, testing and system organization in more depth
 
 ---
 
-## Summary Notes
+## Summarizer's Notes
 
-O grande valor do livro está em tornar tangível algo que muitas vezes é tratado como "gosto pessoal" — a legibilidade do código — através de princípios concretos e exemplos práticos. Mesmo desenvolvedores experientes tendem a redescobrir, na prática diária, o quanto pequenas escolhas de nomenclatura e estrutura afetam diretamente a velocidade e qualidade do trabalho em equipe.
+The great value of the book is making tangible something that's often treated as "personal taste" — code readability — through concrete principles and practical examples. Even experienced developers tend to rediscover, in daily practice, how much small choices of naming and structure directly impact the speed and quality of team work.
 
 ---
 
-## RECAPITULAÇÃO RÁPIDA (30 segundos)
+## QUICK RECAP (30 seconds)
 
-**Lembre do principal em 30 segundos:**
-Código é lido muito mais do que é escrito — priorize clareza. Use nomes significativos, funções pequenas com responsabilidade única, e testes automatizados. Sempre deixe o código um pouco melhor do que encontrou (regra do escoteiro).
+**Remember the main thing in 30 seconds:**
+Code is read much more than it's written — prioritize clarity. Use meaningful names, small functions with single responsibility, and automated tests. Always leave the code a little better than you found it (Boy Scout Rule).
 
-**Ação imediata:**
-Escolha uma função do seu código atual com mais de uma responsabilidade e refatore-a em funções menores e mais claras hoje mesmo.
+**Immediate action:**
+Pick a function from your current code with more than one responsibility and refactor it into smaller, clearer functions right now.

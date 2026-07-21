@@ -1,24 +1,24 @@
-# Summary: Essencialismo
+# Summary: Essentialism
 
 ## Metadata
 
-- **Title:** Essencialismo: A Disciplinada Busca por Menos
+- **Title:** Essentialism: The Disciplined Pursuit of Less
 - **Author:** Greg McKeown
 - **Year:** 2014
-- **Category:** Produtividade / Desenvolvimento Pessoal
-- **Reading Time:** 15 minutos
-- **Level:** Iniciante — nenhum conhecimento prévio necessário
+- **Category:** Productivity / Personal Development
+- **Reading Time:** 15 minutes
+- **Level:** Beginner — no prior knowledge required
 
-## Index
+## Table of Contents
 
-1. A Ideia Central
-2. Checklist de Implementação
-3. Quiz Rápido
-4. Conexões com Outros Livros
-5. Avaliação Pessoal
-6. Vale a Pena Ler o Livro Completo Se...
-7. Notas do Resumidor
-8. Recapitulação Rápida
+1. The Core Idea
+2. Implementation Checklist
+3. Quick Quiz
+4. Connections with Other Books
+5. Personal Review
+6. Worth Reading the Full Book If...
+7. Summarizer's Notes
+8. Quick Recap
 
 ---
 
@@ -26,29 +26,29 @@
 
 **Summary:**
 
-McKeown argumenta que vivemos em uma cultura que nos ensina a dizer "sim" a tudo — mais projetos, mais compromissos, mais oportunidades — e que isso nos deixa espalhados demais para fazer o que realmente importa. O essencialismo é a proposta oposta: em vez de tentar fazer tudo de forma mediana, fazer menos coisas, mas com excelência, focando apenas no que gera o maior impacto possível.
+McKeown argues that we live in a culture that teaches us to say "yes" to everything — more projects, more commitments, more opportunities — and that this leaves us spread too thin to do what really matters. Essentialism is the opposite approach: instead of trying to do everything in a mediocre way, do fewer things, but do them with excellence, focusing only on what generates the greatest impact.
 
-A ideia central pode ser resumida na frase "menos, porém melhor". Não se trata de gerenciamento de tempo tradicional, mas de uma disciplina de escolha: já que não podemos fazer tudo, a pergunta certa não é "como encaixo isso na minha agenda?", mas sim "isso é a coisa mais importante que eu poderia estar fazendo agora?".
+The core idea can be summarized in the phrase "less, but better." It's not about traditional time management, but about a discipline of choice: since we can't do everything, the right question isn't "how do I fit this into my schedule?" but "is this the most important thing I could be doing right now?"
 
-McKeown descreve três premissas centrais do pensamento essencialista:
+McKeown describes three central premises of essentialist thinking:
 
-1. **"Eu escolho"** — reconhecer que temos poder de escolha sobre como usamos nosso tempo e energia, em vez de nos vermos como reféns das demandas externas.
-2. **"Poucas coisas realmente importam"** — nem todas as opções têm o mesmo valor; a maioria é trivial, e apenas uma fração é vital.
-3. **"Eu posso fazer qualquer coisa, mas não tudo"** — aceitar que tentar fazer tudo leva à mediocridade generalizada.
+1. **"I choose"** — recognizing that we have the power to choose how to spend our time and energy, rather than seeing ourselves as hostages to external demands.
+2. **"Few things really matter"** — not all options have the same value; most are trivial, and only a fraction are vital.
+3. **"I can do anything, but not everything"** — accepting that trying to do everything leads to general mediocrity.
 
-O livro propõe um processo essencialista em três etapas: **Explorar** (avaliar amplamente as opções disponíveis antes de se comprometer, dando espaço para reflexão e discernimento), **Eliminar** (cortar de forma disciplinada tudo que não é essencial, mesmo que pareça bom) e **Executar** (criar um sistema que torne a execução do que é essencial quase automática, removendo obstáculos com antecedência).
+The book proposes an essentialist process in three steps: **Explore** (widely evaluate available options before committing, leaving room for reflection and discernment), **Eliminate** (disciplinarily cut everything that's not essential, even if it seems good), and **Execute** (create a system that makes executing the essential nearly automatic, removing obstacles in advance).
 
-Um conceito-chave é a regra dos 90%: ao avaliar uma opção, se ela não pontuar pelo menos 90 em uma escala de 0 a 100 em importância, deve ser tratada como um "não". Isso evita a armadilha de aceitar coisas "razoavelmente boas" que consomem tempo que poderia ir para o que é realmente essencial.
+A key concept is the 90% rule: when evaluating an option, if it doesn't score at least 90 out of 100 on importance, it should be treated as a "no." This avoids the trap of accepting "pretty good" things that consume time that could go to what's really essential.
 
-McKeown também aborda a importância de dizer "não" com graciosidade, mas sem ambiguidade, e discute como pequenos progressos consistentes em poucas prioridades (em vez de grandes esforços dispersos em muitas) geram resultados compostos ao longo do tempo — um princípio que ele chama de "progresso mínimo viável".
+McKeown also addresses the importance of saying "no" graciously but unambiguously, and discusses how consistent small progress on a few priorities (rather than large scattered efforts on many) generates compound results over time — a principle he calls "minimum viable progress."
 
-**Exemplo Prático:**
+**Practical Example:**
 
-McKeown relata o caso de uma executiva sobrecarregada com reuniões e projetos que, ao aplicar o filtro dos 90%, percebeu que a maioria de seus compromissos não passava no teste. Ao eliminar sistematicamente tarefas de baixo valor e focar em apenas duas ou três prioridades estratégicas, ela não só reduziu seu estresse como aumentou significativamente seu impacto na empresa, algo que não teria acontecido se continuasse tentando abraçar todas as demandas.
+McKeown tells the story of an overloaded executive who, after applying the 90% filter, realized that most of their commitments didn't pass the test. By systematically eliminating low-value tasks and focusing on just two or three strategic priorities, the executive not only reduced stress but also significantly increased their impact on the company — something that wouldn't have happened if they'd kept trying to embrace all demands.
 
-**Por que importa:**
+**Why It Matters:**
 
-Em um mundo de distrações e demandas constantes, a habilidade de discernir o que é essencial do que é apenas "bom" pode ser a diferença entre uma vida de resultados dispersos e uma vida de contribuição significativa e satisfação real.
+In a world of constant distractions and demands, the ability to discern what's essential from what's just "good" can be the difference between a life of scattered results and a life of significant contribution and real satisfaction.
 
 ---
 
@@ -56,91 +56,91 @@ Em um mundo de distrações e demandas constantes, a habilidade de discernir o q
 
 ### Before Getting Started
 
-- [ ] Liste todos os seus compromissos e projetos atuais
-- [ ] Para cada um, pergunte: "isso pontua pelo menos 90 em importância para mim?"
-- [ ] Identifique de 1 a 3 prioridades que realmente merecem seu foco no momento
+- [ ] List all your current commitments and projects
+- [ ] For each one, ask: "does this score at least 90 in importance to me?"
+- [ ] Identify 1 to 3 priorities that truly deserve your focus right now
 
 ### During Implementation
 
-- [ ] Pratique dizer "não" a pedidos que não passam no filtro dos 90%
-- [ ] Reserve tempo de "exploração" antes de se comprometer com novas oportunidades
-- [ ] Elimine tarefas de baixo valor da sua rotina, mesmo que pareçam produtivas
-- [ ] Construa rotinas e sistemas que facilitem a execução das prioridades essenciais
+- [ ] Practice saying "no" to requests that don't pass the 90% filter
+- [ ] Reserve time for "exploration" before committing to new opportunities
+- [ ] Eliminate low-value tasks from your routine, even if they seem productive
+- [ ] Build routines and systems that make executing essential priorities easier
 
 ### After Implementation
 
-- [ ] Revise semanalmente se suas ações estão alinhadas com o que você definiu como essencial
-- [ ] Reavalie compromissos antigos que podem ter deixado de ser prioritários
-- [ ] Celebre o progresso mínimo viável nas poucas coisas que realmente importam
+- [ ] Weekly review whether your actions are aligned with what you've defined as essential
+- [ ] Re-evaluate old commitments that may no longer be a priority
+- [ ] Celebrate minimum viable progress on the few things that really matter
 
 ---
 
-## Quick Quiz (5 perguntas)
+## Quick Quiz (5 questions)
 
-1. O que significa a frase "menos, porém melhor" no contexto do essencialismo?
-2. Quais são as três etapas do processo essencialista?
-3. Como funciona a regra dos 90% na avaliação de oportunidades?
-4. Qual é a diferença entre a mentalidade essencialista e a mentalidade "eu posso fazer tudo"?
-5. Por que dizer "não" com clareza é considerado uma habilidade essencial no livro?
+1. What does the phrase "less, but better" mean in the context of essentialism?
+2. What are the three steps of the essentialist process?
+3. How does the 90% rule work in evaluating opportunities?
+4. What's the difference between the essentialist mindset and the "I can do everything" mindset?
+5. Why is saying "no" clearly considered an essential skill in the book?
 
 ---
 
 ## Connections with Other Books
 
-### Livros Relacionados
+### Related Books
 
-- **Hábitos Atômicos** (James Clear) — complementa com foco em sistemas e pequenas ações consistentes para sustentar prioridades essenciais.
-- **A Sutil Arte de Ligar o F\*da-se** (Mark Manson) — reforça a ideia de escolher conscientemente onde investir energia emocional e atenção.
-- **Deep Work** (Cal Newport) — aprofunda a execução focada em uma prioridade essencial, com técnicas de trabalho profundo.
+- **Atomic Habits** (James Clear) — complements with a focus on systems and small consistent actions to sustain essential priorities.
+- **The Subtle Art of Not Giving a F*ck** (Mark Manson) — reinforces the idea of consciously choosing where to invest emotional energy and attention.
+- **Deep Work** (Cal Newport) — delves into focused execution on an essential priority, with deep work techniques.
 
-### Sequência Sugerida de Leitura
+### Suggested Reading Order
 
-Essencialismo → Deep Work → Hábitos Atômicos → A Sutil Arte de Ligar o F*da-se (do discernimento estratégico à execução focada e sustentável).
+Essentialism → Deep Work → Atomic Habits → The Subtle Art of Not Giving a F*ck (from strategic discernment to focused and sustainable execution).
 
 ---
 
 ## Personal Review
 
-### Pontos Fortes
+### Strengths
 
-- Framework simples e memorável (Explorar, Eliminar, Executar)
-- Linguagem acessível, com muitas histórias e analogias do dia a dia
-- Desafia diretamente a cultura do "sim automático", algo raro em livros de produtividade
+- Simple and memorable framework (Explore, Eliminate, Execute)
+- Accessible language, with many everyday stories and analogies
+- Directly challenges the culture of "automatic yes," something rare in productivity books
 
-### Pontos Fracos
+### Weaknesses
 
-- Algumas repetições de conceitos ao longo dos capítulos
-- Pouca orientação prática para quem trabalha em ambientes com pouca autonomia (ex: cargos operacionais rígidos)
-- Exemplos majoritariamente corporativos/executivos, menos aplicáveis a outros contextos de vida
+- Some repetition of concepts throughout the chapters
+- Little practical guidance for those working in environments with little autonomy (e.g., rigid operational roles)
+- Mostly corporate/executive examples, less applicable to other life contexts
 
-### Para Quem É
+### For Whom
 
-Profissionais e líderes sobrecarregados que precisam aprender a priorizar e dizer não com mais clareza.
+Overloaded professionals and leaders who need to learn to prioritize and say no more clearly.
 
-### Para Quem Não É
+### Not For Whom
 
-Pessoas em posições com pouca autonomia sobre suas tarefas, que podem achar os conceitos difíceis de aplicar diretamente ao seu contexto.
+People in positions with little autonomy over their tasks, who may find the concepts hard to apply directly to their context.
 
 ---
 
 ## Worth Reading the Full Book If...
 
-- Você lidera equipes ou projetos e precisa tomar decisões constantes sobre prioridades
-- Você quer mais histórias e exemplos para internalizar o mindset essencialista
-- Você busca ferramentas práticas de discernimento para aplicar em decisões de carreira e vida pessoal
+- You lead teams or projects and need to make constant decisions about priorities
+- You want more stories and examples to internalize the essentialist mindset
+- You're looking for practical discernment tools to apply in career and personal life decisions
 
 ---
 
-## Summary Notes
+## Summarizer's Notes
 
-O maior valor do livro está em reformular a pergunta que fazemos diante de novas oportunidades: em vez de "como faço isso caber?", perguntar "isso é realmente o mais importante agora?". Essa mudança de mentalidade, sozinha, já tem potencial de transformar a forma como alguém aloca tempo e energia.
+The greatest value of the book is in reframing the question we ask in front of new opportunities: instead of "how do I fit this in?" ask "is this really the most important thing right now?" That mindset shift alone has the potential to transform how someone allocates time and energy.
 
 ---
 
-## RECAPITULAÇÃO RÁPIDA (30 segundos)
+## QUICK RECAP (30 seconds)
 
-**Lembre do principal em 30 segundos:**
-Não dá pra fazer tudo bem — escolha menos coisas, mas as certas, e faça-as com excelência. Use a regra dos 90% para filtrar oportunidades. Explore, elimine e depois execute com um sistema que facilite o que é essencial.
+**Remember the main thing in 30 seconds:**
+You can't do everything well — choose fewer things, but the right ones, and do them with excellence. Use the 90% rule to filter opportunities. Explore, eliminate, then execute with a system that makes what's essential easier.
 
-**Ação imediata:**
-Escolha um compromisso atual que não passa no teste dos 90% e comece a planejar como eliminá-lo ou recusá-lo esta semana.
+**Immediate action:**
+Pick one current commitment that doesn't pass the 90% test and start planning how to eliminate or decline it this week.

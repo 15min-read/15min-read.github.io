@@ -1,24 +1,24 @@
-# Summary: Hábitos Atômicos
+# Summary: Atomic Habits
 
 ## Metadata
 
-- **Title:** Hábitos Atômicos (Atomic Habits)
+- **Title:** Atomic Habits
 - **Author:** James Clear
 - **Year:** 2018
-- **Category:** Desenvolvimento Pessoal / Produtividade
-- **Reading Time:** 15 minutos
-- **Level:** Iniciante — nenhum conhecimento prévio necessário
+- **Category:** Personal Development / Productivity
+- **Reading Time:** 15 minutes
+- **Level:** Beginner — no prior knowledge required
 
 ## Index
 
-1. A Ideia Central
-2. Checklist de Implementação
-3. Quiz Rápido
-4. Conexões com Outros Livros
-5. Avaliação Pessoal
-6. Vale a Pena Ler o Livro Completo Se...
-7. Notas do Resumidor
-8. Recapitulação Rápida
+1. The Core Idea
+2. Implementation Checklist
+3. Quick Quiz
+4. Connections with Other Books
+5. Personal Review
+6. Worth Reading the Full Book If...
+7. Summarizer's Notes
+8. Quick Recap
 
 ---
 
@@ -26,120 +26,120 @@
 
 **Summary:**
 
-O argumento principal de Clear é que resultados extraordinários não vêm de mudanças drásticas, mas do acúmulo de pequenas melhorias diárias — os "hábitos atômicos". Uma melhora de 1% por dia, sustentada ao longo de um ano, gera um resultado muito superior ao de permanecer estático, porque os efeitos são compostos, como juros sobre juros.
+Clear's main argument is that extraordinary results come not from drastic changes, but from the accumulation of small daily improvements — the "atomic habits." A 1% improvement per day, sustained over a year, yields a far better outcome than staying static, because effects compound, like interest on interest.
 
-Um ponto central do livro é a distinção entre metas e sistemas. Metas definem a direção desejada, mas são os sistemas — os processos que você segue repetidamente — que determinam o progresso real. Vencedores e perdedores frequentemente têm a mesma meta; o que os separa é o sistema por trás dela.
+A central point of the book is the distinction between goals and systems. Goals define the desired direction, but systems — the processes you follow repeatedly — determine real progress. Winners and losers often have the same goal; what separates them is the system behind it.
 
-Clear também propõe uma mudança de perspectiva sobre identidade: em vez de focar em "o que eu quero alcançar", a pergunta certa é "quem eu quero me tornar". Cada hábito é um "voto" para o tipo de pessoa que você deseja ser. Não é sobre correr uma maratona (meta), mas sobre se tornar um corredor (identidade). Mudança de comportamento duradoura exige mudança de identidade primeiro.
+Clear also proposes a shift in perspective on identity: instead of focusing on "what I want to achieve," the right question is "who do I want to become." Each habit is a "vote" for the kind of person you want to be. It's not about running a marathon (goal), but about becoming a runner (identity). Lasting behavior change requires identity change first.
 
-O núcleo prático do livro é o modelo dos **Quatro Passos do Hábito**: deixa (cue), desejo (craving), resposta (response) e recompensa (reward). Todo comportamento habitual segue esse ciclo. A partir dele, Clear deriva as **Quatro Leis da Mudança de Comportamento**, usadas para construir bons hábitos e quebrar maus hábitos:
+The practical core of the book is the **Four Steps of Habit** model: cue, craving, response, and reward. Every habitual behavior follows this cycle. From it, Clear derives the **Four Laws of Behavior Change**, used to build good habits and break bad habits:
 
-1. **Torne óbvio** (ou invisível, para maus hábitos) — deixas claras no ambiente disparam o comportamento. Técnicas como "empilhamento de hábitos" (encaixar um novo hábito depois de um já existente) e desenho do ambiente ajudam aqui.
-2. **Torne atraente** (ou não atraente) — associar o hábito a algo prazeroso aumenta o desejo de executá-lo.
-3. **Torne fácil** (ou difícil) — reduzir a fricção e o número de passos necessários para começar. A "regra dos dois minutos" sugere iniciar qualquer novo hábito em uma versão de dois minutos ou menos.
-4. **Torne satisfatório** (ou insatisfatório) — recompensas imediatas reforçam a repetição; usar reforço visual de progresso (como um calendário marcado) ajuda a manter consistência.
+1. **Make it obvious** (or invisible, for bad habits) — clear cues in the environment trigger behavior. Techniques like "habit stacking" (fitting a new habit after an existing one) and environment design help here.
+2. **Make it attractive** (or unattractive) — associating the habit with something pleasurable increases the desire to perform it.
+3. **Make it easy** (or hard) — reducing friction and the number of steps needed to start. The "two-minute rule" suggests starting any new habit in a two-minute or shorter version.
+4. **Make it satisfying** (or unsatisfying) — immediate rewards reinforce repetition; using visual progress tracking (like a marked calendar) helps maintain consistency.
 
-Outro conceito importante é o **"platô do potencial latente"**: os resultados de um hábito muitas vezes demoram para aparecer, criando a sensação de que o esforço não está funcionando — até que um ponto de inflexão é alcançado. Isso reforça a ideia de confiar no sistema em vez de desanimar com a falta de resultados imediatos.
+Another important concept is the **"plateau of latent potential"**: habit results often take time to appear, creating the feeling that effort isn't working — until a tipping point is reached. This reinforces the idea of trusting the system rather than getting discouraged by the lack of immediate results.
 
-**Exemplo Prático:**
+**Practical Example:**
 
-Um exemplo recorrente no livro é a British Cycling, equipe de ciclismo do Reino Unido, que por décadas teve desempenho medíocre. Sob nova direção, o time adotou a filosofia de melhorar cada componente do desempenho em apenas 1% — desde o ajuste dos assentos das bicicletas até a forma como os atletas lavavam as mãos para evitar doenças. O acúmulo dessas pequenas melhorias levou a resultados excepcionais em competições internacionais nos anos seguintes.
+A recurring example in the book is British Cycling, the UK cycling team, which had mediocre performance for decades. Under new leadership, the team adopted the philosophy of improving every performance component by just 1% — from adjusting bike seats to how athletes washed their hands to avoid illness. The accumulation of these small improvements led to exceptional results in international competitions in the following years.
 
-**Por que importa:**
+**Why it matters:**
 
-Essa abordagem é poderosa porque remove a pressão de buscar transformações imediatas e substitui por um caminho sustentável: pequenas ações diárias, ligadas à identidade da pessoa, que se acumulam ao longo do tempo. Isso torna a mudança de comportamento mais realista e menos dependente de força de vontade ou motivação momentânea.
+This approach is powerful because it removes the pressure to seek immediate transformations and replaces it with a sustainable path: small daily actions, linked to the person's identity, that accumulate over time. This makes behavior change more realistic and less dependent on momentary willpower or motivation.
 
 ---
 
 ## Implementation Checklist
 
-### Before Getting Started
+### Before Starting
 
-- [ ] Defina qual identidade você quer construir (ex: "sou alguém que cuida da saúde")
-- [ ] Escolha 1-2 hábitos-chave para focar, não vários ao mesmo tempo
-- [ ] Identifique um hábito existente para usar como "âncora" no empilhamento de hábitos
+- [ ] Define which identity you want to build (e.g., "I am someone who takes care of their health")
+- [ ] Choose 1-2 key habits to focus on, not several at once
+- [ ] Identify an existing habit to use as an "anchor" in habit stacking
 
 ### During Implementation
 
-- [ ] Reduza o novo hábito a uma versão de 2 minutos ou menos
-- [ ] Ajuste o ambiente para tornar a deixa visível e acessível (ex: deixar tênis de corrida à vista)
-- [ ] Elimine fricções para maus hábitos (torne-os invisíveis e difíceis)
-- [ ] Use um sistema de rastreamento visual (calendário, app, planilha) para marcar consistência
+- [ ] Reduce the new habit to a 2-minute or shorter version
+- [ ] Adjust the environment to make the cue visible and accessible (e.g., leave running shoes in sight)
+- [ ] Eliminate friction for bad habits (make them invisible and hard)
+- [ ] Use a visual tracking system (calendar, app, spreadsheet) to mark consistency
 
 ### After Implementation
 
-- [ ] Revise semanalmente o que está funcionando e o que precisa de ajuste
-- [ ] Aumente gradualmente a dificuldade/duração do hábito depois que ele estiver consolidado
-- [ ] Celebre pequenas vitórias para reforçar a satisfação imediata do comportamento
+- [ ] Review weekly what's working and what needs adjustment
+- [ ] Gradually increase the difficulty/duration of the habit after it's consolidated
+- [ ] Celebrate small wins to reinforce immediate satisfaction with the behavior
 
 ---
 
-## Quick Quiz (5 perguntas)
+## Quick Quiz (5 questions)
 
-1. Segundo o livro, o que determina o progresso real: metas ou sistemas?
-2. Quais são os quatro passos que compõem todo hábito?
-3. O que é a "regra dos dois minutos"?
-4. Por que o autor defende que mudança de identidade vem antes da mudança de hábito duradoura?
-5. O que é o "platô do potencial latente" e por que ele explica frustrações com hábitos?
+1. According to the book, what determines real progress: goals or systems?
+2. What are the four steps that make up every habit?
+3. What is the "two-minute rule"?
+4. Why does the author argue that identity change comes before lasting habit change?
+5. What is the "plateau of latent potential" and why does it explain frustrations with habits?
 
 ---
 
 ## Connections with Other Books
 
-### Livros Relacionados
+### Related Books
 
-- **O Poder do Hábito** (Charles Duhigg) — explora o "loop do hábito" de forma mais voltada à neurociência e estudos de caso corporativos.
-- **Mindset** (Carol Dweck) — complementa a discussão sobre identidade e crença na capacidade de mudança.
-- **Essencialismo** (Greg McKeown) — reforça a ideia de foco em poucas prioridades de alto impacto, alinhado ao conceito de sistemas simples.
+- **The Power of Habit** (Charles Duhigg) — explores the "habit loop" with a greater focus on neuroscience and corporate case studies.
+- **Mindset** (Carol Dweck) — complements the discussion on identity and belief in the ability to change.
+- **Essentialism** (Greg McKeown) — reinforces the idea of focusing on a few high-impact priorities, aligned with the concept of simple systems.
 
-### Sequência Sugerida de Leitura
+### Suggested Reading Sequence
 
-Hábitos Atômicos → O Poder do Hábito → Mindset → Essencialismo (do mais prático ao mais conceitual sobre mudança comportamental e mentalidade).
+Atomic Habits → The Power of Habit → Mindset → Essentialism (from most practical to most conceptual on behavioral change and mindset).
 
 ---
 
 ## Personal Review
 
-### Pontos Fortes
+### Strengths
 
-- Framework claro e acionável (as Quatro Leis)
-- Linguagem simples, exemplos concretos e cotidianos
-- Base em pesquisa comportamental sem se tornar acadêmico demais
+- Clear and actionable framework (the Four Laws)
+- Simple language, concrete and everyday examples
+- Based on behavioral research without becoming too academic
 
-### Pontos Fracos
+### Weaknesses
 
-- Alguns capítulos repetem conceitos já apresentados, ampliando o livro além do necessário
-- Pouca profundidade sobre hábitos complexos ou mudanças que envolvem trauma ou questões emocionais mais profundas
-- Exemplos majoritariamente ocidentais/individuais, pouca discussão sobre contexto socioeconômico como barreira
+- Some chapters repeat already presented concepts, extending the book beyond necessary
+- Little depth on complex habits or changes involving trauma or deeper emotional issues
+- Mostly Western/individual examples, little discussion on socioeconomic context as a barrier
 
-### Para Quem É
+### Who It's For
 
-Pessoas que quer criar rotinas mais consistentes (saúde, estudo, trabalho) e que preferem um método estruturado e prático.
+People who want to create more consistent routines (health, study, work) and who prefer a structured and practical method.
 
-### Para Quem Não É
+### Who It's Not For
 
-Quem busca uma abordagem mais psicológica/emocional para mudança de comportamento, ou quem já domina bem literatura de produtividade e busca conceitos totalmente inéditos.
+Those seeking a more psychological/emotional approach to behavior change, or those who already master productivity literature and seek completely new concepts.
 
 ---
 
 ## Worth Reading the Full Book If...
 
-- Você quer os estudos de caso completos e mais exemplos para fixar cada uma das Quatro Leis
-- Você prefere aprender com repetição e reforço gradual ao longo de capítulos
-- Você pretende aplicar o método em um contexto de coaching ou ensino para outras pessoas
+- You want the complete case studies and more examples to fix each of the Four Laws
+- You prefer learning with repetition and gradual reinforcement throughout chapters
+- You intend to apply the method in a coaching or teaching context for other people
 
 ---
 
-## Summary Notes
+## Summarizer's Notes
 
-O maior valor do livro está na simplicidade do framework das Quatro Leis — é fácil de lembrar e aplicar no dia a dia. A parte sobre identidade ("quem eu quero me tornar") costuma ser a mais transformadora para leitores, pois muda o foco de resultados para o processo de se tornar uma pessoa diferente.
+The book's greatest value lies in the simplicity of the Four Laws framework — it's easy to remember and apply in daily life. The part about identity ("who I want to become") is usually the most transformative for readers, as it shifts focus from results to the process of becoming a different person.
 
 ---
 
-## RECAPITULAÇÃO RÁPIDA (30 segundos)
+## QUICK RECAP (30 seconds)
 
-**Lembre do principal em 30 segundos:**
-Pequenas melhorias de 1% se acumulam com o tempo. Foque em sistemas, não metas. Construa hábitos ligados à identidade que você quer ter. Use as Quatro Leis: torne óbvio, atraente, fácil e satisfatório.
+**Remember the main point in 30 seconds:**
+Small 1% improvements accumulate over time. Focus on systems, not goals. Build habits linked to the identity you want to have. Use the Four Laws: make it obvious, attractive, easy, and satisfying.
 
-**Ação imediata:**
-Escolha um hábito que você quer construir hoje e reduza-o a uma versão de 2 minutos. Comece amanhã de manhã.
+**Immediate Action:**
+Choose a habit you want to build today and reduce it to a 2-minute version. Start tomorrow morning.

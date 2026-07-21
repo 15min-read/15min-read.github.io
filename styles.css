@@ -39,16 +39,10 @@ input {
 }
 button:focus-visible,
 input:focus-visible,
-.related-card:focus-visible,
-.skip-link:focus-visible {
+.book-card:focus-visible,
+.related-card:focus-visible {
   outline: 3px solid var(--accent);
   outline-offset: 3px;
-}
-
-h1:focus-visible,
-h2:focus-visible,
-h3:focus-visible {
-  outline: none;
 }
 img {
   max-width: 100%;
@@ -63,23 +57,6 @@ img {
   position: relative;
 }
 
-.skip-link {
-  position: absolute;
-  left: 24px;
-  top: 16px;
-  z-index: 40;
-  padding: 10px 14px;
-  border-radius: 999px;
-  background: var(--ink);
-  color: #fff;
-  transform: translateY(-140%);
-  transition: transform 180ms ease;
-}
-
-.skip-link:focus {
-  transform: translateY(0);
-}
-
 .main-content {
   padding: 120px 0 0;
 }
@@ -90,10 +67,6 @@ img {
   gap: 40px;
   border-bottom: 1px solid var(--rule);
   padding-bottom: 36px;
-  width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .eyebrow {
@@ -184,8 +157,13 @@ img {
 }
 
 .filter-bar {
-  position: relative;
-  padding: 18px 0;
+  position: fixed;
+  inset: 0 auto auto 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  padding: 18px 24px;
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
@@ -194,75 +172,6 @@ img {
   background: rgba(246, 239, 231, 0.96);
   border-bottom: 1px solid rgba(31, 25, 20, 0.12);
   box-shadow: 0 8px 20px rgba(31, 25, 20, 0.06);
-  width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Compact sticky variant applied via JS when user scrolls past hero */
-.filter-bar.filter-bar--compact {
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 60;
-  padding: 8px 14px;
-  max-width: none;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.95),
-    rgba(246, 239, 231, 0.98)
-  );
-  box-shadow: 0 6px 18px rgba(31, 25, 20, 0.08);
-  border-bottom: 1px solid rgba(31, 25, 20, 0.06);
-}
-
-/* When compact is active reduce hero spacing for visual stability */
-.site-shell.compact-filter-visible .hero-section {
-  padding-top: 10px;
-}
-
-/* Small visual adjustments for compact mode */
-.filter-bar.filter-bar--compact .search-box {
-  padding: 6px 10px;
-}
-
-.filter-bar.filter-bar--compact .filters {
-  gap: 6px;
-}
-
-/* Ensure language switcher in header is visible and styled */
-.site-header {
-  position: relative;
-  background: transparent;
-}
-
-.site-header__inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 12px 24px;
-}
-
-.site-logo span {
-  font-weight: 700;
-  color: var(--ink);
-}
-
-@media (max-width: 680px) {
-  .site-header__inner {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-  .site-header {
-    background: linear-gradient(
-      180deg,
-      rgba(246, 239, 231, 0.8),
-      rgba(246, 239, 231, 0.6)
-    );
-  }
 }
 
 .search-box {
@@ -304,9 +213,7 @@ img {
   color: var(--ink-soft);
   font-weight: 600;
   cursor: pointer;
-  transition:
-    180ms ease,
-    transform 180ms ease;
+  transition: 180ms ease, transform 180ms ease;
 }
 
 .language-button:hover {
@@ -342,21 +249,23 @@ img {
 }
 
 .books-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
   gap: 24px;
-  margin-top: 28px;
-  padding: 0 12px 20px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 24px;
+  padding-bottom: 16px;
 }
 
 .books-grid .book-card {
-  width: 100%;
+  flex: 1 1 270px;
+  min-width: 250px;
+  max-width: 360px;
 }
 
 .books-grid.single-book {
+  justify-content: center;
   grid-template-columns: minmax(260px, 1fr);
   max-width: 1200px;
 }
@@ -364,15 +273,14 @@ img {
 .books-grid.single-book .book-card {
   width: 100%;
   max-width: 360px;
-  margin: 0 auto;
 }
 .book-card {
   position: relative;
   display: block;
   overflow: hidden;
-  min-height: 360px;
+  min-height: 420px;
   aspect-ratio: 3 / 4;
-  border: none;
+  border: 1px solid var(--rule);
   border-radius: 6px 16px 16px 6px;
   background: transparent;
   box-shadow: var(--shadow);
@@ -380,12 +288,6 @@ img {
   transition:
     transform 160ms ease,
     box-shadow 160ms ease;
-}
-
-.book-card__link {
-  display: block;
-  text-decoration: none;
-  color: inherit;
 }
 
 .book-card:hover {
@@ -510,6 +412,7 @@ img {
 }
 
 .book-card__cover .author {
+  margin-top: 10px;
   font-size: 1rem;
   opacity: 0.85;
   color: rgba(255, 255, 255, 0.9);
@@ -526,7 +429,7 @@ img {
 .book-card__content .quote {
   margin: 0 0 14px;
   color: rgba(31, 25, 20, 0.88);
-  font-size: 0.75rem;
+  font-size: 0.96rem;
   line-height: 1.7;
 }
 
@@ -537,15 +440,15 @@ img {
   border-top: 1px solid var(--rule);
   padding-top: 12px;
   font-size: 0.92rem;
-  color: rgba(31, 25, 20, 0.76);
+  color: var(--accent);
 }
 
 .book-card__footer span {
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .book-card__footer span:last-child {
-  color: rgba(31, 25, 20, 0.76);
+  color: var(--accent);
 }
 
 .empty-state {
@@ -785,73 +688,32 @@ img {
     padding-left: 20px;
     padding-right: 20px;
   }
-
-  /* Make the main content start lower on mobile but not so far down */
-  .main-content {
-    padding: 80px 0 0;
-  }
-
-  /* Make the filter bar behave like a normal block on small screens so it doesn't cover content */
-  .filter-bar {
-    position: static;
-    inset: auto;
-    background: transparent;
-    box-shadow: none;
-    border-bottom: 0;
-    padding: 12px 0 6px;
-  }
-
-  .search-box {
-    padding: 8px 12px;
-  }
-
-  .search-box input {
-    font-size: 0.95rem;
-  }
-
-  .site-shell {
-    padding: 0 12px 40px;
-  }
-  .site-header__inner {
-    padding: 12px 0;
-  }
-
-  .site-nav {
-    gap: 10px;
-    font-size: 0.95rem;
-  }
-
-  .hero-copy h1 {
-    font-size: 2.4rem;
-  }
-
-  /* Use a single-column grid for books on mobile for predictable stacking */
-  .books-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 18px;
-    margin-top: 18px;
-  }
-
-  /* Make book cards shorter and more book-like on phones */
-  .book-card {
-    min-height: 280px;
-    aspect-ratio: 3 / 4;
-    border-radius: 8px;
-  }
-
-  .book-card__cover {
-    padding: 18px 18px 16px;
-  }
-
-  .book-card__content {
-    margin-top: 12px;
-    padding: 14px 14px 12px;
-  }
 }
 
 @media (max-width: 860px) {
   .hero-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .site-shell {
+    padding: 0 16px 40px;
+  }
+  .site-header__inner {
+    padding: 16px 0;
+  }
+  .filter-bar {
+    top: 0;
+  }
+  .site-nav {
+    gap: 12px;
+    font-size: 0.95rem;
+  }
+  .hero-copy h1 {
+    font-size: 2.6rem;
+  }
+  .books-grid {
     grid-template-columns: 1fr;
   }
 }

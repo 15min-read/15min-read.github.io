@@ -13,6 +13,16 @@
       "hábitos",
       "sistemas",
       "mudança"
+    ],
+    "file_en": "habitos-atomicos-en.md",
+    "title_en": "Atomic Habits",
+    "category_en": "Productivity",
+    "hook_en": "You do not rise to the level of your goals — you fall to the level of your systems.",
+    "summary_en": "James Clear shows that real change happens less through willpower and more through simple structures that reduce friction for the desired habit.",
+    "tags_en": [
+      "habits",
+      "systems",
+      "change"
     ]
   },
   {
@@ -29,6 +39,16 @@
       "foco",
       "atenção",
       "carreira"
+    ],
+    "file_en": "deep-work-en.md",
+    "title_en": "Deep Work",
+    "category_en": "Productivity",
+    "hook_en": "Attention without distraction is the superpower of the 21st century.",
+    "summary_en": "Cal Newport argues that deep work has become rare and extremely valuable.",
+    "tags_en": [
+      "focus",
+      "attention",
+      "career"
     ]
   },
   {
@@ -45,6 +65,16 @@
       "prioridade",
       "disciplina",
       "foco"
+    ],
+    "file_en": "essencialismo-en.md",
+    "title_en": "Essentialism",
+    "category_en": "Productivity",
+    "hook_en": "If it is not a “hell yes”, it is a no.",
+    "summary_en": "Greg McKeown argues that real productivity comes from the discipline of saying no.",
+    "tags_en": [
+      "priority",
+      "discipline",
+      "focus"
     ]
   },
   {
@@ -61,6 +91,16 @@
       "hábito",
       "loop",
       "mudança"
+    ],
+    "file_en": "o-poder-do-habito-en.md",
+    "title_en": "The Power of Habit",
+    "category_en": "Productivity",
+    "hook_en": "Cue, routine, reward — the loop that governs half of your life.",
+    "summary_en": "Duhigg shows how habits form and persist through a simple loop.",
+    "tags_en": [
+      "habit",
+      "loop",
+      "change"
     ]
   },
   {
@@ -77,6 +117,16 @@
       "crescimento",
       "aprendizagem",
       "resiliência"
+    ],
+    "file_en": "mindset-en.md",
+    "title_en": "Mindset",
+    "category_en": "Psychology",
+    "hook_en": "It is not a verdict yet — it is the next step.",
+    "summary_en": "Carol Dweck connects how we think about talent and effort with human development.",
+    "tags_en": [
+      "growth",
+      "learning",
+      "resilience"
     ]
   },
   {
@@ -93,6 +143,16 @@
       "emoções",
       "empatia",
       "liderança"
+    ],
+    "file_en": "inteligencia-emocional-en.md",
+    "title_en": "Emotional Intelligence",
+    "category_en": "Psychology",
+    "hook_en": "IQ gets you the interview; EQ keeps you there.",
+    "summary_en": "Goleman highlights that emotional skills are as important as technical intelligence.",
+    "tags_en": [
+      "emotions",
+      "empathy",
+      "leadership"
     ]
   },
   {
@@ -109,6 +169,16 @@
       "fluxo",
       "atenção",
       "sentido"
+    ],
+    "file_en": "flow-en.md",
+    "title_en": "Flow",
+    "category_en": "Psychology",
+    "hook_en": "Happiness is not found — it is built in attention.",
+    "summary_en": "Csikszentmihalyi studies the deeply absorbing state in which a person feels fully engaged.",
+    "tags_en": [
+      "flow",
+      "attention",
+      "meaning"
     ]
   },
   {
@@ -125,6 +195,16 @@
       "perseverança",
       "esforço",
       "paixão"
+    ],
+    "file_en": "grit-en.md",
+    "title_en": "Grit",
+    "category_en": "Psychology",
+    "hook_en": "Talent × effort = skill. Skill × effort = achievement.",
+    "summary_en": "Angela Duckworth shows that perseverance and passion can explain much of success.",
+    "tags_en": [
+      "perseverance",
+      "effort",
+      "passion"
     ]
   },
   {
@@ -141,6 +221,16 @@
       "sentido",
       "sofrimento",
       "psicologia"
+    ],
+    "file_en": "em-busca-de-sentido-en.md",
+    "title_en": "Man's Search for Meaning",
+    "category_en": "Psychology",
+    "hook_en": "Even at the extreme edge of pain, inner meaning can be preserved.",
+    "summary_en": "Frankl explains how the search for meaning sustains inner freedom even in extreme suffering.",
+    "tags_en": [
+      "meaning",
+      "suffering",
+      "psychology"
     ]
   },
   {
@@ -157,6 +247,16 @@
       "propósito",
       "liderança",
       "marca"
+    ],
+    "file_en": "comece-pelo-porque-en.md",
+    "title_en": "Start with Why",
+    "category_en": "Business",
+    "hook_en": "People do not buy what you do — they buy why you do it.",
+    "summary_en": "Sinek shows how leaders and brands gain power when they start from a clear why.",
+    "tags_en": [
+      "purpose",
+      "leadership",
+      "brand"
     ]
   },
   {
@@ -172,6 +272,16 @@
     "tags": [
       "engenharia",
       "manutenção",
+      "craft"
+    ],
+    "file_en": "codigo-limpo-en.md",
+    "title_en": "Clean Code",
+    "category_en": "Technology",
+    "hook_en": "Code is read ten times more than it is written. Write for the reader.",
+    "summary_en": "Martin gathers practical principles for writing software that is readable, sustainable and easy to maintain.",
+    "tags_en": [
+      "engineering",
+      "maintenance",
       "craft"
     ]
   },
@@ -189,6 +299,16 @@
       "ética",
       "virtude",
       "filosofia"
+    ],
+    "file_en": "etica-a-nicomaco-en.md",
+    "title_en": "Nicomachean Ethics",
+    "category_en": "Philosophy",
+    "hook_en": "The good life is built by the constant practice of virtues.",
+    "summary_en": "Aristotle describes ethical life as the virtuous balance between excess and deficiency and how character is formed through practice.",
+    "tags_en": [
+      "ethics",
+      "virtue",
+      "philosophy"
     ]
   },
   {
@@ -205,6 +325,16 @@
       "agile",
       "qualidade",
       "teste"
+    ],
+    "file_en": "agile-testing-en.md",
+    "title_en": "Agile Testing",
+    "category_en": "Technology",
+    "hook_en": "Quality is built in every sprint, not only at the end of the project.",
+    "summary_en": "The approach shows QA and development working together from the start.",
+    "tags_en": [
+      "agile",
+      "quality",
+      "testing"
     ]
   },
   {
@@ -221,6 +351,16 @@
       "devops",
       "entrega",
       "automação"
+    ],
+    "file_en": "continuous-delivery-en.md",
+    "title_en": "Continuous Delivery",
+    "category_en": "Technology",
+    "hook_en": "Frequent delivery requires automation, trust and continuous flow.",
+    "summary_en": "The book shows how to reduce release risk with automation and continuous feedback.",
+    "tags_en": [
+      "devops",
+      "delivery",
+      "automation"
     ]
   },
   {
@@ -236,6 +376,16 @@
     "tags": [
       "qualidade",
       "processo",
+      "software"
+    ],
+    "file_en": "perfect-software-en.md",
+    "title_en": "Perfect Software",
+    "category_en": "Technology",
+    "hook_en": "Perfect software is not the absence of defects, but a strategy of excellence.",
+    "summary_en": "Perfect software depends on processes, discipline and systems thinking.",
+    "tags_en": [
+      "quality",
+      "process",
       "software"
     ]
   }

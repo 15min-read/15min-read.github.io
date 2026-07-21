@@ -29,6 +29,21 @@ test("search filters the book grid", async ({ page }) => {
   await expect(page.locator(".book-card h3")).toHaveText("Mindset");
 });
 
+test("language switch toggles the UI and loads English detail routes", async ({ page }) => {
+  await page.click('.language-button:has-text("EN")');
+  await expect(page.locator('.search-box input')).toHaveAttribute(
+    'placeholder',
+    /Search by title/i,
+  );
+  await expect(page.locator('#bookCountLabel')).toHaveText('books');
+  await expect(page.locator('.language-button.active')).toHaveText('EN');
+
+  await page.locator('.book-card').first().click();
+  await expect(page).toHaveURL(/#\/books\//);
+  await expect(page.locator('.detail-page__header h1')).toBeVisible();
+  await expect(page.locator('.markdown-body')).toContainText('Summary:');
+});
+
 test("clicking a book opens detail page and loads summary", async ({
   page,
 }) => {
@@ -47,6 +62,12 @@ test("catalog includes books from the markdown manifest", async ({ page }) => {
 test("detail page renders content from a markdown file", async ({ page }) => {
   await page.goto("/#/livros/habitos-atomicos");
   await expect(page.locator(".markdown-body")).toContainText("Ficha Técnica");
+});
+
+test("ordered markdown lists render correctly in detail pages", async ({ page }) => {
+  await page.goto("/#/livros/habitos-atomicos");
+  expect(await page.locator(".markdown-body ol").count()).toBeGreaterThan(0);
+  await expect(page.locator(".markdown-body ol li").first()).toContainText("A Ideia Central");
 });
 
 test("related book navigation scrolls to top", async ({ page }) => {

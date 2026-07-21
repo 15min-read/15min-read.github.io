@@ -1,259 +1,182 @@
-import { debounce, rafThrottle } from './lib/utils.js';
-import { fetchCatalog, loadBookMarkdown } from './lib/data.js';
-import { renderFilters, renderBooks, renderDetail } from './lib/render.js';
+import { debounce, normalizeLanguage } from "./lib/utils.js";
+import { fetchCatalog, loadBookMarkdown } from "./lib/data.js";
+import { renderFilters, renderBooks, renderDetail } from "./lib/render.js";
+
+const SUPPORTED_LANGUAGES = ["pt", "en"];
+const DEFAULT_LANGUAGE = "pt";
+
+const localeTexts = {
+  pt: {
+    htmlLang: "pt-BR",
+    pageTitle: "15 min read",
+    metaDescription:
+      "15 min read reúne resumos editoriais de não-ficção em leitura rápida e prática.",
+    heroEyebrow: "Biblioteca · Edição contínua",
+    heroTitle: "Grandes livros, <em>lidos em quinze minutos.</em>",
+    heroDescription:
+      "Uma coleção curada de resumos editoriais de não-ficção. Cada resumo destila o argumento central, os mecanismos por trás dele e como aplicá-lo — sem slogans e sem enrolação.",
+    searchPlaceholder: "Buscar por título, autor ou ideia…",
+    bookCountLabel: "livros",
+    categoryCountLabel: "categorias",
+    readingTimeLabel: "min por leitura",
+    footerLineOne: "15 min read — resumos interpretativos para estudo e referência.",
+    footerLineTwo:
+      "Não substituem a leitura das obras originais. Todos os direitos das obras pertencem aos respectivos autores e editoras.",
+    allCategory: "Todos",
+  },
+  en: {
+    htmlLang: "en",
+    pageTitle: "15 min read",
+    metaDescription:
+      "15 min read gathers editorial nonfiction summaries for quick, practical reading.",
+    heroEyebrow: "Library · Ongoing edition",
+    heroTitle: "Great books, <em>read in fifteen minutes.</em>",
+    heroDescription:
+      "A curated collection of nonfiction summaries. Each summary distills the core argument, the mechanisms behind it, and how to apply them — no slogans, no fluff.",
+    searchPlaceholder: "Search by title, author, or idea…",
+    bookCountLabel: "books",
+    categoryCountLabel: "categories",
+    readingTimeLabel: "min reading",
+    footerLineOne: "15 min read — interpretive summaries for study and quick reference.",
+    footerLineTwo:
+      "Not a substitute for the original works. All rights belong to the authors and publishers.",
+    allCategory: "All",
+  },
+};
+
+const categoryColors = {
+  Produtividade: "oklch(0.72 0.14 75)",
+  Psicologia: "oklch(0.55 0.14 25)",
+  Filosofia: "oklch(0.45 0.08 250)",
+  Negócios: "oklch(0.5 0.12 155)",
+  Tecnologia: "oklch(0.35 0.05 260)",
+  Productivity: "oklch(0.72 0.14 75)",
+  Psychology: "oklch(0.55 0.14 25)",
+  Philosophy: "oklch(0.45 0.08 250)",
+  Business: "oklch(0.5 0.12 155)",
+  Technology: "oklch(0.35 0.05 260)",
+};
 
 let books = [];
 
-async function loadBooks() {
-  try {
-    const response = await fetch('./books/catalog.json');
-    if (!response.ok) {
-      throw new Error('Catalogo não encontrado');
-    }
-
-    books = await response.json();
-  } catch (error) {
-    console.warn('Falling back to embedded catalog manifest', error);
-    books = window.BOOKS_MANIFEST || [];
-  }
-
-  renderFilters();
-  renderBooks();
-  if (window.location.hash.startsWith('#/livros/')) {
-    const slug = window.location.hash.replace('#/livros/', '');
-    await showDetail(slug);
-  }
+function getPreferredLanguage() {
+  const stored = window.localStorage.getItem("siteLanguage");
+  return normalizeLanguage(stored, DEFAULT_LANGUAGE);
 }
 
-const categoryColors = {
-  Produtividade: 'oklch(0.72 0.14 75)',
-  Psicologia: 'oklch(0.55 0.14 25)',
-  Filosofia: 'oklch(0.45 0.08 250)',
-  Negócios: 'oklch(0.5 0.12 155)',
-  Tecnologia: 'oklch(0.35 0.05 260)'
+function getRoutePrefix(language) {
+  return normalizeLanguage(language, DEFAULT_LANGUAGE) === "en" ? "#/books/" : "#/livros/";
+}
+
+function getLanguageLabel(language) {
+  return normalizeLanguage(language, DEFAULT_LANGUAGE) === "en" ? "EN" : "PT-BR";
+}
+
+function getBookTitle(book, language) {
+  const normalizedLanguage = normalizeLanguage(language, DEFAULT_LANGUAGE);
+  return normalizedLanguage === "en" ? book.title_en || book.title || book.slug : book.title || book.slug;
+}
+
+function parseRouteHash(hash) {
+  const cleaned = hash.replace(/^#/, "");
+  if (cleaned.startsWith("/livros/")) {
+    return { slug: cleaned.replace("/livros/", ""), language: "pt" };
+  }
+  if (cleaned.startsWith("/books/")) {
+    return { slug: cleaned.replace("/books/", ""), language: "en" };
+  }
+  return { slug: null, language: null };
+}
+
+const state = {
+  query: "",
+  category: localeTexts[getPreferredLanguage()].allCategory,
+  language: getPreferredLanguage(),
 };
 
-function renderMarkdown(markdown) {
-  const lines = markdown.replace(/\r/g, '').split('\n');
-  const blocks = [];
-  let paragraphLines = [];
-  let listItems = [];
+const booksGrid = document.getElementById("booksGrid");
+const filters = document.getElementById("filters");
+const searchInput = document.getElementById("searchInput");
+const detailView = document.getElementById("detailView");
+const mainContent = document.querySelector(".main-content");
+const bookCount = document.getElementById("book-count");
+const categoryCount = document.getElementById("category-count");
+const languageSwitcher = document.getElementById("languageSwitcher");
+const metaDescription = document.querySelector('meta[name="description"]');
 
-  const flushParagraph = () => {
-    if (paragraphLines.length) {
-      blocks.push(`<p>${paragraphLines.join(' ')}</p>`);
-      paragraphLines = [];
-    }
-  };
-
-  const flushList = () => {
-    if (listItems.length) {
-      blocks.push(`<ul>${listItems.map((item) => `<li>${item}</li>`).join('')}</ul>`);
-      listItems = [];
-    }
-  };
-
-  const formatInline = (text) => text
-    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-    .replace(/\*(.*?)\*/g, '<em>$1</em>');
-
-  lines.forEach((line) => {
-    const trimmed = line.trim();
-
-    if (!trimmed) {
-      flushParagraph();
-      flushList();
-      return;
-    }
-
-    if (/^##\s+/.test(trimmed)) {
-      flushParagraph();
-      flushList();
-      blocks.push(`<h2>${formatInline(trimmed.replace(/^##\s+/, ''))}</h2>`);
-      return;
-    }
-
-    if (/^###\s+/.test(trimmed)) {
-      flushParagraph();
-      flushList();
-      blocks.push(`<h3>${formatInline(trimmed.replace(/^###\s+/, ''))}</h3>`);
-      return;
-    }
-
-    if (/^-\s+/.test(trimmed)) {
-      flushParagraph();
-      listItems.push(formatInline(trimmed.replace(/^-\s+/, '')));
-      return;
-    }
-
-    paragraphLines.push(formatInline(trimmed));
-  });
-
-  flushParagraph();
-  flushList();
-
-  return blocks.join('');
-}
-
-async function loadBookMarkdown(book) {
-  const primaryFile = book.file || `${book.slug}.md`;
-  const fallbackFile = `${book.slug}.md`;
-  const primaryUrl = new URL(`books/${primaryFile}`, window.location.href).href;
-  const fallbackUrl = new URL(`books/${fallbackFile}`, window.location.href).href;
-
-  const tryFetch = async (url) => {
-    const response = await fetch(url, { cache: 'no-store' });
-    if (!response.ok) {
-      throw new Error(`Markdown não encontrado: ${url} (${response.status})`);
-    }
-    return response.text();
-  };
-
-  try {
-    const markdown = await tryFetch(primaryUrl);
-    return renderMarkdown(markdown);
-  } catch (error) {
-    if (primaryUrl !== fallbackUrl) {
-      try {
-        const markdown = await tryFetch(fallbackUrl);
-        return renderMarkdown(markdown);
-      } catch (fallbackError) {
-        console.warn(`Resumo não encontrado para ${book.slug}`, fallbackError);
-      }
-    } else {
-      console.warn(`Resumo não encontrado para ${book.slug}`, error);
-    }
-
-    return `<p>${book.summary}</p>`;
+function applyDocumentMetadata(title = "") {
+  const language = normalizeLanguage(state.language, DEFAULT_LANGUAGE);
+  const locale = localeTexts[language];
+  document.title = title ? `${title} · ${locale.pageTitle}` : locale.pageTitle;
+  if (metaDescription) {
+    metaDescription.content = title ? `${title} — ${locale.metaDescription}` : locale.metaDescription;
   }
 }
-// `debounce` and `rafThrottle` are imported from `lib/utils.js`.
 
-// `loadBookMarkdown` is provided by `lib/data.js`.
-
-const state = { query: '', category: 'Todos' };
-
-const booksGrid = document.getElementById('booksGrid');
-const filters = document.getElementById('filters');
-const searchInput = document.getElementById('searchInput');
-const detailView = document.getElementById('detailView');
-const mainContent = document.querySelector('.main-content');
-const bookCount = document.getElementById('book-count');
-
-function renderFilters() {
-  const availableCategories = ['Todos', ...new Set(books.map((book) => book.category))];
-  filters.innerHTML = availableCategories
-    .map((category) => {
-      const active = category === state.category ? 'active' : '';
-      return `<button class="filter-chip ${active}" data-category="${category}">${category}</button>`;
-    })
-    .join('');
+function translateStaticText() {
+  const language = normalizeLanguage(state.language, DEFAULT_LANGUAGE);
+  const locale = localeTexts[language];
+  document.documentElement.lang = locale.htmlLang;
+  document.getElementById("heroEyebrow").textContent = locale.heroEyebrow;
+  document.getElementById("heroTitle").innerHTML = locale.heroTitle;
+  document.getElementById("heroDescription").textContent = locale.heroDescription;
+  if (searchInput) {
+    searchInput.placeholder = locale.searchPlaceholder;
+  }
+  document.getElementById("bookCountLabel").textContent = locale.bookCountLabel;
+  document.getElementById("categoryCountLabel").textContent = locale.categoryCountLabel;
+  document.getElementById("readingTimeLabel").textContent = locale.readingTimeLabel;
+  document.getElementById("footerLineOne").textContent = locale.footerLineOne;
+  document.getElementById("footerLineTwo").textContent = locale.footerLineTwo;
+  applyDocumentMetadata();
 }
 
-function matchesBook(book) {
-  const query = state.query.trim().toLowerCase();
-  const matchesQuery = !query || [book.title, book.author, book.hook, book.summary, ...book.tags].join(' ').toLowerCase().includes(query);
-  const matchesCategory = state.category === 'Todos' || book.category === state.category;
-  return matchesQuery && matchesCategory;
+function renderLanguageSwitcher() {
+  if (!languageSwitcher) return;
+  languageSwitcher.innerHTML = SUPPORTED_LANGUAGES.map((lang) => {
+    const active = lang === state.language ? " active" : "";
+    const pressed = lang === state.language ? "true" : "false";
+    return `<button type="button" class="language-button${active}" data-language="${lang}" aria-pressed="${pressed}">${getLanguageLabel(lang)}</button>`;
+  }).join("");
 }
 
-function renderBooks() {
-  const visibleBooks = books.filter(matchesBook);
-  bookCount.textContent = String(visibleBooks.length);
-  booksGrid.classList.toggle('single-book', visibleBooks.length === 1);
+function applyLanguage(language) {
+  const normalizedLanguage = normalizeLanguage(language, DEFAULT_LANGUAGE);
+  state.language = normalizedLanguage;
+  state.category = localeTexts[normalizedLanguage].allCategory;
+  window.localStorage.setItem("siteLanguage", normalizedLanguage);
+  translateStaticText();
+  renderLanguageSwitcher();
+  if (books.length) {
+    renderCatalogView();
+  }
+}
 
-  if (!visibleBooks.length) {
-    booksGrid.classList.remove('single-book');
-    booksGrid.innerHTML = '<div class="empty-state">Nada encontrado. Tente outra palavra-chave ou remova o filtro de categoria.</div>';
+function setLanguage(language) {
+  const normalizedLanguage = normalizeLanguage(language, DEFAULT_LANGUAGE);
+  if (!SUPPORTED_LANGUAGES.includes(normalizedLanguage)) return;
+  const currentRoute = parseRouteHash(window.location.hash);
+  applyLanguage(normalizedLanguage);
+
+  if (currentRoute.slug) {
+    window.location.hash = `${getRoutePrefix(normalizedLanguage)}${currentRoute.slug}`;
     return;
   }
 
-  booksGrid.innerHTML = visibleBooks
-    .map((book, index) => {
-      const color = categoryColors[book.category];
-      return `
-        <article class="book-card" data-slug="${book.slug}">
-          <div class="book-card__cover" style="background: radial-gradient(120% 80% at 0% 0%, ${color} 0%, transparent 55%), linear-gradient(180deg, oklch(0.22 0.02 60) 0%, oklch(0.14 0.02 60) 100%);">
-            <div class="meta">
-              <span>№ ${String(index + 1).padStart(2, '0')}</span>
-              <span>${book.year}</span>
-            </div>
-            <div>
-              <p class="eyebrow">${book.category}</p>
-              <h3>${book.title}</h3>
-              <p class="author">${book.author}</p>
-            </div>
-          </div>
-          <div class="book-card__body">
-            <p>“${book.hook}”</p>
-            <div class="book-card__footer">
-              <span>${book.minutes} min</span>
-              <span>Ler resumo ></span>
-            </div>
-          </div>
-        </article>
-      `;
-    })
-    .join('');
+  routeFromHash();
 }
 
-async function renderDetail(book) {
-  const related = books.filter((entry) => entry.slug !== book.slug && entry.category === book.category).slice(0, 3);
-  const markdownHtml = await loadBookMarkdown(book);
-
-  detailView.innerHTML = `
-    <article class="detail-page">
-      <header class="detail-page__header">
-        <nav class="detail-page__nav">
-          <a href="#" data-home-link>&lt; Biblioteca</a>
-          <span>/</span>
-          <span>${book.category}</span>
-        </nav>
-        <p class="detail-page__meta">${book.category} · ${book.year} · ${book.minutes} min de leitura</p>
-        <h1>${book.title}</h1>
-        <p class="detail-page__subtitle">${book.author}</p>
-        <blockquote class="detail-page__hook">“${book.hook}”</blockquote>
-        <div class="detail-page__tags">
-          ${book.tags.map((tag) => `<span>${tag}</span>`).join('')}
-        </div>
-      </header>
-
-      <section class="detail-page__body">
-        <div class="detail-page__content">
-          <h2>Resumo interpretativo</h2>
-          <div class="markdown-body">${markdownHtml}</div>
-        </div>
-        <aside class="detail-page__sidebar">
-          <h3>Por que vale a pena ler</h3>
-          <ul>
-            <li>Entende o argumento central sem perder tempo.</li>
-            <li>Conecta ideias a hábitos, carreira e pensamento crítico.</li>
-            <li>Serve como referência rápida para estudo e revisão.</li>
-          </ul>
-        </aside>
-      </section>
-
-      <section class="detail-page__related">
-        <p class="eyebrow">Continue lendo em ${book.category}</p>
-        <div class="related-grid">
-          ${related.map((entry) => `
-            <a class="related-card" href="#/livros/${entry.slug}">
-              <h4>${entry.title}</h4>
-              <p>“${entry.hook}”</p>
-            </a>
-          `).join('')}
-        </div>
-      </section>
-    </article>
-  `;
+function renderCatalogView() {
+  renderFilters(books, state, filters);
+  renderBooks(books, state, booksGrid, categoryColors, bookCount, categoryCount);
 }
 
 function showHome() {
   mainContent.hidden = false;
   detailView.hidden = true;
-  detailView.innerHTML = '';
-  renderFilters(books, state, filters, updateLayoutOffsets);
-  renderBooks(books, state, booksGrid, categoryColors, bookCount, categoryCount);
+  detailView.innerHTML = "";
+  renderCatalogView();
+  applyDocumentMetadata();
 }
 
 function resetScroll() {
@@ -265,92 +188,81 @@ function resetScroll() {
 async function showDetail(slug) {
   const book = books.find((entry) => entry.slug === slug);
   if (!book) {
-    window.location.hash = '';
+    window.location.hash = "";
     showHome();
     return;
   }
 
   mainContent.hidden = true;
   detailView.hidden = false;
-  await renderDetail(book, books, detailView, loadBookMarkdown);
+  await renderDetail(book, books, detailView, loadBookMarkdown, state.language);
+  applyDocumentMetadata(getBookTitle(book, state.language));
   await new Promise((resolve) => requestAnimationFrame(resolve));
   resetScroll();
 }
 
 async function routeFromHash() {
-  const hash = window.location.hash.replace(/^#/, '');
-  if (hash.startsWith('/livros/')) {
-    const slug = hash.replace('/livros/', '');
-    await showDetail(slug);
+  const route = parseRouteHash(window.location.hash);
+  if (route.language && route.language !== state.language) {
+    applyLanguage(route.language);
+  }
+
+  if (route.slug) {
+    await showDetail(route.slug);
   } else {
     showHome();
   }
 }
 
-searchInput.addEventListener('input', (event) => {
-  state.query = event.target.value;
-  renderBooks();
-});
+async function loadBooks() {
+  books = await fetchCatalog();
+  translateStaticText();
+  renderLanguageSwitcher();
+  renderCatalogView();
+  await routeFromHash();
+}
+
 if (searchInput) {
-  const handleSearchInput = debounce((value) => {
-    state.query = String(value || '').trim();
-    renderBooks(books, state, booksGrid, categoryColors, bookCount, categoryCount);
+  const handleSearchInput = debounce(() => {
+    renderCatalogView();
   }, 180);
 
-filters.addEventListener('click', (event) => {
-  const button = event.target.closest('[data-category]');
-  if (!button) return;
-  state.category = button.getAttribute('data-category');
-  renderFilters();
-  renderBooks();
-});
-
-booksGrid.addEventListener('click', (event) => {
-  const card = event.target.closest('.book-card');
-  if (!card) return;
-  const slug = card.getAttribute('data-slug');
-  window.location.hash = `#/livros/${slug}`;
-});
-
-detailView.addEventListener('click', (event) => {
-  const link = event.target.closest('[data-home-link]');
-  if (link) {
-    event.preventDefault();
-    window.location.hash = '';
-  }
-});
-
-detailView.addEventListener('click', (event) => {
-  const link = event.target.closest('.related-card');
-  if (link) {
-    event.preventDefault();
-    window.location.hash = link.getAttribute('href');
-  }
-});
+  searchInput.addEventListener("input", (event) => {
+    state.query = String(event.target.value || "").trim();
+    handleSearchInput();
+  });
+}
 
 if (filters) {
-  filters.addEventListener('click', (event) => {
-    const button = event.target.closest('[data-category]');
+  filters.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-category]");
     if (!button) return;
-    state.category = button.getAttribute('data-category');
-    renderFilters(books, state, filters, updateLayoutOffsets);
-    renderBooks(books, state, booksGrid, categoryColors, bookCount, categoryCount);
+    state.category = button.getAttribute("data-category");
+    renderCatalogView();
+  });
+}
+
+if (languageSwitcher) {
+  languageSwitcher.addEventListener("click", (event) => {
+    const button = event.target.closest("button[data-language]");
+    if (!button) return;
+    setLanguage(button.getAttribute("data-language"));
   });
 }
 
 if (booksGrid) {
-  booksGrid.addEventListener('click', (event) => {
-    const card = event.target.closest('.book-card');
+  booksGrid.addEventListener("click", (event) => {
+    const card = event.target.closest(".book-card");
     if (!card) return;
-    const slug = card.getAttribute('data-slug');
-    window.location.hash = `#/livros/${slug}`;
+    const slug = card.getAttribute("data-slug");
+    window.location.hash = `${getRoutePrefix(state.language)}${slug}`;
   });
 }
 
 if (booksGrid) {
-  booksGrid.addEventListener('keydown', (event) => {
-    if (event.key === 'Enter' || event.key === ' ') {
-      const card = event.target.closest('.book-card');
+  booksGrid.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      const card = event.target.closest(".book-card");
       if (!card) return;
       event.preventDefault();
       card.click();
@@ -359,34 +271,34 @@ if (booksGrid) {
 }
 
 if (detailView) {
-  detailView.addEventListener('click', (event) => {
-    const homeLink = event.target.closest('[data-home-link]');
+  detailView.addEventListener("click", (event) => {
+    const homeLink = event.target.closest("[data-home-link]");
     if (homeLink) {
       event.preventDefault();
-      window.location.hash = '';
+      window.location.hash = "";
       return;
     }
 
-    const anchor = event.target.closest('[data-anchor]');
+    const anchor = event.target.closest("[data-anchor]");
     if (anchor) {
       event.preventDefault();
-      const targetId = anchor.getAttribute('data-anchor');
+      const targetId = anchor.getAttribute("data-anchor");
       const target = document.getElementById(targetId);
       if (target) {
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
       }
       return;
     }
 
-    const link = event.target.closest('.related-card');
+    const link = event.target.closest(".related-card");
     if (link) {
       event.preventDefault();
-      window.location.hash = link.getAttribute('href');
+      window.location.hash = link.getAttribute("href");
     }
   });
 }
 
-window.addEventListener('hashchange', () => {
+window.addEventListener("hashchange", () => {
   routeFromHash();
 });
 

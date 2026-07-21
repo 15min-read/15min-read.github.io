@@ -1,4 +1,5 @@
 ## Principles
+
 - Priorize simplicity, eficiência e legibilidade.
 - Faça melhorias incrementais de baixo risco; evite recursos que aumentem complexidade ou fragilidade.
 
@@ -7,6 +8,7 @@
 Release candidate: v1.0.0 (draft)
 
 Highlights
+
 - Curated catalog of 15 books with cleaned metadata
 - Improved markdown fallback and placeholder behavior
 - Mobile layout fixes for the filter bar
@@ -15,6 +17,7 @@ Highlights
 - End-to-end test suite using Playwright: 10/10 passing
 
 Notes for release
+
 - Run `npm test` before tagging and pushing.
 - Verify GitHub Pages build if publishing to Pages.
 

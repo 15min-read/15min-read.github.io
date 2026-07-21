@@ -21,4 +21,3 @@ The site is served as a static app, so use an HTTP server instead of opening `in
 - The app loads catalog metadata from `books/catalog.json` and falls back to the embedded manifest in `books/catalog.js` if needed.
 - Book summaries are rendered from markdown files in `books/`.
 - Playwright tests live under `tests/` and are not required for local browsing.
-

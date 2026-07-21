@@ -1,6 +1,7 @@
 # Summary: Em Busca de Sentido
 
 ## Metadata
+
 - **Title:** Man's Search for Meaning (Em Busca de Sentido)
 - **Author:** Viktor Frankl
 - **Year:** 1946
@@ -9,6 +10,7 @@
 - **Level:** Iniciante — nenhum conhecimento prévio necessário
 
 ## Index
+
 1. A Ideia Central
 2. Checklist de Implementação
 3. Quiz Rápido
@@ -53,17 +55,20 @@ A obra oferece uma perspectiva profundamente humana sobre como encontrar propós
 ## Implementation Checklist
 
 ### Before Getting Started
+
 - [ ] Reflita sobre quais das três fontes de sentido (trabalho, relações, atitude diante do sofrimento) são mais presentes na sua vida atual
 - [ ] Identifique se há algum "vazio existencial" em sua rotina — sensação de falta de propósito apesar de necessidades básicas atendidas
 - [ ] Pense em uma dificuldade atual e considere: existe uma escolha de atitude possível diante dela, mesmo que a situação em si não possa mudar?
 
 ### During Implementation
+
 - [ ] Busque conscientemente atividades ou projetos que tragam sentido de realização
 - [ ] Invista tempo em relações significativas, não apenas produtivas
 - [ ] Ao enfrentar dificuldades inevitáveis, pratique observar sua própria atitude diante delas, buscando uma resposta consciente em vez de puramente reativa
 - [ ] Use um exercício de projeção futura (como Frankl fazia) para manter perspectiva em momentos difíceis
 
 ### After Implementation
+
 - [ ] Revise periodicamente se suas atividades diárias estão conectadas a algum sentido maior
 - [ ] Avalie se mudanças de atitude, e não apenas de circunstância, têm trazido mais clareza em momentos difíceis
 - [ ] Compartilhe reflexões sobre sentido e propósito com pessoas próximas, fortalecendo conexões significativas
@@ -83,11 +88,13 @@ A obra oferece uma perspectiva profundamente humana sobre como encontrar propós
 ## Connections with Other Books
 
 ### Livros Relacionados
+
 - **Ética a Nicômaco** (Aristóteles) — conecta-se pela discussão sobre o que constitui uma vida bem vivida e o papel da virtude e do caráter diante das circunstâncias.
 - **Mindset** (Carol Dweck) — complementa a ideia de que a atitude e a perspectiva assumida diante dos desafios influenciam diretamente os resultados.
 - **Inteligência Emocional** (Daniel Goleman) — dialoga com a discussão sobre regulação emocional e a capacidade de escolher respostas conscientes diante de situações difíceis.
 
 ### Sequência Sugerida de Reitura
+
 Ética a Nicômaco → Em Busca de Sentido → Inteligência Emocional → Mindset (da base filosófica sobre a vida boa até a aplicação psicológica sobre sentido, emoção e atitude diante da adversidade).
 
 ---
@@ -95,24 +102,29 @@ A obra oferece uma perspectiva profundamente humana sobre como encontrar propós
 ## Personal Review
 
 ### Pontos Fortes
+
 - Relato pessoal poderoso, que dá peso emocional e credibilidade única aos conceitos apresentados
 - Une experiência vivida e teoria psicológica de forma coesa e acessível
 - Continua extremamente relevante para discussões sobre resiliência e propósito, décadas após sua publicação
 
 ### Pontos Fracos
+
 - A segunda parte, sobre a teoria da logoterapia, é mais técnica e pode ser menos envolvente do que o relato pessoal da primeira parte
 - Algumas ideias exigem contextualização cuidadosa para não serem mal interpretadas como uma glorificação do sofrimento
 - O livro é breve e não aprofunda tanto a aplicação prática da logoterapia quanto outras obras posteriores de Frankl
 
 ### Para Quem É
+
 Pessoas em busca de propósito e sentido de vida, interessadas em psicologia existencial, ou que enfrentam períodos difíceis e buscam uma perspectiva de resiliência.
 
 ### Para Quem Não É
+
 Quem busca um manual prático e estruturado de desenvolvimento pessoal — o livro é mais reflexivo e filosófico do que prescritivo.
 
 ---
 
 ## Worth Reading the Full Book If...
+
 - Você quer o relato completo e detalhado da experiência de Frankl nos campos de concentração
 - Você tem interesse mais profundo na teoria da logoterapia e suas aplicações clínicas
 - Você está passando por um momento de reflexão sobre propósito e sentido de vida e busca uma leitura mais contemplativa
@@ -123,7 +135,7 @@ Quem busca um manual prático e estruturado de desenvolvimento pessoal — o liv
 
 A força singular do livro está em unir experiência vivida extrema e reflexão filosófica de forma genuína — não é uma teoria abstrata sobre sentido, mas uma perspectiva forjada em circunstâncias de sofrimento real. Isso dá ao livro uma autoridade moral e emocional rara em obras de psicologia ou autoajuda.
 
-*Nota: este livro trata de temas sensíveis, incluindo sofrimento extremo, perda e morte, no contexto do Holocausto. Se esses temas trouxerem à tona sentimentos difíceis, considere conversar com alguém de confiança ou buscar apoio profissional.*
+_Nota: este livro trata de temas sensíveis, incluindo sofrimento extremo, perda e morte, no contexto do Holocausto. Se esses temas trouxerem à tona sentimentos difíceis, considere conversar com alguém de confiança ou buscar apoio profissional._
 
 ---
 

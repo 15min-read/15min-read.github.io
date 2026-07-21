@@ -1,6 +1,7 @@
 # Summary: Inteligência Emocional
 
 ## Metadata
+
 - **Title:** Inteligência Emocional (Emotional Intelligence: Why It Can Matter More Than IQ)
 - **Author:** Daniel Goleman
 - **Year:** 1995
@@ -9,6 +10,7 @@
 - **Level:** Iniciante — nenhum conhecimento prévio necessário
 
 ## Index
+
 1. A Ideia Central
 2. Checklist de Implementação
 3. Quiz Rápido
@@ -53,17 +55,20 @@ Entender e desenvolver a inteligência emocional muda a forma como lidamos com e
 ## Implementation Checklist
 
 ### Before Getting Started
+
 - [ ] Reserve um momento diário para observar e nomear suas emoções (diário emocional)
 - [ ] Identifique seus gatilhos mais comuns de "sequestro amigdalar" (raiva, ansiedade)
 - [ ] Avalie, honestamente, em qual dos cinco componentes de IE você é mais fraco
 
 ### During Implementation
+
 - [ ] Pratique a pausa antes de reagir: respire e conte até dez em momentos de tensão
 - [ ] Treine escuta ativa em conversas, focando em entender antes de responder
 - [ ] Pratique nomear emoções dos outros em situações sociais (empatia ativa)
 - [ ] Use técnicas de regulação (respiração, reformulação cognitiva) quando notar irritação ou ansiedade
 
 ### After Implementation
+
 - [ ] Revise semanalmente situações em que reagiu bem ou mal emocionalmente
 - [ ] Peça feedback de pessoas próximas sobre como você lida com conflitos
 - [ ] Ajuste gradualmente suas respostas automáticas com base no que aprendeu
@@ -83,11 +88,13 @@ Entender e desenvolver a inteligência emocional muda a forma como lidamos com e
 ## Connections with Other Books
 
 ### Livros Relacionados
+
 - **Liderança: A Inteligência Emocional na Formação do Líder Excepcional** (Daniel Goleman) — aplica os conceitos de IE especificamente ao contexto de liderança e gestão.
 - **Mindset** (Carol Dweck) — complementa a ideia de que capacidades (incluindo emocionais) podem ser desenvolvidas, não são fixas.
 - **Rápido e Devagar** (Daniel Kahneman) — explora os dois sistemas de pensamento (rápido/emocional e devagar/racional), oferecendo base cognitiva para entender reações impulsivas.
 
 ### Sequência Sugerida de Leitura
+
 Inteligência Emocional → Rápido e Devagar → Mindset → Liderança (do fundamento emocional/cognitivo até a aplicação prática em liderança).
 
 ---
@@ -95,24 +102,29 @@ Inteligência Emocional → Rápido e Devagar → Mindset → Liderança (do fun
 ## Personal Review
 
 ### Pontos Fortes
+
 - Base científica sólida, com estudos de neurociência e psicologia bem explicados
 - Introduz um vocabulário útil (sequestro amigdalar, os cinco componentes de IE) para entender comportamentos do dia a dia
 - Argumenta de forma convincente sobre a importância prática da IE em diversas áreas da vida
 
 ### Pontos Fracos
+
 - Livro longo e denso, com muitas seções sobre neurociência que podem cansar leitores que buscam algo mais direto
 - Poucas ferramentas práticas passo a passo — é mais descritivo/explicativo do que um manual de exercícios
 - Alguns estudos citados (como o do marshmallow) tiveram resultados questionados por pesquisas posteriores, algo que o leitor deve considerar com espírito crítico
 
 ### Para Quem É
+
 Pessoas interessadas em entender a base científica das emoções e como elas afetam decisões, relacionamentos e desempenho profissional.
 
 ### Para Quem Não É
+
 Quem busca um guia prático e direto com exercícios passo a passo — nesse caso, livros mais recentes sobre IE aplicada podem ser mais objetivos.
 
 ---
 
 ## Worth Reading the Full Book If...
+
 - Você quer entender profundamente a neurociência por trás das emoções
 - Você é educador, pai/mãe ou profissional de saúde interessado em desenvolvimento emocional infantil
 - Você quer os estudos de caso completos que sustentam os argumentos do autor

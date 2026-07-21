@@ -1,6 +1,7 @@
 # Flow
 
 ## Ficha Técnica
+
 - **Título:** Flow: A Psicologia do Desempenho Ideal (Flow: The Psychology of Optimal Experience)
 - **Autor:** Mihaly Csikszentmihalyi
 - **Ano:** 1990
@@ -9,6 +10,7 @@
 - **Nível:** Iniciante — nenhum conhecimento prévio necessário
 
 ## Índice
+
 1. A Ideia Central
 2. Checklist de Implementação
 3. Quiz Rápido
@@ -56,11 +58,13 @@ Entender as condições que geram o estado de flow permite estruturar deliberada
 ## Checklist de Implementação
 
 ### Antes de Começar
+
 - [ ] Identifique atividades em que você já experimenta momentos de flow naturalmente (trabalho, hobby, esporte)
 - [ ] Avalie se as tarefas do seu dia a dia estão desbalanceadas entre desafio e habilidade (muito fáceis = tédio; muito difíceis = ansiedade)
 - [ ] Observe em quais contextos você tem objetivos claros e feedback imediato, e em quais eles estão ausentes
 
 ### Durante Implementação
+
 - [ ] Ajuste o nível de desafio de tarefas rotineiras (aumente a dificuldade se está entediado, reduza se está ansioso)
 - [ ] Defina objetivos claros e específicos antes de iniciar qualquer atividade importante
 - [ ] Busque ou crie mecanismos de feedback imediato sobre seu desempenho
@@ -68,6 +72,7 @@ Entender as condições que geram o estado de flow permite estruturar deliberada
 - [ ] Experimente transformar tarefas repetitivas em pequenos desafios pessoais (ex: bater seu próprio recorde)
 
 ### Após Implementação
+
 - [ ] Reflita sobre quais atividades geraram estado de flow e quais condições estavam presentes
 - [ ] Ajuste continuamente o equilíbrio entre desafio e habilidade conforme sua competência evolui
 - [ ] Priorize, quando possível, atividades autotélicas na sua rotina de lazer, em vez de lazer passivo
@@ -87,11 +92,13 @@ Entender as condições que geram o estado de flow permite estruturar deliberada
 ## Conexões com Outros Livros
 
 ### Livros Relacionados
+
 - **Deep Work** (Cal Newport) — conecta-se diretamente pela discussão sobre concentração intensa e livre de distrações como fonte de produtividade e satisfação.
 - **Mindset** (Carol Dweck) — complementa com a ideia de que buscar desafios adequados ao próprio nível de habilidade favorece crescimento e engajamento.
 - **Hábitos Atômicos** (James Clear) — oferece ferramentas práticas para estruturar rotinas que favoreçam entrar em estado de flow com mais frequência.
 
 ### Sequência Sugerida de Leitura
+
 Flow → Deep Work → Mindset → Hábitos Atômicos (do entendimento psicológico da experiência ideal até sua aplicação prática em foco, crença sobre habilidade e construção de rotina).
 
 ---
@@ -99,24 +106,29 @@ Flow → Deep Work → Mindset → Hábitos Atômicos (do entendimento psicológ
 ## Avaliação Pessoal
 
 ### Pontos Fortes
+
 - Conceito robusto, sustentado por décadas de pesquisa empírica com milhares de participantes de diferentes culturas e profissões
 - Aplica-se de forma ampla, tanto a trabalho quanto a lazer, arte e esportes
 - Oferece um modelo claro e replicável (desafio x habilidade) para estruturar experiências mais engajadoras
 
 ### Pontos Fracos
+
 - Linguagem acadêmica em alguns trechos, tornando a leitura mais densa do que outros livros de psicologia popular
 - Repetição de exemplos e conceitos ao longo dos capítulos
 - Pouca discussão sobre limitações estruturais (ex: empregos extremamente repetitivos ou precários) que dificultam a aplicação prática das recomendações
 
 ### Para Quem É
+
 Pessoas interessadas em entender a psicologia por trás de momentos de alta concentração e satisfação, e que buscam estruturar trabalho e lazer de forma mais engajadora.
 
 ### Para Quem Não É
+
 Quem busca um guia rápido e simplificado — a obra original é mais densa e acadêmica do que resumos populares costumam sugerir.
 
 ---
 
 ## Vale a Pena Ler o Livro Completo Se...
+
 - Você quer entender com profundidade os estudos e metodologias (como o Experience Sampling Method) usados para medir o flow
 - Você tem interesse em aplicar os conceitos especificamente em contextos como arte, esporte de alto desempenho ou educação
 - Você busca uma discussão mais ampla sobre felicidade e sentido, além da aplicação prática em produtividade

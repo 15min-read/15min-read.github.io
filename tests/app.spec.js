@@ -29,23 +29,25 @@ test("search filters the book grid", async ({ page }) => {
   await expect(page.locator(".book-card h2")).toHaveText("Mindset");
 });
 
-test("language switch toggles the UI and loads English detail routes", async ({ page }) => {
+test("language switch toggles the UI and loads English detail routes", async ({
+  page,
+}) => {
   await page.click('.language-button:has-text("EN")');
-  await expect(page.locator('.search-box input')).toHaveAttribute(
-    'placeholder',
+  await expect(page.locator(".search-box input")).toHaveAttribute(
+    "placeholder",
     /Search by title/i,
   );
-  await expect(page.locator('#bookCountLabel')).toHaveText('books');
-  await expect(page.locator('.language-button.active')).toHaveText('EN');
+  await expect(page.locator("#bookCountLabel")).toHaveText("books");
+  await expect(page.locator(".language-button.active")).toHaveText("EN");
   await expect(page.locator('meta[name="description"]')).toHaveAttribute(
-    'content',
+    "content",
     /quick, practical reading/i,
   );
 
-  await page.locator('.book-card').first().click();
+  await page.locator(".book-card").first().click();
   await expect(page).toHaveURL(/#\/books\//);
-  await expect(page.locator('.detail-page__header h1')).toBeVisible();
-  await expect(page.locator('.markdown-body')).toContainText('Summary:');
+  await expect(page.locator(".detail-page__header h1")).toBeVisible();
+  await expect(page.locator(".markdown-body")).toContainText("Summary:");
 });
 
 test("clicking a book opens detail page and loads summary", async ({
@@ -59,14 +61,18 @@ test("clicking a book opens detail page and loads summary", async ({
 
 test("catalog includes books from the markdown manifest", async ({ page }) => {
   await page.goto("/");
-  await expect(page.locator("article.book-card", { hasText: "Agile Testing" })).toHaveCount(1);
+  await expect(
+    page.locator("article.book-card", { hasText: "Agile Testing" }),
+  ).toHaveCount(1);
   await expect(page.locator("#book-count")).toHaveText("15");
 });
 
 test("empty searches show a friendly empty state", async ({ page }) => {
   await page.fill(".search-box input", "this-query-will-not-match-anything");
   await page.waitForTimeout(220);
-  await expect(page.locator(".empty-state")).toContainText(/Nada encontrado|Nothing found/i);
+  await expect(page.locator(".empty-state")).toContainText(
+    /Nada encontrado|Nothing found/i,
+  );
 });
 
 test("skip link moves keyboard focus to the main content", async ({ page }) => {
@@ -83,10 +89,14 @@ test("detail page renders content from a markdown file", async ({ page }) => {
   await expect(page.locator(".markdown-body")).toContainText("Ficha Técnica");
 });
 
-test("ordered markdown lists render correctly in detail pages", async ({ page }) => {
+test("ordered markdown lists render correctly in detail pages", async ({
+  page,
+}) => {
   await page.goto("/#/livros/habitos-atomicos");
   expect(await page.locator(".markdown-body ol").count()).toBeGreaterThan(0);
-  await expect(page.locator(".markdown-body ol li").first()).toContainText("A Ideia Central");
+  await expect(page.locator(".markdown-body ol li").first()).toContainText(
+    "A Ideia Central",
+  );
 });
 
 test("related book navigation scrolls to top", async ({ page }) => {
@@ -110,8 +120,10 @@ test("category filter changes book count", async ({ page }) => {
   await expect(page.locator("#book-count")).not.toHaveText(firstCount);
 });
 
-test("catalog metadata is complete and each markdown file exists", async ({ page }) => {
-  const response = await page.request.get('/books/catalog.json');
+test("catalog metadata is complete and each markdown file exists", async ({
+  page,
+}) => {
+  const response = await page.request.get("/books/catalog.json");
   expect(response.ok()).toBeTruthy();
   const catalog = await response.json();
 
@@ -139,22 +151,26 @@ test("catalog metadata is complete and each markdown file exists", async ({ page
   }
 });
 
-test("catalog fallback manifest renders when books/catalog.json fails", async ({ page }) => {
-  await page.route('**/books/catalog.json', (route) => {
-    route.fulfill({ status: 500, body: 'Server error' });
+test("catalog fallback manifest renders when books/catalog.json fails", async ({
+  page,
+}) => {
+  await page.route("**/books/catalog.json", (route) => {
+    route.fulfill({ status: 500, body: "Server error" });
   });
 
-  await page.goto('/');
-  await expect(page.locator('.book-card')).toHaveCount(15);
-  await expect(page.locator('#book-count')).toHaveText('15');
-  await expect(page.locator('.book-card h2').first()).toBeVisible();
+  await page.goto("/");
+  await expect(page.locator(".book-card")).toHaveCount(15);
+  await expect(page.locator("#book-count")).toHaveText("15");
+  await expect(page.locator(".book-card h2").first()).toBeVisible();
 });
 
-test('markdown headings expose anchors and scroll smoothly', async ({ page }) => {
-  await page.goto('/#/livros/habitos-atomicos');
-  const heading = page.locator('.markdown-body h2').first();
+test("markdown headings expose anchors and scroll smoothly", async ({
+  page,
+}) => {
+  await page.goto("/#/livros/habitos-atomicos");
+  const heading = page.locator(".markdown-body h2").first();
   await expect(heading).toBeVisible();
-  const anchor = heading.locator('.markdown-anchor');
+  const anchor = heading.locator(".markdown-anchor");
   await expect(anchor).toBeVisible();
   await anchor.click();
   const scrollY = await page.evaluate(() => window.scrollY);

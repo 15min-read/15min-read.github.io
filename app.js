@@ -20,7 +20,8 @@ const localeTexts = {
     bookCountLabel: "livros",
     categoryCountLabel: "categorias",
     readingTimeLabel: "min por leitura",
-    footerLineOne: "15 min read — resumos interpretativos para estudo e referência.",
+    footerLineOne:
+      "15 min read — resumos interpretativos para estudo e referência.",
     footerLineTwo:
       "Não substituem a leitura das obras originais. Todos os direitos das obras pertencem aos respectivos autores e editoras.",
     allCategory: "Todos",
@@ -39,7 +40,8 @@ const localeTexts = {
     bookCountLabel: "books",
     categoryCountLabel: "categories",
     readingTimeLabel: "min reading",
-    footerLineOne: "15 min read — interpretive summaries for study and quick reference.",
+    footerLineOne:
+      "15 min read — interpretive summaries for study and quick reference.",
     footerLineTwo:
       "Not a substitute for the original works. All rights belong to the authors and publishers.",
     allCategory: "All",
@@ -67,16 +69,22 @@ function getPreferredLanguage() {
 }
 
 function getRoutePrefix(language) {
-  return normalizeLanguage(language, DEFAULT_LANGUAGE) === "en" ? "#/books/" : "#/livros/";
+  return normalizeLanguage(language, DEFAULT_LANGUAGE) === "en"
+    ? "#/books/"
+    : "#/livros/";
 }
 
 function getLanguageLabel(language) {
-  return normalizeLanguage(language, DEFAULT_LANGUAGE) === "en" ? "EN" : "PT-BR";
+  return normalizeLanguage(language, DEFAULT_LANGUAGE) === "en"
+    ? "EN"
+    : "PT-BR";
 }
 
 function getBookTitle(book, language) {
   const normalizedLanguage = normalizeLanguage(language, DEFAULT_LANGUAGE);
-  return normalizedLanguage === "en" ? book.title_en || book.title || book.slug : book.title || book.slug;
+  return normalizedLanguage === "en"
+    ? book.title_en || book.title || book.slug
+    : book.title || book.slug;
 }
 
 function parseRouteHash(hash) {
@@ -106,7 +114,7 @@ const filterBar = document.querySelector(".filter-bar");
 const bookCount = document.getElementById("book-count");
 const categoryCount = document.getElementById("category-count");
 const languageSwitcher = document.getElementById("languageSwitcher");
-const siteShell = document.querySelector('.site-shell');
+const siteShell = document.querySelector(".site-shell");
 const skipLink = document.getElementById("skipLink");
 const metaDescription = document.querySelector('meta[name="description"]');
 
@@ -115,7 +123,9 @@ function applyDocumentMetadata(title = "") {
   const locale = localeTexts[language];
   document.title = title ? `${title} · ${locale.pageTitle}` : locale.pageTitle;
   if (metaDescription) {
-    metaDescription.content = title ? `${title} — ${locale.metaDescription}` : locale.metaDescription;
+    metaDescription.content = title
+      ? `${title} — ${locale.metaDescription}`
+      : locale.metaDescription;
   }
 }
 
@@ -146,13 +156,16 @@ function translateStaticText() {
   }
   document.getElementById("heroEyebrow").textContent = locale.heroEyebrow;
   document.getElementById("heroTitle").innerHTML = locale.heroTitle;
-  document.getElementById("heroDescription").textContent = locale.heroDescription;
+  document.getElementById("heroDescription").textContent =
+    locale.heroDescription;
   if (searchInput) {
     searchInput.placeholder = locale.searchPlaceholder;
   }
   document.getElementById("bookCountLabel").textContent = locale.bookCountLabel;
-  document.getElementById("categoryCountLabel").textContent = locale.categoryCountLabel;
-  document.getElementById("readingTimeLabel").textContent = locale.readingTimeLabel;
+  document.getElementById("categoryCountLabel").textContent =
+    locale.categoryCountLabel;
+  document.getElementById("readingTimeLabel").textContent =
+    locale.readingTimeLabel;
   document.getElementById("footerLineOne").textContent = locale.footerLineOne;
   document.getElementById("footerLineTwo").textContent = locale.footerLineTwo;
   applyDocumentMetadata();
@@ -176,13 +189,13 @@ function renderLanguageSwitcher() {
     if (!siteShell) return;
     lastState = enabled;
     if (enabled) {
-      siteShell.classList.add('compact-filter-visible');
-      const fb = document.querySelector('.filter-bar');
-      if (fb) fb.classList.add('filter-bar--compact');
+      siteShell.classList.add("compact-filter-visible");
+      const fb = document.querySelector(".filter-bar");
+      if (fb) fb.classList.add("filter-bar--compact");
     } else {
-      siteShell.classList.remove('compact-filter-visible');
-      const fb = document.querySelector('.filter-bar');
-      if (fb) fb.classList.remove('filter-bar--compact');
+      siteShell.classList.remove("compact-filter-visible");
+      const fb = document.querySelector(".filter-bar");
+      if (fb) fb.classList.remove("filter-bar--compact");
     }
   }
 
@@ -192,9 +205,8 @@ function renderLanguageSwitcher() {
     if (scrolled <= compactThreshold && lastState) setCompact(false);
   }
 
-  window.addEventListener('scroll', debounce(onScroll, 80));
+  window.addEventListener("scroll", debounce(onScroll, 80));
 })();
-
 
 function applyLanguage(language) {
   const normalizedLanguage = normalizeLanguage(language, DEFAULT_LANGUAGE);
@@ -248,7 +260,14 @@ function renderCatalogView() {
   }
 
   renderFilters(books, state, filters);
-  renderBooks(books, state, booksGrid, categoryColors, bookCount, categoryCount);
+  renderBooks(
+    books,
+    state,
+    booksGrid,
+    categoryColors,
+    bookCount,
+    categoryCount,
+  );
 }
 
 function showHome() {
@@ -265,7 +284,7 @@ function showHome() {
 function resetScroll() {
   const root = document.documentElement;
   const behavior = root.style.scrollBehavior;
-  root.style.scrollBehavior = 'auto';
+  root.style.scrollBehavior = "auto";
   window.scrollTo(0, 0);
   document.documentElement.scrollTop = 0;
   document.body.scrollTop = 0;

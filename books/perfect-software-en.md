@@ -1,6 +1,7 @@
 # Perfect Software
 
 ## Metadata
+
 - **Title:** Perfect Software: And Other Illusions About Testing
 - **Author:** Gerald Weinberg
 - **Year:** 2008
@@ -9,6 +10,7 @@
 - **Level:** Intermediário — recomendável familiaridade com desenvolvimento e testes de software
 
 ## Index
+
 1. A Ideia Central
 2. Checklist de Implementação
 3. Quiz Rápido
@@ -49,17 +51,20 @@ Entender que testes não podem garantir software perfeito muda fundamentalmente 
 ## Implementation Checklist
 
 ### Before Getting Started
+
 - [ ] Reavalie expectativas da equipe e de stakeholders sobre o que testes realmente podem garantir
 - [ ] Identifique se sua estratégia atual de testes busca "provar ausência de bugs" ou "gerenciar risco de forma informada"
 - [ ] Avalie a diversidade de perspectivas na sua equipe de teste (formações, experiências, formas de pensar)
 
 ### During Implementation
+
 - [ ] Priorize testes que revelam informação nova sobre o comportamento do sistema, evitando redundância excessiva
 - [ ] Defina explicitamente qual nível de risco é aceitável para cada parte do software, em vez de buscar cobertura total
 - [ ] Esclareça expectativas e requisitos junto a stakeholders antes de classificar algo como "bug", reduzindo ambiguidade
 - [ ] Incentive diferentes membros do time a testar a partir de seus próprios modelos mentais, aumentando a cobertura de pontos cegos
 
 ### After Implementation
+
 - [ ] Revise periodicamente se os testes executados estão realmente revelando informação nova e relevante
 - [ ] Avalie decisões de lançamento com base em risco aceitável, documentando claramente essas decisões
 - [ ] Reforce junto à liderança e clientes que "testado" não significa "livre de defeitos", ajustando expectativas continuamente
@@ -79,11 +84,13 @@ Entender que testes não podem garantir software perfeito muda fundamentalmente 
 ## Connections with Other Books
 
 ### Livros Relacionados
+
 - **Agile Testing** (Lisa Crispin e Janet Gregory) — complementa com estratégias práticas de organização de esforço de teste em times ágeis.
 - **Continuous Delivery** (Jez Humble e David Farley) — conecta-se pela discussão de como testes automatizados apoiam decisões de risco em lançamentos frequentes.
 - **Pensando Rápido e Devagar** (Daniel Kahneman) — aprofunda os vieses cognitivos humanos que explicam por que testadores têm pontos cegos individuais.
 
 ### Sequência Sugerida de Leitura
+
 Perfect Software → Agile Testing → Continuous Delivery → Pensando Rápido e Devagar (da mudança de mentalidade sobre os limites dos testes até sua aplicação prática em times ágeis, automação de entrega e a base cognitiva dos vieses envolvidos).
 
 ---
@@ -91,24 +98,29 @@ Perfect Software → Agile Testing → Continuous Delivery → Pensando Rápido 
 ## Personal Review
 
 ### Pontos Fortes
+
 - Argumento filosófico e lógico sólido, que desafia produtivamente crenças comuns e mal fundamentadas sobre testes
 - Linguagem acessível, com bom uso de humor e exemplos simples para ilustrar conceitos abstratos
 - Aplica-se além do software, com implicações relevantes para qualquer processo de verificação e controle de qualidade
 
 ### Pontos Fracos
+
 - Menos prescritivo em termos de técnicas específicas de teste do que outras obras do gênero
 - Alguns exemplos e referências tecnológicas já datados, considerando a época de publicação
 - Foco mais conceitual pode frustrar leitores em busca de um guia técnico direto e imediatamente aplicável
 
 ### Para Quem É
+
 Profissionais de qualidade de software, gestores de projeto e desenvolvedores que precisam alinhar expectativas realistas sobre o que testes podem e não podem garantir.
 
 ### Para Quem Não É
+
 Quem busca um manual técnico detalhado com metodologias específicas de teste — o livro é mais filosófico e conceitual do que operacional.
 
 ---
 
 ## Worth Reading the Full Book If...
+
 - Você lida frequentemente com stakeholders que têm expectativas irrealistas sobre garantias de qualidade via testes
 - Você quer se aprofundar nos fundamentos lógicos e matemáticos por trás da impossibilidade de testes exaustivos
 - Você é gestor ou líder técnico responsável por decisões sobre nível de risco aceitável em lançamentos de software

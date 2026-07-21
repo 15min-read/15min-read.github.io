@@ -1,6 +1,7 @@
 # Agile Testing
 
 ## Metadata
+
 - **Title:** Agile Testing: A Practical Guide for Testers and Agile Teams
 - **Author:** Lisa Crispin & Janet Gregory
 - **Year:** 2009
@@ -9,6 +10,7 @@
 - **Level:** Intermediário — recomendável familiaridade com desenvolvimento ágil de software
 
 ## Index
+
 1. A Ideia Central
 2. Checklist de Implementação
 3. Quiz Rápido
@@ -54,17 +56,20 @@ Em ambientes de desenvolvimento ágil, com ciclos curtos e entregas frequentes, 
 ## Implementation Checklist
 
 ### Before Getting Started
+
 - [ ] Avalie em qual dos quatro quadrantes da Matriz de Testes Ágeis seu time investe mais esforço atualmente, e onde há lacunas
 - [ ] Verifique se testers participam do planejamento de histórias de usuário desde o início, ou apenas no fim do ciclo
 - [ ] Identifique gargalos recorrentes causados por testes manuais tardios no processo atual
 
 ### During Implementation
+
 - [ ] Implemente reuniões de "três amigos" (dev, tester, product owner) antes do desenvolvimento de cada história de usuário
 - [ ] Priorize a criação de testes automatizados nas camadas unitária e de integração antes de expandir testes manuais
 - [ ] Defina critérios de aceitação claros e exemplos concretos antes de iniciar a codificação de cada funcionalidade
 - [ ] Distribua responsabilidade por qualidade entre todo o time, não apenas na função de QA
 
 ### After Implementation
+
 - [ ] Revise periodicamente o equilíbrio de esforço entre os quatro quadrantes de teste
 - [ ] Monitore se o retrabalho por requisitos malcompreendidos está diminuindo ao longo do tempo
 - [ ] Avalie a cobertura de testes automatizados e ajuste onde ainda há dependência excessiva de testes manuais
@@ -84,11 +89,13 @@ Em ambientes de desenvolvimento ágil, com ciclos curtos e entregas frequentes, 
 ## Connections with Other Books
 
 ### Livros Relacionados
+
 - **Código Limpo** (Robert C. Martin) — complementa com princípios de qualidade de código que facilitam a testabilidade discutida em Agile Testing.
 - **The Pragmatic Programmer** (David Thomas e Andrew Hunt) — reforça práticas amplas de qualidade e automação no desenvolvimento de software.
 - **Extreme Programming Explained** (Kent Beck) — aprofunda práticas ágeis relacionadas, como desenvolvimento orientado a testes (TDD), citadas como base de várias ideias do livro.
 
 ### Sequência Sugerida de Leitura
+
 Extreme Programming Explained → Código Limpo → Agile Testing → The Pragmatic Programmer (dos fundamentos ágeis até práticas específicas de qualidade de código, teste integrado e boas práticas gerais de engenharia).
 
 ---
@@ -96,24 +103,29 @@ Extreme Programming Explained → Código Limpo → Agile Testing → The Pragma
 ## Personal Review
 
 ### Pontos Fortes
+
 - Modelo da Matriz de Testes Ágeis oferece um framework claro e amplamente adotado pela indústria para organizar estratégia de testes
 - Combina teoria com experiência prática extensa das autoras em times reais
 - Reforça uma mudança cultural importante: qualidade como responsabilidade coletiva, não apenas de uma função específica
 
 ### Pontos Fracos
+
 - Publicado em 2009, algumas referências a ferramentas específicas de automação estão desatualizadas
 - Foco mais conceitual e cultural do que em tutoriais técnicos detalhados de implementação de testes automatizados
 - Extensão considerável do livro original, com repetição de conceitos em diferentes capítulos
 
 ### Para Quem É
+
 Testers, desenvolvedores e líderes técnicos que trabalham em times ágeis e querem estruturar melhor a estratégia de qualidade e testes do time.
 
 ### Para Quem Não É
+
 Desenvolvedores buscando tutoriais técnicos específicos de ferramentas de automação de teste — o livro é mais conceitual e cultural do que um manual técnico passo a passo.
 
 ---
 
 ## Worth Reading the Full Book If...
+
 - Você lidera ou faz parte de um time ágil e quer reestruturar a estratégia de testes de forma mais profunda
 - Você quer estudos de caso mais completos sobre a implementação da Matriz de Testes Ágeis em diferentes contextos
 - Você é tester buscando entender melhor seu papel dentro de um time ágil multidisciplinar

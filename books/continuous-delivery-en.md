@@ -1,6 +1,7 @@
 # Continuous Delivery
 
 ## Metadata
+
 - **Title:** Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation
 - **Author:** Jez Humble & David Farley
 - **Year:** 2010
@@ -9,6 +10,7 @@
 - **Level:** Intermediário — recomendável familiaridade com desenvolvimento de software e processos de deploy
 
 ## Index
+
 1. A Ideia Central
 2. Checklist de Implementação
 3. Quiz Rápido
@@ -49,11 +51,13 @@ Em um cenário onde a velocidade de entrega de valor ao cliente é cada vez mais
 ## Implementation Checklist
 
 ### Before Getting Started
+
 - [ ] Mapeie o processo atual de build, teste e deploy do seu time, identificando etapas manuais e pontos de atrito
 - [ ] Avalie o nível de cobertura de testes automatizados existente (unitários, integração, aceitação)
 - [ ] Identifique diferenças de configuração entre ambientes de desenvolvimento, teste e produção
 
 ### During Implementation
+
 - [ ] Automatize o processo de build, garantindo que qualquer mudança gere um artefato de software de forma consistente
 - [ ] Construa um pipeline de implantação com estágios sequenciais (build, testes unitários, testes de aceitação, deploy)
 - [ ] Padronize a configuração de ambientes para reduzir divergências entre desenvolvimento, teste e produção
@@ -61,6 +65,7 @@ Em um cenário onde a velocidade de entrega de valor ao cliente é cada vez mais
 - [ ] Aplique o princípio "se dói, faça com mais frequência" a processos manuais complexos, como deploys
 
 ### After Implementation
+
 - [ ] Monitore o tempo médio entre uma mudança de código e sua chegada em produção (lead time)
 - [ ] Revise periodicamente a taxa de falhas em produção após lançamentos, buscando reduzi-la continuamente
 - [ ] Ajuste e expanda a cobertura de testes automatizados conforme novos problemas em produção forem identificados
@@ -80,11 +85,13 @@ Em um cenário onde a velocidade de entrega de valor ao cliente é cada vez mais
 ## Connections with Other Books
 
 ### Livros Relacionados
+
 - **Accelerate** (Nicole Forsgren, Jez Humble e Gene Kim) — traz evidência empírica robusta sobre o impacto de práticas de entrega contínua no desempenho organizacional.
 - **The Phoenix Project** (Gene Kim, Kevin Behr e George Spafford) — narrativa ficcional que ilustra, de forma acessível, os princípios de DevOps e entrega contínua discutidos no livro.
 - **Agile Testing** (Lisa Crispin e Janet Gregory) — complementa com práticas detalhadas de automação e integração de testes ao longo do ciclo de desenvolvimento.
 
 ### Sequência Sugerida de Leitura
+
 Agile Testing → Continuous Delivery → The Phoenix Project → Accelerate (das práticas de teste integradas ao desenvolvimento até a automação completa de entrega, sua narrativa aplicada e a evidência empírica sobre seus resultados organizacionais).
 
 ---
@@ -92,24 +99,29 @@ Agile Testing → Continuous Delivery → The Phoenix Project → Accelerate (da
 ## Personal Review
 
 ### Pontos Fortes
+
 - Obra fundacional que consolidou e popularizou práticas hoje centrais em DevOps e engenharia moderna de software
 - Explica em profundidade tanto os princípios quanto a implementação técnica de pipelines de implantação
 - Argumentos sustentados por exemplos concretos de equipes reais e problemas práticos enfrentados
 
 ### Pontos Fracos
+
 - Algumas referências a ferramentas específicas de automação estão desatualizadas, já que o livro foi publicado em 2010
 - Densidade técnica elevada, menos acessível para leitores sem experiência prévia em processos de build e deploy
 - Menor ênfase em aspectos culturais e organizacionais, que obras posteriores (como Accelerate) desenvolveram de forma mais aprofundada com dados empíricos
 
 ### Para Quem É
+
 Engenheiros de software, arquitetos e líderes técnicos responsáveis por processos de build, teste e deploy de sistemas.
 
 ### Para Quem Não É
+
 Leitores buscando uma introdução geral e não técnica a DevOps — nesse caso, "The Phoenix Project" oferece uma porta de entrada mais acessível e narrativa.
 
 ---
 
 ## Worth Reading the Full Book If...
+
 - Você é responsável por projetar ou melhorar o pipeline de build e deploy da sua organização
 - Você quer se aprofundar tecnicamente em estratégias de versionamento, branching e gerenciamento de configuração
 - Você busca entender com mais profundidade os fundamentos técnicos que sustentam práticas modernas de DevOps

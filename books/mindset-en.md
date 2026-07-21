@@ -1,6 +1,7 @@
 # Mindset
 
 ## Metadata
+
 - **Title:** Mindset: A Nova Psicologia do Sucesso
 - **Author:** Carol Dweck
 - **Year:** 2006
@@ -9,6 +10,7 @@
 - **Level:** Iniciante — nenhum conhecimento prévio necessário
 
 ## Index
+
 1. A Ideia Central
 2. Checklist de Implementação
 3. Quiz Rápido
@@ -51,17 +53,20 @@ A forma como uma pessoa interpreta seus próprios erros, esforços e habilidades
 ## Implementation Checklist
 
 ### Before Getting Started
+
 - [ ] Identifique áreas da sua vida em que você percebe um mindset mais fixo (evita desafios, teme o fracasso, se compara de forma ameaçada)
 - [ ] Observe como você reage a críticas construtivas: defensivamente ou com curiosidade?
 - [ ] Preste atenção à linguagem interna que usa diante de dificuldades ("eu não sou bom nisso" vs. "eu ainda não sou bom nisso")
 
 ### During Implementation
+
 - [ ] Substitua afirmações fixas por afirmações de crescimento (adicione o "ainda" — "eu ainda não domino isso")
 - [ ] Busque conscientemente desafios um pouco além da sua zona de conforto atual
 - [ ] Elogie (a si mesmo e aos outros) o esforço, a estratégia e o processo, não apenas o resultado ou talento
 - [ ] Trate erros e fracassos como fontes de aprendizado, revisando o que pode ser ajustado na próxima tentativa
 
 ### After Implementation
+
 - [ ] Revise periodicamente se está evitando desafios por medo de falhar
 - [ ] Avalie se sua reação a contratempos mudou ao longo do tempo (mais persistência, menos desistência)
 - [ ] Reforce mindset de crescimento em pessoas ao seu redor (filhos, equipe, alunos) através do tipo de elogio e feedback que oferece
@@ -81,11 +86,13 @@ A forma como uma pessoa interpreta seus próprios erros, esforços e habilidades
 ## Connections with Other Books
 
 ### Livros Relacionados
+
 - **Hábitos Atômicos** (James Clear) — complementa com ferramentas práticas para sustentar, no dia a dia, o esforço que o mindset de crescimento exige.
 - **Deep Work** (Cal Newport) — dialoga com a ideia de que habilidades complexas se desenvolvem através de esforço focado e deliberado, não apenas talento inato.
 - **Em Busca de Sentido** (Viktor Frankl) — conecta-se pela ideia de que a atitude escolhida diante das dificuldades tem grande impacto sobre os resultados vividos.
 
 ### Sequência Sugerida de Leitura
+
 Mindset → Deep Work → Hábitos Atômicos → Em Busca de Sentido (da crença fundamental sobre desenvolvimento pessoal até sua aplicação prática em foco, hábito e propósito diante da adversidade).
 
 ---
@@ -93,24 +100,29 @@ Mindset → Deep Work → Hábitos Atômicos → Em Busca de Sentido (da crença
 ## Personal Review
 
 ### Pontos Fortes
+
 - Conceito simples, memorável e imediatamente aplicável a diversas áreas da vida
 - Base sólida em décadas de pesquisa empírica da própria autora
 - Exemplos variados (educação, esportes, negócios, relacionamentos) tornam o conceito versátil
 
 ### Pontos Fracos
+
 - Alguns capítulos, especialmente sobre negócios e esportes, tornam-se repetitivos na aplicação do mesmo conceito central
 - A dicotomia fixo/crescimento é, por vezes, apresentada de forma mais binária do que a complexidade real do comportamento humano sugere
 - Poucas ferramentas práticas estruturadas passo a passo para mudança de mindset, mais descritivo do que prescritivo
 
 ### Para Quem É
+
 Educadores, pais, líderes e qualquer pessoa interessada em entender como crenças sobre habilidade e talento influenciam aprendizado, motivação e resiliência.
 
 ### Para Quem Não É
+
 Quem busca um manual com exercícios práticos estruturados — o livro é mais conceitual, funcionando melhor como mudança de perspectiva do que como guia de ação detalhado.
 
 ---
 
 ## Worth Reading the Full Book If...
+
 - Você é educador ou pai/mãe e quer aprofundar estratégias específicas de linguagem e feedback para cultivar mindset de crescimento em crianças
 - Você lidera equipes e quer entender com mais profundidade como construir uma cultura organizacional de aprendizado
 - Você quer os estudos e pesquisas completos que sustentam os argumentos da autora

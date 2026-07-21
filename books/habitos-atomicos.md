@@ -1,6 +1,7 @@
 # Resumo: Hábitos Atômicos
 
 ## Ficha Técnica
+
 - **Título:** Hábitos Atômicos (Atomic Habits)
 - **Autor:** James Clear
 - **Ano:** 2018
@@ -9,6 +10,7 @@
 - **Nível:** Iniciante — nenhum conhecimento prévio necessário
 
 ## Índice
+
 1. A Ideia Central
 2. Checklist de Implementação
 3. Quiz Rápido
@@ -52,17 +54,20 @@ Essa abordagem é poderosa porque remove a pressão de buscar transformações i
 ## Checklist de Implementação
 
 ### Antes de Começar
+
 - [ ] Defina qual identidade você quer construir (ex: "sou alguém que cuida da saúde")
 - [ ] Escolha 1-2 hábitos-chave para focar, não vários ao mesmo tempo
 - [ ] Identifique um hábito existente para usar como "âncora" no empilhamento de hábitos
 
 ### Durante Implementação
+
 - [ ] Reduza o novo hábito a uma versão de 2 minutos ou menos
 - [ ] Ajuste o ambiente para tornar a deixa visível e acessível (ex: deixar tênis de corrida à vista)
 - [ ] Elimine fricções para maus hábitos (torne-os invisíveis e difíceis)
 - [ ] Use um sistema de rastreamento visual (calendário, app, planilha) para marcar consistência
 
 ### Após Implementação
+
 - [ ] Revise semanalmente o que está funcionando e o que precisa de ajuste
 - [ ] Aumente gradualmente a dificuldade/duração do hábito depois que ele estiver consolidado
 - [ ] Celebre pequenas vitórias para reforçar a satisfação imediata do comportamento
@@ -82,11 +87,13 @@ Essa abordagem é poderosa porque remove a pressão de buscar transformações i
 ## Conexões com Outros Livros
 
 ### Livros Relacionados
+
 - **O Poder do Hábito** (Charles Duhigg) — explora o "loop do hábito" de forma mais voltada à neurociência e estudos de caso corporativos.
 - **Mindset** (Carol Dweck) — complementa a discussão sobre identidade e crença na capacidade de mudança.
 - **Essencialismo** (Greg McKeown) — reforça a ideia de foco em poucas prioridades de alto impacto, alinhado ao conceito de sistemas simples.
 
 ### Sequência Sugerida de Leitura
+
 Hábitos Atômicos → O Poder do Hábito → Mindset → Essencialismo (do mais prático ao mais conceitual sobre mudança comportamental e mentalidade).
 
 ---
@@ -94,24 +101,29 @@ Hábitos Atômicos → O Poder do Hábito → Mindset → Essencialismo (do mais
 ## Avaliação Pessoal
 
 ### Pontos Fortes
+
 - Framework claro e acionável (as Quatro Leis)
 - Linguagem simples, exemplos concretos e cotidianos
 - Base em pesquisa comportamental sem se tornar acadêmico demais
 
 ### Pontos Fracos
+
 - Alguns capítulos repetem conceitos já apresentados, ampliando o livro além do necessário
 - Pouca profundidade sobre hábitos complexos ou mudanças que envolvem trauma ou questões emocionais mais profundas
 - Exemplos majoritariamente ocidentais/individuais, pouca discussão sobre contexto socioeconômico como barreira
 
 ### Para Quem É
+
 Pessoas que quer criar rotinas mais consistentes (saúde, estudo, trabalho) e que preferem um método estruturado e prático.
 
 ### Para Quem Não É
+
 Quem busca uma abordagem mais psicológica/emocional para mudança de comportamento, ou quem já domina bem literatura de produtividade e busca conceitos totalmente inéditos.
 
 ---
 
 ## Vale a Pena Ler o Livro Completo Se...
+
 - Você quer os estudos de caso completos e mais exemplos para fixar cada uma das Quatro Leis
 - Você prefere aprender com repetição e reforço gradual ao longo de capítulos
 - Você pretende aplicar o método em um contexto de coaching ou ensino para outras pessoas

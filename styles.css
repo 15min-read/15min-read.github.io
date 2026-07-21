@@ -90,6 +90,10 @@ img {
   gap: 40px;
   border-bottom: 1px solid var(--rule);
   padding-bottom: 36px;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .eyebrow {
@@ -181,7 +185,7 @@ img {
 
 .filter-bar {
   position: relative;
-  padding: 18px 24px;
+  padding: 18px 0;
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
@@ -190,6 +194,10 @@ img {
   background: rgba(246, 239, 231, 0.96);
   border-bottom: 1px solid rgba(31, 25, 20, 0.12);
   box-shadow: 0 8px 20px rgba(31, 25, 20, 0.06);
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Compact sticky variant applied via JS when user scrolls past hero */
@@ -200,8 +208,13 @@ img {
   right: 0;
   z-index: 60;
   padding: 8px 14px;
-  background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(246,239,231,0.98));
-  box-shadow: 0 6px 18px rgba(31,25,20,0.08);
+  max-width: none;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.95),
+    rgba(246, 239, 231, 0.98)
+  );
+  box-shadow: 0 6px 18px rgba(31, 25, 20, 0.08);
   border-bottom: 1px solid rgba(31, 25, 20, 0.06);
 }
 
@@ -239,10 +252,18 @@ img {
 }
 
 @media (max-width: 680px) {
-  .site-header__inner { padding-left: 12px; padding-right: 12px; }
-  .site-header { background: linear-gradient(180deg, rgba(246,239,231,0.8), rgba(246,239,231,0.6)); }
+  .site-header__inner {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .site-header {
+    background: linear-gradient(
+      180deg,
+      rgba(246, 239, 231, 0.8),
+      rgba(246, 239, 231, 0.6)
+    );
+  }
 }
-
 
 .search-box {
   flex: 1 1 280px;
@@ -283,7 +304,9 @@ img {
   color: var(--ink-soft);
   font-weight: 600;
   cursor: pointer;
-  transition: 180ms ease, transform 180ms ease;
+  transition:
+    180ms ease,
+    transform 180ms ease;
 }
 
 .language-button:hover {
@@ -319,23 +342,21 @@ img {
 }
 
 .books-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 24px;
   margin-top: 28px;
   padding: 0 12px 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .books-grid .book-card {
-  flex: 0 1 280px;
-  min-width: 260px;
-  max-width: 300px;
+  width: 100%;
 }
 
 .books-grid.single-book {
-  justify-content: center;
   grid-template-columns: minmax(260px, 1fr);
   max-width: 1200px;
 }
@@ -343,6 +364,7 @@ img {
 .books-grid.single-book .book-card {
   width: 100%;
   max-width: 360px;
+  margin: 0 auto;
 }
 .book-card {
   position: relative;

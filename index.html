@@ -72,20 +72,22 @@
         </section>
 
         <section class="filter-bar" aria-label="Navigation tools">
-          <div
-            id="languageSwitcher"
-            class="language-switcher"
-            aria-label="Language switcher"
-          ></div>
-          <label class="search-box" for="searchInput">
-            <span aria-hidden="true">⌕</span>
-            <input
-              id="searchInput"
-              type="search"
-              placeholder="Buscar por título, autor ou ideia…"
-            />
-          </label>
-          <div class="filters" id="filters"></div>
+          <div class="filter-bar__inner">
+            <div
+              id="languageSwitcher"
+              class="language-switcher"
+              aria-label="Language switcher"
+            ></div>
+            <label class="search-box" for="searchInput">
+              <span aria-hidden="true">⌕</span>
+              <input
+                id="searchInput"
+                type="search"
+                placeholder="Buscar por título, autor ou ideia…"
+              />
+            </label>
+            <div class="filters" id="filters"></div>
+          </div>
         </section>
 
         <section class="books-grid" id="booksGrid" aria-live="polite"></section>

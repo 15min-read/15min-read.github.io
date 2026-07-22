@@ -466,10 +466,10 @@ async function routeFromHash(shouldScrollAndFocus = true) {
   if (route.language && route.language !== state.language) {
     applyLanguage(route.language);
   }
-
   if (route.slug) {
     await showDetail(route.slug, shouldScrollAndFocus);
-  } else {
+  } else if (heroSection.hidden === false || booksGrid.hidden === false) {
+    // Only show home if we're not already in detail view (to avoid closing detail when clicking internal anchors)
     showHome(shouldScrollAndFocus);
   }
 }
@@ -553,6 +553,7 @@ if (detailView) {
     });
     if (anchorData || anchorHref) {
       event.preventDefault();
+      event.stopPropagation();
       let targetId;
       if (anchorData) {
         targetId = anchorData.getAttribute("data-anchor");

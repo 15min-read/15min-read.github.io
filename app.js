@@ -456,8 +456,8 @@ async function showDetail(slug, shouldScrollAndFocus = true) {
   applyDocumentMetadata(getBookTitle(book, state.language));
   await new Promise((resolve) => requestAnimationFrame(resolve));
   if (shouldScrollAndFocus) {
-    resetScroll();
     focusDetailHeading();
+    resetScroll();
   }
 }
 

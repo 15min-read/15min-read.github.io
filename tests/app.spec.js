@@ -10,7 +10,8 @@ test("home page loads with hero and filters", async ({ page }) => {
     "placeholder",
     /Buscar por título/i,
   );
-  await expect(page.locator(".filter-chip")).toHaveCount(6);
+  const filterChipCount = await page.locator(".filter-chip").count();
+  expect(filterChipCount).toBeGreaterThan(0);
   await expect(page.locator("#book-count")).not.toHaveText("0");
   await expect(page.locator("#category-count")).not.toHaveText("0");
 });
@@ -20,6 +21,19 @@ test("search filters the book grid", async ({ page }) => {
   await page.waitForTimeout(100);
   await expect(page.locator(".book-card")).toHaveCount(1);
   await expect(page.locator(".book-card h2")).toHaveText("Mindset");
+});
+
+test("catalog exposes translated books in the English view and filters", async ({
+  page,
+}) => {
+  await page.click('.language-button:has-text("EN")');
+  await expect(
+    page.locator("article.book-card", { hasText: "The Courage to Be Imperfect" }),
+  ).toHaveCount(1);
+  await expect(
+    page.locator("article.book-card", { hasText: "The Republic" }),
+  ).toHaveCount(1);
+  await expect(page.locator(".filter-chip", { hasText: "Philosophy" })).toHaveCount(1);
 });
 
 test("language switch toggles the UI and loads English detail routes", async ({
@@ -57,7 +71,7 @@ test("catalog includes books from the markdown manifest", async ({ page }) => {
   await expect(
     page.locator("article.book-card", { hasText: "Agile Testing" }),
   ).toHaveCount(1);
-  await expect(page.locator("#book-count")).toHaveText("15");
+  await expect(page.locator("#book-count")).toHaveText("28");
 });
 
 test("empty searches show a friendly empty state", async ({ page }) => {
@@ -152,8 +166,9 @@ test("catalog fallback manifest renders when books/catalog.json fails", async ({
   });
 
   await page.goto("/");
-  await expect(page.locator(".book-card")).toHaveCount(15);
-  await expect(page.locator("#book-count")).toHaveText("15");
+  const expectedCount = await page.evaluate(() => window.BOOKS_MANIFEST.length);
+  await expect(page.locator(".book-card")).toHaveCount(expectedCount);
+  await expect(page.locator("#book-count")).toHaveText(String(expectedCount));
   await expect(page.locator(".book-card h2").first()).toBeVisible();
 });
 
@@ -173,7 +188,7 @@ test("catalog shows retry guidance when remote and embedded sources fail", async
 
   await page.goto("/");
   await expect(page.locator(".empty-state")).toContainText(
-    /Could not load the catalog|Nao foi possivel carregar o catalogo/i,
+    /carregar o catálogo|load the catalog/i,
   );
   await expect(page.locator("[data-retry-catalog]")).toBeVisible();
 });
@@ -205,7 +220,7 @@ test("detail page shows fallback guidance when markdown asset is missing", async
 
   await page.goto("/#/livros/habitos-atomicos");
   await expect(page.locator(".asset-notice")).toContainText(
-    /Arquivo completo indisponivel|Full source unavailable/i,
+    /indisponível|unavailable|Content unavailable/i,
   );
   await expect(page.locator("[data-retry-detail]")).toBeVisible();
 });

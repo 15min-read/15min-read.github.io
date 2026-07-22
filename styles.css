@@ -45,6 +45,25 @@ input:focus-visible,
   outline-offset: 3px;
 }
 
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 30;
+  padding: 0.75rem 1rem;
+  background: var(--accent);
+  color: white;
+  border-radius: 0 0 0.75rem 0;
+  transform: translateY(-120%);
+  transition: transform 160ms ease;
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  transform: translateY(0);
+  outline: none;
+}
+
 .main-content:focus,
 .main-content:focus-visible,
 .detail-view:focus,

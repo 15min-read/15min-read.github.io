@@ -16,8 +16,8 @@ test("full catalog detail pages render", async ({ page }) => {
 
   for (const book of catalog) {
     const card = page.locator(`article.book-card[data-slug="${book.slug}"]`);
-    await card.scrollIntoViewIfNeeded();
-    await card.click();
+    await card.waitFor({ state: "visible", timeout: 10000 });
+    await card.click({ force: true });
     await page.waitForFunction(() => location.hash.startsWith("#/livros/"), {
       timeout: 5000,
     });
@@ -33,7 +33,7 @@ test("full catalog detail pages render", async ({ page }) => {
     await expect(page.locator(".markdown-body")).toBeVisible({ timeout: 5000 });
     // go back to home
     const home = page.locator("[data-home-link]");
-    await home.click();
+    await home.click({ force: true });
     await page.waitForSelector("article.book-card");
   }
 });

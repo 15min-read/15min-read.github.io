@@ -362,18 +362,14 @@ img {
 
 .books-grid .book-card {
   width: 100%;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .books-grid.single-book {
   grid-template-columns: minmax(260px, 1fr);
   max-width: 1200px;
-}
-
-.books-grid.single-book .book-card {
-  width: 100%;
-  max-width: 360px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .book-card {
   position: relative;

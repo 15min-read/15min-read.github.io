@@ -1,6 +1,7 @@
 # Project Planning
 
 - Don't run tests, I will run it manually always.
+- Keep feedback to user as minimum possible to save tokens.
 
 ## Active focus
 

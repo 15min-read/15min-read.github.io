@@ -445,6 +445,7 @@ async function showDetail(slug, shouldScrollAndFocus = true) {
   const language = normalizeLanguage(state.language, DEFAULT_LANGUAGE);
   const locale = localeTexts[language];
   const progress = getBookProgress();
+  console.log("showDetail debug", { slug, progress });
   
   heroSection.hidden = true;
   filterBar.hidden = true;

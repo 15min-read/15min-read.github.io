@@ -53,33 +53,35 @@ input:focus-visible,
 }
 
 .badge {
-  display: inline-block;
-  padding: 4px 10px;
-  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
   font-family: "JetBrains Mono", monospace;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 0;
+  left: 0;
   z-index: 2;
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 50% 100%, 0 60%);
+  color: white;
+  padding-bottom: 20px; /* to adjust text position inside the shape */
 }
 
 .badge--reading {
   background: #d97706;
-  color: white;
 }
 
 .badge--read {
   background: #16a34a;
-  color: white;
 }
 
 .book-card__status {
-  top: -60px;
-  right: -40px;
+  /* keep position from .badge */
 }
 
 .detail-page__actions {

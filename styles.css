@@ -48,7 +48,9 @@ input:focus-visible,
 .main-content:focus,
 .main-content:focus-visible,
 .detail-view:focus,
-.detail-view:focus-visible {
+.detail-view:focus-visible,
+.detail-page__header h1:focus,
+.detail-page__header h1:focus-visible {
   outline: none;
 }
 

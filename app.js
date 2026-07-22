@@ -543,13 +543,31 @@ if (detailView) {
       return;
     }
 
-    const anchor = event.target.closest("[data-anchor]");
-    if (anchor) {
+    const anchorData = event.target.closest("[data-anchor]");
+    const anchorHref = event.target.closest('a[href^="#"]:not([data-home-link]):not(.related-card)');
+    if (anchorData || anchorHref) {
       event.preventDefault();
-      const targetId = anchor.getAttribute("data-anchor");
-      const target = document.getElementById(targetId);
-      if (target) {
-        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      let targetId;
+      if (anchorData) {
+        targetId = anchorData.getAttribute("data-anchor");
+      } else if (anchorHref) {
+        targetId = anchorHref.getAttribute("href").slice(1);
+      }
+      
+      if (targetId) {
+        // Normalize target ID to match makeHeadingId: remove diacritics, normalize
+        const normalizedTargetId = targetId
+          .toLowerCase()
+          .trim()
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/[\s]+/g, "-")
+          .replace(/[^a-z0-9\-]+/g, "")
+          .replace(/^-+|-+$/g, "");
+        const target = document.getElementById(normalizedTargetId);
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
       }
       return;
     }

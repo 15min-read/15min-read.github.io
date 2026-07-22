@@ -78,8 +78,8 @@ input:focus-visible,
 }
 
 .book-card__status {
-  top: 22px;
-  right: 22px;
+  top: 60px;
+  right: 40px;
 }
 
 .detail-page__actions {

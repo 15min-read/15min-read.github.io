@@ -10,7 +10,7 @@
 
 ## Current priorities
 
-1. Preserve the language-aware catalog and detail-page flow for both `/livros/` and `/books/` routes.
+1. Preserve the language-aware catalog and detail-page flow for both "/livros/" and "/books/" routes.
 2. Keep markdown rendering robust for headings, lists, quotes, and separators.
 3. Keep local setup and documentation simple and easy to follow.
 4. Continue improving accessibility for keyboard and screen-reader users.
@@ -22,9 +22,12 @@
 - Refine card and detail-page spacing/typography polish.
 - Continue reducing duplication in the shared render helpers where it becomes obvious.
 - Add richer error handling and retry guidance for missing catalog or markdown assets.
+
+## Completed
+
 - Add "Reading" and "Read" progress tracking:
-  - Books that the user has opened (visited the detail page) will be labeled "Reading" (with a small badge on the book card)
-  - At the bottom of each book detail page, add a "Mark as Read" button
-  - When a book is marked as read, it will get a "Read" badge instead of "Reading"
+  - Books that the user has opened (visited the detail page) are labeled "Reading" (with a small badge on the book card)
+  - At the bottom of each book detail page, there is a "Mark as Read" button
+  - When a book is marked as read, it gets a "Read" badge instead of "Reading"
   - Persist this state using localStorage so it survives page reloads
   - Use clear, language-aware labels (PT-BR and EN)

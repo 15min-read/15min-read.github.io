@@ -374,7 +374,7 @@ img {
 .book-card {
   position: relative;
   display: block;
-  overflow: hidden;
+  overflow: visible;
   min-height: 420px;
   aspect-ratio: 3 / 4;
   border: 1px solid var(--rule);

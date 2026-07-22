@@ -51,6 +51,67 @@ input:focus-visible,
 .detail-view:focus-visible {
   outline: none;
 }
+
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+}
+
+.badge--reading {
+  background: #d97706;
+  color: white;
+}
+
+.badge--read {
+  background: #16a34a;
+  color: white;
+}
+
+.book-card__status {
+  top: 22px;
+  right: 22px;
+}
+
+.detail-page__actions {
+  padding: 0 32px 24px;
+  border-top: 1px solid var(--rule);
+  padding-top: 24px;
+}
+
+.mark-as-read-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border: 2px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 160ms ease;
+}
+
+.mark-as-read-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(177, 91, 31, 0.3);
+}
+
+.mark-as-read-button:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
 img {
   max-width: 100%;
   display: block;

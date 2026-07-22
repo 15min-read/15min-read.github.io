@@ -22,3 +22,9 @@
 - Refine card and detail-page spacing/typography polish.
 - Continue reducing duplication in the shared render helpers where it becomes obvious.
 - Add richer error handling and retry guidance for missing catalog or markdown assets.
+- Add "Reading" and "Read" progress tracking:
+  - Books that the user has opened (visited the detail page) will be labeled "Reading" (with a small badge on the book card)
+  - At the bottom of each book detail page, add a "Mark as Read" button
+  - When a book is marked as read, it will get a "Read" badge instead of "Reading"
+  - Persist this state using localStorage so it survives page reloads
+  - Use clear, language-aware labels (PT-BR and EN)

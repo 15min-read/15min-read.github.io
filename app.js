@@ -57,6 +57,9 @@ const localeTexts = {
     detailMissingTitle: "Conteudo indisponivel.",
     detailMissingHelp:
       "Nao foi possivel localizar este resumo completo agora. Tente novamente em instantes.",
+    statusReading: "Lendo",
+    statusRead: "Lido",
+    markAsRead: "Marcar como lido",
   },
   en: {
     htmlLang: "en",
@@ -105,6 +108,9 @@ const localeTexts = {
     detailMissingTitle: "Content unavailable.",
     detailMissingHelp:
       "This full summary could not be located right now. Please try again shortly.",
+    statusReading: "Reading",
+    statusRead: "Read",
+    markAsRead: "Mark as read",
   },
 };
 
@@ -183,6 +189,39 @@ const metaDescription = document.querySelector('meta[name="description"]');
 function getLocale(language = state.language) {
   const normalizedLanguage = normalizeLanguage(language, DEFAULT_LANGUAGE);
   return localeTexts[normalizedLanguage];
+}
+
+const PROGRESS_STORAGE_KEY = "bookProgress";
+
+function getBookProgress() {
+  try {
+    const stored = window.localStorage.getItem(PROGRESS_STORAGE_KEY);
+    return stored ? JSON.parse(stored) : {};
+  } catch (error) {
+    console.error("Failed to load book progress from storage:", error);
+    return {};
+  }
+}
+
+function setBookProgress(slug, status) {
+  try {
+    const progress = getBookProgress();
+    progress[slug] = status;
+    window.localStorage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(progress));
+  } catch (error) {
+    console.error("Failed to save book progress to storage:", error);
+  }
+}
+
+function markBookAsReading(slug) {
+  const progress = getBookProgress();
+  if (!progress[slug] || progress[slug] !== "read") {
+    setBookProgress(slug, "reading");
+  }
+}
+
+function markBookAsRead(slug) {
+  setBookProgress(slug, "read");
 }
 
 function applyDocumentMetadata(title = "") {
@@ -356,6 +395,7 @@ function renderCatalogView() {
     return;
   }
 
+  const progress = getBookProgress();
   renderFilters(books, state, filters, locale);
   renderBooks(
     books,
@@ -365,6 +405,7 @@ function renderCatalogView() {
     bookCount,
     categoryCount,
     locale,
+    progress,
   );
 }
 
@@ -399,15 +440,18 @@ async function showDetail(slug, shouldScrollAndFocus = true) {
     return;
   }
 
+  markBookAsReading(slug);
+  
   const language = normalizeLanguage(state.language, DEFAULT_LANGUAGE);
   const locale = localeTexts[language];
+  const progress = getBookProgress();
   
   heroSection.hidden = true;
   filterBar.hidden = true;
   booksGrid.hidden = true;
   detailView.hidden = false;
   detailView.innerHTML = `<article class="detail-page"><div class="detail-page__loading" role="status">${getDetailLoadingMessage()}</div></article>`;
-  await renderDetail(book, books, detailView, loadBookMarkdown, state.language, locale);
+  await renderDetail(book, books, detailView, loadBookMarkdown, state.language, locale, progress);
   applyDocumentMetadata(getBookTitle(book, state.language));
   await new Promise((resolve) => requestAnimationFrame(resolve));
   if (shouldScrollAndFocus) {
@@ -519,6 +563,15 @@ if (detailView) {
       showDetail(route.slug, false).catch((error) => {
         console.error(error);
       });
+      return;
+    }
+
+    const markReadButton = event.target.closest("[data-mark-as-read]");
+    if (markReadButton) {
+      event.preventDefault();
+      const slug = markReadButton.getAttribute("data-mark-as-read");
+      markBookAsRead(slug);
+      showDetail(slug, false).catch((error) => console.error(error));
       return;
     }
 

@@ -546,6 +546,11 @@ if (detailView) {
 
     const anchorData = event.target.closest("[data-anchor]");
     const anchorHref = event.target.closest('a[href^="#"]:not([data-home-link]):not(.related-card)');
+    console.log("detailView click event", {
+      target: event.target,
+      anchorData,
+      anchorHref,
+    });
     if (anchorData || anchorHref) {
       event.preventDefault();
       let targetId;

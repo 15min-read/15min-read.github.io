@@ -40,9 +40,7 @@ input {
 button:focus-visible,
 input:focus-visible,
 .book-card:focus-visible,
-.related-card:focus-visible,
-.main-content:focus-visible,
-.detail-view:focus-visible {
+.related-card:focus-visible {
   outline: 3px solid var(--accent);
   outline-offset: 3px;
 }

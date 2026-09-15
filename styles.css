@@ -546,6 +546,19 @@ img {
   line-height: 1.02;
   letter-spacing: -0.02em;
   color: white;
+  overflow-wrap: anywhere;
+}
+
+.book-card__cover h2.book-card__title--long {
+  font-size: 1.55rem;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+}
+
+.book-card__cover h2.book-card__title--extra-long {
+  font-size: 1.3rem;
+  line-height: 1.06;
+  letter-spacing: 0;
 }
 
 .book-card__cover .author {

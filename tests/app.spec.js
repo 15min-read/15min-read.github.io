@@ -71,7 +71,7 @@ test("catalog includes books from the markdown manifest", async ({ page }) => {
   await expect(
     page.locator("article.book-card", { hasText: "Agile Testing" }),
   ).toHaveCount(1);
-  await expect(page.locator("#book-count")).toHaveText("28");
+  await expect(page.locator("#book-count")).toHaveText("36");
 });
 
 test("empty searches show a friendly empty state", async ({ page }) => {
